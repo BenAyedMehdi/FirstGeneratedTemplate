@@ -1,4 +1,4 @@
-# [Demo](https://dhiwise-template.netlify.app)
+# [Demo](https://foosheeka.netlify.app/)
 
 ## generatedtemplate
 
