@@ -61,7 +61,7 @@ const Component4 = () => {
             </div>
             <div className="flex flex-col items-start justify-start w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
-                {landingPageCardPropList.map((props, index) => (
+                {landingPageCardPropList.map((props, index) => ( index<3 &&
                   <React.Fragment key={`LandingPageCard${index}`}>
                     <LandingPageCard
                       className="flex flex-1 flex-col h-full items-start justify-start w-full"

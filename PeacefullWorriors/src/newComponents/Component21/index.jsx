@@ -12,16 +12,15 @@ const Component21 = () => {
               className="sm:text-[40px] md:text-[46px] text-[54px] text-center text-gray-900 tracking-[-1.08px] w-full"
               size="txtManropeExtraBold54"
             >
-              Get in touch
+              Let's Collaborate on Your Next Project
             </Text>
             <Text
               className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-lg"
               size="txtManropeRegular18Gray600"
             >
-              On the other hand, we denounce with righteous indignation and
-              dislike men who are so beguiled and demoralized by the charms of
-              pleasure of the moment, so blinded by desire, that they cannot
-              foresee the pain and trouble.
+              Ready to bring your digital vision to life? we are here to help. <br />
+              Whether you have a question, a project idea, or just want to say hello, don't hesitate to reach out. <br />
+              Your innovative ideas deserve the best solutions, and we are excited to hear about them!
             </Text>
           </div>
           <div className="bg-white-A700 border border-bluegray-100 border-solid flex md:flex-col flex-row gap-[50px] items-start justify-start p-[50px] md:px-10 sm:px-5 rounded-[10px] w-full">
@@ -81,13 +80,13 @@ const Component21 = () => {
                       className="text-gray-600 text-lg w-auto"
                       size="txtManropeSemiBold18Gray600"
                     >
-                      Why are you joining?
+                      Message
                     </Text>
                   </div>
                 </div>
               </div>
               <Button className="bg-gray-900 cursor-pointer font-semibold py-[17px] rounded-[10px] text-base text-center text-white-A700 w-full">
-                Send Request
+                SEND
               </Button>
             </div>
             <Line className="bg-bluegray-100 h-[534px] md:h-px md:w-full w-px" />
@@ -105,8 +104,8 @@ const Component21 = () => {
                     size="txtManropeSemiBold18Gray600"
                   >
                     <>
-                      1421 San Pedro St, Los Angeles, <br />
-                      CA 90015
+                      Budapest, Hungary
+                      <br />
                     </>
                   </Text>
                 </div>
@@ -121,7 +120,7 @@ const Component21 = () => {
                       className="flex-1 text-gray-600 text-lg w-auto"
                       size="txtManropeSemiBold18Gray600"
                     >
-                      (123) 456-7890
+                      (+36) 70 668 1520
                     </Text>
                   </div>
                   <div className="flex flex-row gap-3 items-center justify-start w-full">
@@ -134,7 +133,7 @@ const Component21 = () => {
                       className="flex-1 text-gray-600 text-lg w-auto"
                       size="txtManropeSemiBold18Gray600"
                     >
-                      info@mail.com
+                      foosheeka@gmail.com
                     </Text>
                   </div>
                 </div>

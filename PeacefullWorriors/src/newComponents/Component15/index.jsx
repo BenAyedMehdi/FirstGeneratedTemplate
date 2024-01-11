@@ -16,8 +16,7 @@ const Component15 = () => {
                       className="leading-[135.00%] max-w-[712px] md:max-w-full sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px]"
                       size="txtManropeExtraBold28"
                     >
-                      Trovilla Plan in Sereno Canyon - Estate Collection by Toll
-                      Brothers
+                      MVP - A Full-Stack Mobile App for Furniture re-sell
                     </Text>
                     <Text
                       className="text-gray-900 text-xl tracking-[-0.40px] w-full"
@@ -92,7 +91,7 @@ const Component15 = () => {
                   className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-auto"
                   size="txtManropeExtraBold28"
                 >
-                  Home Highlights
+                  Highlights
                 </Text>
                 <List
                   className="sm:flex-col flex-row md:gap-10 gap-[150px] grid md:grid-cols-1 grid-cols-2 justify-start w-full"
@@ -230,7 +229,7 @@ const Component15 = () => {
                   className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-full"
                   size="txtManropeExtraBold28"
                 >
-                  Agent Information
+                  Customer
                 </Text>
                 <div className="flex flex-row gap-6 items-center justify-start w-full">
                   <Img
@@ -243,7 +242,7 @@ const Component15 = () => {
                       className="text-gray-900 text-xl tracking-[-0.40px] w-auto"
                       size="txtManropeSemiBold20Gray900"
                     >
-                      Bruno Fernandes
+                      Color Ons
                     </Text>
                     <div className="flex flex-row gap-3.5 items-center justify-start w-full">
                       <div className="flex flex-row gap-1 items-start justify-start w-auto">
@@ -318,7 +317,7 @@ const Component15 = () => {
                   className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-full"
                   size="txtManropeExtraBold28"
                 >
-                  Request for Visit
+                  Get in touch!
                 </Text>
                 <div className="flex flex-col gap-3 h-[440px] md:h-auto items-start justify-start w-full">
                   <Input
@@ -387,7 +386,7 @@ const Component15 = () => {
                 </div>
               </div>
               <Button className="bg-gray-900 cursor-pointer font-semibold py-[17px] rounded-[10px] text-base text-center text-white-A700 w-full">
-                Send Request
+                SEND
               </Button>
             </div>
           </div>

@@ -13,7 +13,7 @@ const Component9 = () => {
               className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
               size="txtManropeExtraBold36"
             >
-              Innovation and change roadmap.
+              What We Are Good At
             </Text>
             <Text
               className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
@@ -39,13 +39,15 @@ const Component9 = () => {
                   className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                   size="txtManropeBold22"
                 >
-                  Idea Generation
+                  UI/UX design
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[470px] md:max-w-full text-gray-700 text-lg"
                   size="txtManropeRegular18Gray700"
                 >
-                  Volunteers contribute diverse ideas inspired by the sustainable development goals.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. In a free hour, On the other hand,
+                  we denounce with righteous indignation.
                 </Text>
               </div>
             </div>
@@ -61,13 +63,15 @@ const Component9 = () => {
                   className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                   size="txtManropeBold22"
                 >
-                  Global Collaboration
+                  Web and Mobile Applications
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[470px] md:max-w-full text-gray-700 text-lg"
                   size="txtManropeRegular18Gray700"
                 >
-                 The best ideas transcend borders, with teams from different countries collaborating to bring them to life.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. In a free hour, On the other hand,
+                  we denounce with righteous indignation.
                 </Text>
               </div>
             </div>
@@ -83,13 +87,16 @@ const Component9 = () => {
                   className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                   size="txtManropeBold22"
                 >
-                  Implementation
+                  Brand Care
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[470px] md:max-w-full text-gray-700 text-lg"
                   size="txtManropeRegular18Gray700"
                 >
-                  Selected ideas become tangible solutions, from digital platforms to events and more.
+                  From Design Thinking to Prototyping to Branding to Marekting. 
+                  We accompany you in every step of your journey. 
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. 
                 </Text>
               </div>
             </div>
@@ -97,7 +104,7 @@ const Component9 = () => {
         </div>
         <Img
           className="flex-1 md:flex-none h-[589px] sm:h-auto max-h-[589px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-          src="images/koufiyapeople.jpg"
+          src="images/creativesoftwareicon.png"
           alt="rectangleTwenty"
         />
       </div>

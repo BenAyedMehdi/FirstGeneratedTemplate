@@ -19,7 +19,7 @@ const Component16 = () => {
             className="flex-1 sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-auto"
             size="txtManropeExtraBold28"
           >
-            Latest Property Listings
+            Other Projects Completed
           </Text>
           <Button
             className="bg-transparent cursor-pointer flex items-center justify-center min-w-[124px]"

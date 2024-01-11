@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button, Img, Text, List } from "components";
 
-const ProblemsInNumbers = () => {
+const Component3 = () => {
   return (
     <>
       <div className="bg-gray-50 flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] py-[50px] w-full">
@@ -109,4 +109,4 @@ const ProblemsInNumbers = () => {
   );
 };
 
-export default ProblemsInNumbers;
+export default Component3;

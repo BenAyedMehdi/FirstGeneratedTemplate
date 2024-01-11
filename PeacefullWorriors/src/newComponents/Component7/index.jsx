@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Img, Text, List, Input } from "components";
 
-const SolutionMainOverview = () => {
+const Component7 = () => {
   const navigate = useNavigate();
   return (
     <>
@@ -15,7 +15,7 @@ const SolutionMainOverview = () => {
               className="flex-1 text-4xl sm:text-[32px] md:text-[34px] text-white-A700 tracking-[-0.72px] w-auto"
               size="txtManropeExtraBold36WhiteA700"
             >
-              Potential solutions
+              News & Bolg
             </Text>
             <Button
               className="common-pointer bg-transparent cursor-pointer flex items-center justify-center min-w-[124px]"
@@ -40,7 +40,7 @@ const SolutionMainOverview = () => {
             <div className="flex flex-1 flex-col gap-6 h-[487px] md:h-auto items-start justify-start w-full">
               <Img
                 className="md:h-auto h-full object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
-                src="images/img_image_350x384.png"
+                src="images/generated/hackathonsgenerated.jfif"
                 alt="image"
               />
               <div className="flex flex-col gap-6 items-start justify-start w-full">
@@ -48,7 +48,7 @@ const SolutionMainOverview = () => {
                   className="leading-[135.00%] md:max-w-full max-w-sm text-2xl md:text-[22px] text-white-A700 sm:text-xl tracking-[-0.48px]"
                   size="txtManropeBold24"
                 >
-                  9 Easy-to-Ambitious DIY Projects to Improve Your Home
+                  9 Reason Why Hackathons are exactly what you need
                 </Text>
                 <div className="flex flex-row gap-2 items-center justify-start w-full sm:w-full">
                   <Text
@@ -68,7 +68,7 @@ const SolutionMainOverview = () => {
             <div className="flex flex-1 flex-col gap-6 h-[487px] md:h-auto items-start justify-start w-full">
               <Img
                 className="md:h-auto h-full object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
-                src="images/img_image_6.png"
+                src="images/generated/generated4.jfif"
                 alt="image"
               />
               <div className="flex flex-col gap-6 items-start justify-start w-full">
@@ -76,7 +76,7 @@ const SolutionMainOverview = () => {
                   className="leading-[135.00%] md:max-w-full max-w-sm text-2xl md:text-[22px] text-white-A700 sm:text-xl tracking-[-0.48px]"
                   size="txtManropeBold24"
                 >
-                  Serie Shophouse Launch In July, Opportunity For Investors
+                  Why You Shouldn't Be Afraid of living the life you deserve
                 </Text>
                 <div className="flex flex-row gap-2 items-center justify-start w-full sm:w-full">
                   <Text
@@ -96,7 +96,7 @@ const SolutionMainOverview = () => {
             <div className="flex flex-1 flex-col gap-6 h-[487px] md:h-auto items-start justify-start w-full">
               <Img
                 className="md:h-auto h-full object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
-                src="images/img_image_7.png"
+                src="images/generated/generated3.jfif"
                 alt="image"
               />
               <div className="flex flex-col gap-6 items-start justify-start w-full">
@@ -104,8 +104,7 @@ const SolutionMainOverview = () => {
                   className="leading-[135.00%] md:max-w-full max-w-sm text-2xl md:text-[22px] text-white-A700 sm:text-xl tracking-[-0.48px]"
                   size="txtManropeBold24"
                 >
-                  Looking for a New Place? Use This Time to Create Your
-                  Wishlist
+                  MVP - How Ideas Are Turned into reality? 
                 </Text>
                 <div className="flex flex-row gap-2 items-center justify-start w-full sm:w-full">
                   <Text
@@ -161,4 +160,4 @@ const SolutionMainOverview = () => {
   );
 };
 
-export default SolutionMainOverview;
+export default Component7;

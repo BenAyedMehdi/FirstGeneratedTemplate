@@ -13,8 +13,8 @@ const Component8 = () => {
               size="txtManropeExtraBold54"
             >
               <>
-              Of course it's not only one problem <br />
-              It's much more than what you can think of.
+                How We Are? <br />
+                Mission, Vision & Values
               </>
             </Text>
             <Text
@@ -22,10 +22,10 @@ const Component8 = () => {
               size="txtManropeRegular18Gray700"
             >
               <>
-              Envision a world where the energy and ideas of young people drive solutions<br />
-               for pressing global challenges. Our movement is a vibrant platform connecting youth across borders.<br />
-                Volunteers collaborate to brainstorm, create, and put into action projects that tackle real-world issues.
-                
+                We are an engine designed to activate the potential of a team, a company, or a project. 
+                Specialized in websites development, wired to create solutions and implement creative ideas. 
+                Our passion for innovation is what drives us to build scalable and maintainable solutions 
+                to deliver the best performance and value.
               </>
             </Text>
           </div>
@@ -33,24 +33,24 @@ const Component8 = () => {
             <div className="flex md:flex-col flex-row gap-6 items-start justify-start w-full">
               <Img
                 className="flex-1 md:flex-none h-[400px] sm:h-auto max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src="images/sittingman.jpg"
+                src="images/generated/generated1.jfif"
                 alt="rectangle5592"
               />
               <Img
                 className="md:h-[400px] sm:h-auto h-full max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src="images/kidswaitingfood.jpg"
+                src="images/generated/generatedvalues.jfif"
                 alt="rectangle5593"
               />
             </div>
             <div className="flex md:flex-col flex-row gap-6 items-start justify-start w-full">
               <Img
                 className="md:h-[400px] sm:h-auto h-full max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src="images/menhelpingwoman.jpg"
+                src="images/generated/missiongenerated.jfif"
                 alt="rectangle5595"
               />
               <Img
                 className="flex-1 md:flex-none h-[400px] sm:h-auto max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src="images/kidswithflag.jpg"
+                src="images/websitemobile.png"
                 alt="rectangle5594"
               />
             </div>

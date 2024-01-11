@@ -2,10 +2,9 @@ import React from "react";
 
 import { Button, Img, Text, List } from "components";
 
-const CallToAction = () => {
+const Component2 = () => {
   return (
     <>
-
       <div className="flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] w-full">
         <div className="flex md:flex-col flex-row gap-6 items-center justify-center max-w-[1200px] mx-auto w-full">
           <div className="bg-red-100 flex flex-1 flex-col h-[424px] md:h-auto items-start justify-center md:px-10 sm:px-5 px-[50px] py-[46px] rounded-[20px] w-full">
@@ -15,17 +14,18 @@ const CallToAction = () => {
                   className="leading-[140.00%] max-w-[488px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                   size="txtManropeExtraBold36"
                 >
-                  Find any solution idea for any problem in Gaza
+                  Bring Your Startup <br/> Ideas to Life
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
                   size="txtManropeRegular18"
                 >
-                  A network of enthusiastic individuals globally working on impactful projects..{" "}
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.{" "}
                 </Text>
               </div>
               <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[138px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-                About us
+                Get Started
               </Button>
             </div>
           </div>
@@ -43,8 +43,8 @@ const CallToAction = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Innovative <br />
-                      ideas
+                      Website <br />
+                      Development
                     </>
                   </Text>
                 </div>
@@ -61,8 +61,8 @@ const CallToAction = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Creative  <br />
-                      solutions
+                      UI/UX <br />
+                      Design
                     </>
                   </Text>
                 </div>
@@ -79,8 +79,8 @@ const CallToAction = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      International <br />
-                      projects
+                      mobile app <br />
+                      development
                     </>
                   </Text>
                 </div>
@@ -97,8 +97,7 @@ const CallToAction = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Deep <br />
-                      impact
+                      Branding <br />& Marketing
                     </>
                   </Text>
                 </div>
@@ -111,4 +110,4 @@ const CallToAction = () => {
   );
 };
 
-export default CallToAction;
+export default Component2;
