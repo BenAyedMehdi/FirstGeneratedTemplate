@@ -14,7 +14,8 @@ const Component1 = () => {
                 size="txtManropeExtraBold46"
               >
                 <>
-                  Bring Your Startup Ideas to Life
+                 Innovating for 
+                 <br/>suistanable change
                   
                 </>
               </Text>
@@ -32,7 +33,7 @@ const Component1 = () => {
               <div className="flex flex-col gap-[38px] items-center justify-start w-full">
                 <div className="flex flex-col gap-6 items-start justify-start w-full">
                   <Button className="bg-gray-900 cursor-pointer font-bold py-[17px] rounded-[10px] text-center text-lg text-white-A700 w-full">
-                    CONTACT US
+                    JOIN US
                   </Button>
                 </div>
               </div>

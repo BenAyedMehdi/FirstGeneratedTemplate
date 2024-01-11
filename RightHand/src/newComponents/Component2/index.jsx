@@ -14,18 +14,17 @@ const Component2 = () => {
                   className="leading-[140.00%] max-w-[488px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                   size="txtManropeExtraBold36"
                 >
-                  Bring Your Startup <br/> Ideas to Life
+                  Find Any Solution Idea <br /> For Any Problem in Gaza
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
                   size="txtManropeRegular18"
                 >
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.{" "}
+                  A network of enthusiastic individuals globally working on impactful projects...{" "}
                 </Text>
               </div>
               <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[138px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-                Get Started
+                Join Us
               </Button>
             </div>
           </div>
@@ -43,8 +42,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Website <br />
-                      Development
+                      Innovative <br />
+                      ideas
                     </>
                   </Text>
                 </div>
@@ -61,8 +60,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      UI/UX <br />
-                      Design
+                      Creative <br />
+                      solutions
                     </>
                   </Text>
                 </div>
@@ -79,8 +78,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      mobile app <br />
-                      development
+                      International <br />
+                      projects
                     </>
                   </Text>
                 </div>
@@ -97,7 +96,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Branding <br />& Marketing
+                      Deep <br />
+                      impact
                     </>
                   </Text>
                 </div>

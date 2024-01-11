@@ -22,10 +22,14 @@ const Component8 = () => {
               size="txtManropeRegular18Gray700"
             >
               <>
-                We are an engine designed to activate the potential of a team, a company, or a project. 
-                Specialized in websites development, wired to create solutions and implement creative ideas. 
-                Our passion for innovation is what drives us to build scalable and maintainable solutions 
-                to deliver the best performance and value.
+              <b>The Right Hand</b> is more than just a team, we're innovators,
+                thinkers, and change-makers. We're dedicated to making a <b>meaningful impact</b> in our community
+                and beyond. Born from a desire to <b>break free</b> from colonial
+                constraints and foster independent, free thought, our mission is
+                to empower individuals and societies.
+                <b> Join us on this journey</b>  of creativity,
+                liberation, and transformation. Together, we're not just
+                dreaming of a better world – <b>we're building it.</b>
               </>
             </Text>
           </div>
