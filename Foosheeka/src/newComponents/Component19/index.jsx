@@ -17,7 +17,7 @@ const Component19 = () => {
                   <div className="flex sm:flex-col flex-row gap-[30px] items-center justify-start w-full">
                     <Img
                       className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
-                      src="images/img_rectangle5599.png"
+                      src="images/generated/foosheekalogo.png"
                       alt="rectangle5616"
                     />
                     <div className="flex flex-1 flex-col gap-[7px] items-start justify-start w-full">

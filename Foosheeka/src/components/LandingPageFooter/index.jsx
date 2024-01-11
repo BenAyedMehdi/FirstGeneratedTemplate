@@ -12,7 +12,7 @@ const LandingPageFooter = (props) => {
               <div className="flex flex-row gap-[11px] h-10 md:h-auto items-center justify-start w-[341px]">
                 <Img
                   className="h-10 w-10"
-                  src="images/img_home.svg"
+                  src="images/generated/foosheekalogo.png"
                   alt="home_One"
                 />
                 <Text

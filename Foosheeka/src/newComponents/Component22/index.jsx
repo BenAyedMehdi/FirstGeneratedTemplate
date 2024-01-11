@@ -79,7 +79,7 @@ const dropdownlargeOneOptionsList = [
           </div>
           <div className="flex flex-col items-center justify-center w-full">
             <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
-              {new Array(3).fill({}).map((props, index) => (
+              {new Array(3).fill({}).map((  , index) => (
                 <React.Fragment key={`BlogPageColumnactive${index}`}>
                   <BlogPageColumnactive
                     className="flex flex-1 flex-col gap-6 items-start justify-start w-full"
