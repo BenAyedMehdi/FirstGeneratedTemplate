@@ -15,7 +15,7 @@ const LandingPageHeader = (props) => {
                 className="text-orange-A700 text-xl w-auto"
                 size="txtMarkoOneRegular20"
               >
-                <Link to="/">Foosheeka</Link>
+                <Link to="/">Gaza</Link>
               </Text>
             </div>
             <div className="mobile-menu">
@@ -35,13 +35,13 @@ const LandingPageHeader = (props) => {
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
-              <Link to="/services">Services</Link>
+              <Link to="/services">Challenges</Link>
             </Text>
             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
-              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/portfolio">Solutions</Link>
             </Text>
             <Text
               className="text-base text-gray-900 w-auto"
