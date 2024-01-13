@@ -51,10 +51,8 @@ const Component20 = () => {
                         className="leading-[165.00%] max-w-[1090px] md:max-w-full text-2xl md:text-[22px] text-gray-600 sm:text-xl"
                         size="txtManropeSemiBold24Gray600"
                       >
-                        Eget eu massa et consectetur. Mauris donec. Leo a, id
-                        sed duis proin sodales. Turpis viverra diam porttitor
-                        mattis morbi ac amet. Euismod commodo. We get you
-                        customer relationships that last.{" "}
+                        I am ver satisfied with the end result. The project was
+                        delived with the ensured quality.{" "}
                       </Text>
                       <div className="flex flex-col gap-[25px] items-start justify-start w-full">
                         <div className="flex sm:flex-col flex-row gap-[50px] items-start justify-start md:pr-10 sm:pr-5 pr-[552px] w-full">
@@ -77,96 +75,22 @@ const Component20 = () => {
                               />
                               <Img
                                 className="h-6 w-6"
-                                src="images/img_star_gray_900_24x24.svg"
-                                alt="star_Three"
-                              />
-                            </div>
-                            <Text
-                              className="flex-1 text-gray-600 text-xl tracking-[-0.40px] w-auto"
-                              size="txtManropeSemiBold20Gray600"
-                            >
-                              4.5 review
-                            </Text>
-                          </div>
-                          <Text
-                            className="flex-1 text-gray-600 text-xl tracking-[-0.40px] w-auto"
-                            size="txtManropeSemiBold20Gray600"
-                          >
-                            02 June 2022
-                          </Text>
-                        </div>
-                        <div className="flex md:flex-col flex-row gap-4 items-center justify-start w-full">
-                          <Img
-                            className="h-20 md:h-auto rounded-[50%] w-20"
-                            src="images/img_ellipse2695.png"
-                            alt="ellipse2695"
-                          />
-                          <div className="flex flex-1 flex-col gap-1 items-start justify-start w-full">
-                            <Text
-                              className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-full"
-                              size="txtManropeExtraBold28"
-                            >
-                              Taylor Wilson
-                            </Text>
-                            <Text
-                              className="text-gray-900 text-lg w-full"
-                              size="txtManropeSemiBold18"
-                            >
-                              Product Manager - Static Mania
-                            </Text>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="bg-white-A700 border border-bluegray-100 border-solid flex flex-1 flex-col items-start justify-start sm:px-5 px-[30px] py-[39px] rounded-[20px] w-full">
-                    <div className="flex flex-col gap-10 items-start justify-start w-full">
-                      <Text
-                        className="leading-[165.00%] max-w-[1090px] md:max-w-full text-2xl md:text-[22px] text-gray-600 sm:text-xl"
-                        size="txtManropeSemiBold24Gray600"
-                      >
-                        Eget eu massa et consectetur. Mauris donec. Leo a, id
-                        sed duis proin sodales. Turpis viverra diam porttitor
-                        mattis morbi ac amet. Euismod commodo. We get you
-                        customer relationships that last.{" "}
-                      </Text>
-                      <div className="flex flex-col gap-[25px] items-start justify-start w-full">
-                        <div className="flex sm:flex-col flex-row gap-[50px] items-start justify-start md:pr-10 sm:pr-5 pr-[552px] w-full">
-                          <div className="flex flex-1 flex-row gap-2.5 items-center justify-start w-full">
-                            <div className="flex flex-row gap-2 items-center justify-between w-1/2">
-                              <Img
-                                className="h-6 w-6"
-                                src="images/img_star_gray_900.svg"
-                                alt="star"
-                              />
-                              <Img
-                                className="h-6 w-6"
-                                src="images/img_star_gray_900.svg"
-                                alt="star_One"
-                              />
-                              <Img
-                                className="h-6 w-6"
                                 src="images/img_star_gray_900.svg"
                                 alt="star_Two"
                               />
-                              <Img
-                                className="h-6 w-6"
-                                src="images/img_star_gray_900_24x24.svg"
-                                alt="star_Three"
-                              />
                             </div>
                             <Text
                               className="flex-1 text-gray-600 text-xl tracking-[-0.40px] w-auto"
                               size="txtManropeSemiBold20Gray600"
                             >
-                              4.5 review
+                              5 review
                             </Text>
                           </div>
                           <Text
                             className="flex-1 text-gray-600 text-xl tracking-[-0.40px] w-auto"
                             size="txtManropeSemiBold20Gray600"
                           >
-                            02 June 2022
+                            02 Dec 2023
                           </Text>
                         </div>
                         <div className="flex md:flex-col flex-row gap-4 items-center justify-start w-full">
@@ -180,87 +104,13 @@ const Component20 = () => {
                               className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-full"
                               size="txtManropeExtraBold28"
                             >
-                              Taylor Wilson
+                              Engine Connect
                             </Text>
                             <Text
                               className="text-gray-900 text-lg w-full"
                               size="txtManropeSemiBold18"
                             >
-                              Product Manager - Static Mania
-                            </Text>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="bg-white-A700 border border-bluegray-100 border-solid flex flex-1 flex-col items-start justify-start sm:px-5 px-[30px] py-[39px] rounded-[20px] w-full">
-                    <div className="flex flex-col gap-10 items-start justify-start w-full">
-                      <Text
-                        className="leading-[165.00%] max-w-[1090px] md:max-w-full text-2xl md:text-[22px] text-gray-600 sm:text-xl"
-                        size="txtManropeSemiBold24Gray600"
-                      >
-                        Eget eu massa et consectetur. Mauris donec. Leo a, id
-                        sed duis proin sodales. Turpis viverra diam porttitor
-                        mattis morbi ac amet. Euismod commodo. We get you
-                        customer relationships that last.{" "}
-                      </Text>
-                      <div className="flex flex-col gap-[25px] items-start justify-start w-full">
-                        <div className="flex sm:flex-col flex-row gap-[50px] items-start justify-start md:pr-10 sm:pr-5 pr-[552px] w-full">
-                          <div className="flex flex-1 flex-row gap-2.5 items-center justify-start w-full">
-                            <div className="flex flex-row gap-2 items-center justify-between w-1/2">
-                              <Img
-                                className="h-6 w-6"
-                                src="images/img_star_gray_900.svg"
-                                alt="star"
-                              />
-                              <Img
-                                className="h-6 w-6"
-                                src="images/img_star_gray_900.svg"
-                                alt="star_One"
-                              />
-                              <Img
-                                className="h-6 w-6"
-                                src="images/img_star_gray_900.svg"
-                                alt="star_Two"
-                              />
-                              <Img
-                                className="h-6 w-6"
-                                src="images/img_star_gray_900_24x24.svg"
-                                alt="star_Three"
-                              />
-                            </div>
-                            <Text
-                              className="flex-1 text-gray-600 text-xl tracking-[-0.40px] w-auto"
-                              size="txtManropeSemiBold20Gray600"
-                            >
-                              4.5 review
-                            </Text>
-                          </div>
-                          <Text
-                            className="flex-1 text-gray-600 text-xl tracking-[-0.40px] w-auto"
-                            size="txtManropeSemiBold20Gray600"
-                          >
-                            02 June 2022
-                          </Text>
-                        </div>
-                        <div className="flex md:flex-col flex-row gap-4 items-center justify-start w-full">
-                          <Img
-                            className="h-20 md:h-auto rounded-[50%] w-20"
-                            src="images/img_ellipse2695.png"
-                            alt="ellipse2695"
-                          />
-                          <div className="flex flex-1 flex-col gap-1 items-start justify-start w-full">
-                            <Text
-                              className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-full"
-                              size="txtManropeExtraBold28"
-                            >
-                              Taylor Wilson
-                            </Text>
-                            <Text
-                              className="text-gray-900 text-lg w-full"
-                              size="txtManropeSemiBold18"
-                            >
-                              Product Manager - Static Mania
+                              Product Manager
                             </Text>
                           </div>
                         </div>
@@ -268,22 +118,16 @@ const Component20 = () => {
                     </div>
                   </div>
                 </List>
-                <SelectBox
-                  className="border border-gray-600 border-solid font-semibold px-[18px] py-3 rounded-[10px] text-base text-gray-900 text-left w-[12%] sm:w-full"
-                  placeholderClassName="text-gray-900"
-                  indicator={
-                    <Img
-                      className="h-4 w-4"
-                      src="images/img_arrowdown_gray_900.svg"
-                      alt="arrow_down"
-                    />
-                  }
-                  isMulti={false}
-                  name="buttonmedium"
-                  options={buttonmediumOptionsList}
-                  isSearchable={false}
-                  placeholder="See more"
-                />
+                <div className="bg-white-A700 border border-gray-600 border-solid flex flex-1 flex-col  justify-center sm:px-5 px-6 py-[7px] rounded-[10px]">
+                  <Button className="bg-white-A700 bottom-[0] cursor-pointer flex items-center justify-center min-w-[122px] px-4 py-[9px] right-[0] rounded-[10px]">
+                    <Text
+                      className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
+                      size="txtManropeBold24Gray900"
+                    >
+                      Read more
+                    </Text>
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

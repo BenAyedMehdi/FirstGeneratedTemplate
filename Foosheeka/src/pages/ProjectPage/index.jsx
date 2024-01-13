@@ -7,38 +7,18 @@ import Component14 from "newComponents/Component14";
 import Component15 from "newComponents/Component15";
 import Component4 from "newComponents/Component4";
 
-const ProjectPage = () => {
-  const project = {
-    name: "Smart SMS",
-    punchline: "Stay connected even when disconnected!",
-    url: "https://smartsms.netlify.app/",
-    type: "Website",
-    tech: "Figma-React",
-    description:
-      "The project was developed by TakeOff to provide GPT support via SMS",
-    about:
-      "We bring the future to the past. The next-gen phone services. No Internet No problem!",
-    highlights: {
-      category: "MVP",
-      duration: "3 days",
-      state: "Completed",
-      date: "Nov 2023",
-      other: "No Info",
-    },
-    customer: {
-      name: "Take Off",
-      rating: "5",
-      reviews: "5 review",
-      email: "takeoff@gmail.com",
-      phone: "+65 0231 965 965",
-      img: "images/projects/takeoff.jpg",
-    },
-    images: {
-      img1: "images/projects/12.jpg",
-      img2: "images/projects/11.jpg",
-      img3: "images/projects/14.jpg",
+const ProjectPage = ({projects}) => {
+  
+  const getProject = (id) => {
+    for(let i = 0; i < projects.length; i++) {
+      if(parseInt(projects[i].id, 10) === parseInt(id, 10)) {
+        return projects[i]
+      }
     }
-  };
+  }
+
+  const id = localStorage.getItem('projectId')
+  const project = getProject(id);
 
   return (
     <>
@@ -49,7 +29,7 @@ const ProjectPage = () => {
             <Component14 item={project}/>
             <Component15 project={project} />
           </div>
-          <Component4 />
+          <Component4 projects={projects}/>
         </div>
         <LandingPageFooter className="bg-white-A700 flex gap-2 items-center justify-center md:px-5 px-[120px] py-20 w-full" />
       </div>

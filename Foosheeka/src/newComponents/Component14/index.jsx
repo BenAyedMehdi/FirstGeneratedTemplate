@@ -10,20 +10,20 @@ const Component14 = ({item}) => {
           <div className="flex flex-1 flex-col items-center justify-start w-full">
             <Img
               className="h-[550px] md:h-auto object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
-              src={item.images.img1}
+              src={item?.images.img1}
               alt="rectangle5610"
             />
           </div>
           <div className="flex sm:flex-1 flex-col gap-6 h-[550px] md:h-auto items-start justify-start w-auto sm:w-full">
             <Img
               className="h-[263px] sm:h-auto object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
-              src={item.images.img2}
+              src={item?.images.img2}
               alt="rectangle5611"
             />
             <div className="h-[263px] relative w-96 sm:w-full">
               <Img
                 className="h-[263px] m-auto object-cover rounded-[10px] w-full"
-                src={item.images.img3}
+                src={item?.images.img3}
                 alt="rectangle5612"
               />
               <Button

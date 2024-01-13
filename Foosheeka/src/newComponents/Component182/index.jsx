@@ -12,9 +12,10 @@ const Component182 = ({projects}) => {
           <>
             <div className="flex flex-col items-center justify-center w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
-                {projects.map((project, index) => (
-                  <React.Fragment key={`LandingPageCard${index}`}>
+                {projects.map((project) => (
+                  <React.Fragment key={`LandingPageCard${project.id}`}>
                     <LandingPageCard
+                      className="flex flex-1 flex-col h-full items-start justify-start w-full"
                       project={project}
                     />
                   </React.Fragment>

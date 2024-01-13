@@ -13,7 +13,7 @@ const landingPageCardPropList = [
   { image: "images/img_image_5.png" },
 ];
 
-const Component4 = () => {
+const Component4 = ({projects}) => {
   const navigate = useNavigate();
   return (
     <>
@@ -26,11 +26,11 @@ const Component4 = () => {
                   className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-auto"
                   size="txtManropeExtraBold36"
                 >
-                  Featured Properties
+                  Featured Projects
                 </Text>
                 <Button
                   className="common-pointer bg-transparent cursor-pointer flex items-center justify-center min-w-[124px]"
-                  onClick={() => navigate("/listing")}
+                  onClick={() => navigate("/portfolio")}
                   rightIcon={
                     <Img
                       className="h-6 mb-[3px] ml-2"
@@ -61,11 +61,11 @@ const Component4 = () => {
             </div>
             <div className="flex flex-col items-start justify-start w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
-                {landingPageCardPropList.map((props, index) => ( index<3 &&
+                {projects.map((project, index) => ( index<3 &&
                   <React.Fragment key={`LandingPageCard${index}`}>
                     <LandingPageCard
                       className="flex flex-1 flex-col h-full items-start justify-start w-full"
-                      {...props}
+                      project={project}
                     />
                   </React.Fragment>
                 ))}
