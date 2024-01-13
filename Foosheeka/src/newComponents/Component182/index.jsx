@@ -3,15 +3,8 @@ import React from "react";
 import { Button, Img, Text, List } from "components";
 import LandingPageCard from "components/LandingPageCard";
 
-const Component182 = () => {
-  const landingPageCardPropList = [
-    {},
-    { image: "images/img_image_1.png" },
-    { image: "images/img_image_2.png" },
-    { image: "images/img_image_3.png" },
-    { image: "images/img_image_4.png" },
-    { image: "images/img_image_5.png" },
-  ];
+const Component182 = ({projects}) => {
+
   return (
     <>
       <div className="flex flex-col items-center justify-center md:px-10 sm:px-5 px-[120px] w-full">
@@ -19,11 +12,10 @@ const Component182 = () => {
           <>
             <div className="flex flex-col items-center justify-center w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
-                {landingPageCardPropList.map((props, index) => (
+                {projects.map((project, index) => (
                   <React.Fragment key={`LandingPageCard${index}`}>
                     <LandingPageCard
-                      className="flex flex-1 flex-col h-full items-start justify-start w-full"
-                      {...props}
+                      project={project}
                     />
                   </React.Fragment>
                 ))}

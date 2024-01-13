@@ -4,14 +4,6 @@ import { Button, Img, Text, List } from "components";
 import LandingPageCard from "components/LandingPageCard";
 
 const Component181 = () => {
-  const landingPageCardPropList = [
-    {},
-    { image: "images/img_image_1.png" },
-    { image: "images/img_image_2.png" },
-    { image: "images/img_image_3.png" },
-    { image: "images/img_image_4.png" },
-    { image: "images/img_image_5.png" },
-  ];
   return (
     <>
       <div className="flex flex-col font-manrope md:px-5 relative w-full">
