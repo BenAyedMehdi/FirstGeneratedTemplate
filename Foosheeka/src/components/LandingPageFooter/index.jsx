@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Img, Text } from "components";
+import { Link } from "react-router-dom";
 
 const LandingPageFooter = (props) => {
   return (
@@ -19,7 +20,7 @@ const LandingPageFooter = (props) => {
                   className="text-orange-A700 text-xl w-auto"
                   size="txtMarkoOneRegular20"
                 >
-                  Foosheeka
+                  <Link to="/">Foosheeka</Link>
                 </Text>
               </div>
               <div className="flex flex-col gap-7 h-[194px] md:h-auto items-start justify-start w-full">
@@ -88,7 +89,7 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  Services
+                  <Link to="/services">Services</Link>
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                   <Text
@@ -116,7 +117,7 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  Portfolio
+                  <Link to="/portfolio">Portfolio</Link>
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                   <Text
@@ -144,7 +145,7 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  About Us{" "}
+                  <Link to="/aboutus">About Us</Link>
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                   <Text
@@ -157,7 +158,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Contact Us
+                   <Link to="/contactpage">Contact</Link>
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"

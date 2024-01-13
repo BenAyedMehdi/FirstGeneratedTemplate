@@ -14,13 +14,18 @@ const Component2 = () => {
                   className="leading-[140.00%] max-w-[488px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                   size="txtManropeExtraBold36"
                 >
-                  Find Any Solution Idea <br /> For Any Problem in Gaza
+                   A Helping Hand
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
                   size="txtManropeRegular18"
                 >
-                  A network of enthusiastic individuals globally working on impactful projects...{" "}
+                  As Muslim youngsters, we are trying to find a way to move in
+                  the direction of lifting sorrows and hardships from our
+                  brothers in Palestine and Gaza. Our mission consists of
+                  targeting the most alarming problems in Gaza and using the
+                  youth potential to work around it finding solutions and
+                  launching projects aiming to ameliorate the situation in Gaza.{" "}
                 </Text>
               </div>
               <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[138px] py-[13px] rounded-[10px] text-base text-center text-white-A700">

@@ -14,18 +14,20 @@ const Component1 = () => {
                 size="txtManropeExtraBold46"
               >
                 <>
-                 Innovating for 
-                 <br/>suistanable change
-                  
+                Finding  Any Solution Idea
+                  <br />
+                  For Any Problem in Gaza
                 </>
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[610px] md:max-w-full text-gray-700 text-xl"
                 size="txtManropeRegular20"
               >
-                We are an engine designed to activate the potential of a team, a company, or a project. 
-                Specialized in websites development, wired to create solutions and implement creative ideas. 
-                Our passion for innovation is what drives us to build scalable and maintainable solutions to deliver the best performance and value.
+                We are a group of Muslim youngsters who cannot stay hands
+                crossed watching a genocide happen to their Muslim brothers in
+                front of their eyes without moving a finger. As God clearly
+                stated that we should stand as one against oppressors and
+                criminals.
                 <br />
               </Text>
             </div>
