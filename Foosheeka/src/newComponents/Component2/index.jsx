@@ -14,14 +14,15 @@ const Component2 = () => {
                   className="leading-[140.00%] max-w-[488px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                   size="txtManropeExtraBold36"
                 >
-                  Bring Your Startup <br/> Ideas to Life
+                  Bring Your Startup <br /> Ideas to Life
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
                   size="txtManropeRegular18"
                 >
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.{" "}
+                  Make your business ideas come true. We build great
+                  websites and apps, and help you stand out online. Join us and
+                  let's make something amazing together!{" "}
                 </Text>
               </div>
               <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[138px] py-[13px] rounded-[10px] text-base text-center text-white-A700">

@@ -45,11 +45,11 @@ const Component501 = () => {
               className="leading-[180.00%] max-w-[557px] md:max-w-full text-gray-700 text-lg"
               size="txtManropeRegular18Gray700"
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. In a free hour, when our power of choice is untrammelled
-              and when nothing prevents our being able.
+              Foosheeka is a dynamic company specializing in full-stack development,
+              mobile app creation, UI/UX design, branding, and digital
+              marketing, aimed at serving startups and small businesses.
             </Text>
-            
+
             <div className="flex flex-col gap-3 items-start justify-start w-full">
               <CheckBox
                 className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"

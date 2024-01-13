@@ -19,9 +19,7 @@ const Component502 = () => {
                 className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-lg"
                 size="txtManropeRegular18Gray700"
               >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. In a free hour, when our power of choice is
-                untrammelled.
+                We are your best choice!
               </Text>
             </div>
             <div className="flex flex-col gap-3 items-start justify-start w-full">
