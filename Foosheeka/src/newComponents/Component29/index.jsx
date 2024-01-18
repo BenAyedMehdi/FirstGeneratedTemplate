@@ -21,19 +21,10 @@ const Component29 = () => {
           <Link to="/aboutus">AboutUs</Link>
         </li>
         <li>
-          <Link to="/listing">Listing</Link>
-        </li>
-        <li>
-          <Link to="/listingmapview">ListingMapView</Link>
-        </li>
-        <li>
           <Link to="/projectdetails">Project Details</Link>
         </li>
         <li>
           <Link to="/agentlist">AgentList</Link>
-        </li>
-        <li>
-          <Link to="/agentprofile">AgentProfile</Link>
         </li>
         <li>
           <Link to="/contactpage">ContactPage</Link>

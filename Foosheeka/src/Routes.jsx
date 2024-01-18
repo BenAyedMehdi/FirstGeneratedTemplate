@@ -4,7 +4,6 @@ import Home from "pages/Home";
 import NotFound from "pages/NotFound";
 import ComponentsPage from "pages/ComponentsPage";
 import ProjectPage from "pages/ProjectPage";
-import AgentProfilePage from "pages/AgentProfile";
 import ServicesPage from "pages/ServicesPage";
 import PortfolioPage from "pages/PortfolioPage";
 import { projectsList } from "mock/projects";
@@ -17,8 +16,6 @@ const BlogPage = React.lazy(() => import("pages/BlogPage"));
 const ContactPage = React.lazy(() => import("pages/ContactPage"));
 const AgentList = React.lazy(() => import("pages/AgentList"));
 const PropertyDetails = React.lazy(() => import("pages/ProjectPage"));
-const ListingMapView = React.lazy(() => import("pages/ListingMapView"));
-const Listing = React.lazy(() => import("pages/Listing"));
 const AboutUs = React.lazy(() => import("pages/AboutUs"));
 const LandingPage = React.lazy(() => import("pages/LandingPage"));
 const ProjectRoutes = () => {
@@ -31,11 +28,8 @@ const ProjectRoutes = () => {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/portfolio" element={<PortfolioPage projects={projectsList}/>} />
-          <Route path="/listing" element={<Listing />} />
-          <Route path="/listingmapview" element={<ListingMapView />} />
           <Route path="/propertydetails" element={<PropertyDetails />} />
           <Route path="/agentlist" element={<AgentList />} />
-          <Route path="/agentprofile" element={<AgentProfilePage />} />
           <Route path="/projectdetails" element={<ProjectPage projects={projectsList}/>} />
           <Route path="/contactpage" element={<ContactPage />} />
           <Route path="/blogpage" element={<BlogPage />} />

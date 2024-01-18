@@ -3,9 +3,10 @@ import React from "react";
 import { Button, Img, Text, List, Input, GoogleMap } from "components";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { projectsList } from "mock/projects";
 
 const Component15 = ({ project }) => {
-  const navigate = useNavigate();
+  const projectDetails = project?? projectsList[0];
 
   return (
     <>
@@ -20,13 +21,13 @@ const Component15 = ({ project }) => {
                       className="leading-[135.00%] max-w-[712px] md:max-w-full sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px]"
                       size="txtManropeExtraBold28"
                     >
-                      {project?.name}
+                      {projectDetails?.name}
                     </Text>
                     <Text
                       className="text-gray-900 text-xl tracking-[-0.40px] w-full"
                       size="txtManropeSemiBold20Gray900"
                     >
-                      {project?.punchline}
+                      {projectDetails?.punchline}
                     </Text>
                   </div>
                   <div className="flex sm:flex-col flex-row gap-4 items-start justify-start md:pr-10 sm:pr-5 pr-[180px] w-full">
@@ -36,7 +37,7 @@ const Component15 = ({ project }) => {
                           className="bg-white-A700 bottom-[0] cursor-pointer flex items-center justify-center min-w-[122px] px-4 py-[9px] right-[0] rounded-[10px]"
                         >
                           <div className="font-bold text-gray-900 text-left text-lg">
-                            <a href={project?.url}>
+                            <a href={projectDetails?.url}>
                               <Text
                                 className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                                 size="txtManropeBold24Gray900"
@@ -60,13 +61,13 @@ const Component15 = ({ project }) => {
                           className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                           size="txtManropeBold24Gray900"
                         >
-                          {project?.type}
+                          {projectDetails?.type}
                         </Text>
                         <Text
                           className="text-gray-600 text-xs w-full"
                           size="txtManropeSemiBold12"
                         >
-                          {project?.tech}
+                          {projectDetails?.tech}
                         </Text>
                       </div>
                     </div>
@@ -77,13 +78,13 @@ const Component15 = ({ project }) => {
                     className="text-gray-900 text-xl tracking-[-0.40px] w-full"
                     size="txtManropeSemiBold20Gray900"
                   >
-                    {project?.description}
+                    {projectDetails?.description}
                   </Text>
                   <Text
                     className="leading-[180.00%] max-w-[712px] md:max-w-full text-gray-600 text-lg"
                     size="txtManropeRegular18Gray600"
                   >
-                    <>{project?.about}</>
+                    <>{projectDetails?.about}</>
                   </Text>
                 </div>
               </div>
@@ -115,7 +116,7 @@ const Component15 = ({ project }) => {
                         className="flex-1 text-gray-900 text-lg text-right w-auto"
                         size="txtManropeSemiBold18"
                       >
-                        {project?.type}
+                        {projectDetails?.type}
                       </Text>
                     </div>
                     <div className="flex flex-row gap-[47px] items-start justify-start w-full">
@@ -132,7 +133,7 @@ const Component15 = ({ project }) => {
                         className="flex-1 text-gray-900 text-lg text-right w-auto"
                         size="txtManropeSemiBold18"
                       >
-                        {project?.highlights.category}
+                        {projectDetails?.highlights.category}
                       </Text>
                     </div>
                     <div className="flex items-start justify-start w-full">
@@ -149,7 +150,7 @@ const Component15 = ({ project }) => {
                         className="text-lg text-right "
                         size="txtManropeSemiBold18"
                       >
-                        {project?.highlights.duration}
+                        {projectDetails?.highlights.duration}
                       </Text>
                     </div>
                   </div>
@@ -168,7 +169,7 @@ const Component15 = ({ project }) => {
                         className="flex-1 text-gray-900 text-lg text-right w-auto"
                         size="txtManropeSemiBold18"
                       >
-                        {project?.highlights.state}
+                        {projectDetails?.highlights.state}
                       </Text>
                     </div>
                     <div className="flex flex-row gap-8 items-start justify-start w-full">
@@ -185,7 +186,7 @@ const Component15 = ({ project }) => {
                         className="flex-1 text-gray-900 text-lg text-right w-auto"
                         size="txtManropeSemiBold18"
                       >
-                        {project?.highlights.date}
+                        {projectDetails?.highlights.date}
                       </Text>
                     </div>
                     <div className="flex flex-row gap-[66px] items-start justify-start w-full">
@@ -202,7 +203,7 @@ const Component15 = ({ project }) => {
                         className="flex-1 text-gray-900 text-lg text-right w-auto"
                         size="txtManropeSemiBold18"
                       >
-                        {project?.highlights.other}
+                        {projectDetails?.highlights.other}
                       </Text>
                     </div>
                   </div>
@@ -220,7 +221,7 @@ const Component15 = ({ project }) => {
                 <div className="flex flex-row gap-6 items-center justify-start w-full">
                   <Img
                     className="h-[150px] md:h-auto object-cover rounded-[10px] w-[150px]"
-                    src={project?.customer.img}
+                    src={projectDetails?.customer.img}
                     alt="rectangle5599"
                   />
                   <div className="flex flex-col gap-[3px] items-start justify-start w-auto">
@@ -228,7 +229,7 @@ const Component15 = ({ project }) => {
                       className="text-gray-900 text-xl tracking-[-0.40px] w-auto"
                       size="txtManropeSemiBold20Gray900"
                     >
-                      {project?.customer.name}
+                      {projectDetails?.customer.name}
                     </Text>
                     <div className="flex flex-row gap-3.5 items-center justify-start w-full">
                       <div className="flex flex-row gap-1 items-start justify-start w-auto">
@@ -262,7 +263,7 @@ const Component15 = ({ project }) => {
                         className="text-base text-gray-900 w-auto"
                         size="txtManropeSemiBold16"
                       >
-                        {project?.customer.reviews}
+                        {projectDetails?.customer.reviews}
                       </Text>
                     </div>
                     <div className="flex flex-row gap-2.5 items-center justify-start w-full">
@@ -275,7 +276,7 @@ const Component15 = ({ project }) => {
                         className="text-base text-gray-600 w-auto"
                         size="txtManropeMedium16"
                       >
-                        {project?.customer.email}
+                        {projectDetails?.customer.email}
                       </Text>
                     </div>
                     <div className="flex flex-row gap-2.5 items-center justify-start w-full">
@@ -288,7 +289,7 @@ const Component15 = ({ project }) => {
                         className="text-base text-gray-600 w-auto"
                         size="txtManropeMedium16"
                       >
-                        {project?.customer.phone}
+                        {projectDetails?.customer.phone}
                       </Text>
                     </div>
                   </div>

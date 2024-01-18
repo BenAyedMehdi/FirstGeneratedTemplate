@@ -11,7 +11,7 @@ const Component18 = ({projects}) => {
     <>
       <div className="flex flex-1 flex-col gap-[58px] items-center justify-start mx-auto w-full z-[1]">
         <Component181 />
-        <Component182 projects={projects}/>
+        <Component182 projects={projectsList}/>
       </div>
     </>
   );

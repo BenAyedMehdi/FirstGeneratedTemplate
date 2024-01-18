@@ -2,13 +2,10 @@ import React from "react";
 
 import LandingPageCard from "components/LandingPageCard";
 import { Button, Img, Text, List } from "components";
+import { projectsList } from "mock/projects";
 
 const Component16 = () => {
-  const landingPageCardPropList = [
-    {},
-    { image: "images/img_image_1.png" },
-    { image: "images/img_image_2.png" },
-  ];
+  const projects = projectsList.slice(0, 3);
 
   return (
     <>
@@ -40,11 +37,11 @@ const Component16 = () => {
           className="sm:flex-col flex-row gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-start w-full"
           orientation="horizontal"
         >
-          {landingPageCardPropList.map((props, index) => (
+          {projects.map((project, index) => (
             <React.Fragment key={`LandingPageCard${index}`}>
               <LandingPageCard
+              project={project}
                 className="flex flex-1 flex-col h-full items-start justify-start w-full"
-                {...props}
               />
             </React.Fragment>
           ))}

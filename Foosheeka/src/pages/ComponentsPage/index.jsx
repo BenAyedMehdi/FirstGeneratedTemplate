@@ -10,7 +10,6 @@ import CreateAccountModal from "modals/CreateAccount";
 import Component1 from "newComponents/Component1";
 import Component3 from "newComponents/Component3";
 import Component2 from "newComponents/Component2";
-import Component4 from "newComponents/Component4";
 import Component5 from "newComponents/Component5";
 import Component6 from "newComponents/Component6";
 import Component7 from "newComponents/Component7";
@@ -18,7 +17,6 @@ import Component8 from "newComponents/Component8";
 import Component9 from "newComponents/Component9";
 import Component10 from "newComponents/Component10";
 import Component11 from "newComponents/Component11";
-import Component12 from "newComponents/Component12";
 import Component13 from "newComponents/Component13";
 import Component14 from "newComponents/Component14";
 import Component15 from "newComponents/Component15";
@@ -30,7 +28,6 @@ import Component20 from "newComponents/Component20";
 import Component21 from "newComponents/Component21";
 import Component22 from "newComponents/Component22";
 import Component23 from "newComponents/Component23";
-import Component24 from "newComponents/Component24";
 import Component25 from "newComponents/Component25";
 import Component26 from "newComponents/Component26";
 import Component27 from "newComponents/Component27";
@@ -58,7 +55,6 @@ const ComponentsPage = () => {
         <Component10/>
         <Component11/>
         <Component6/>
-        <Component4/>
         <Component16/>
         <Component13/>
         <Component14/>
@@ -70,7 +66,6 @@ const ComponentsPage = () => {
         <Component21/>
         <Component22/>
         <Component23/>
-        <Component24/>
         <Component25/>
         <Component26/>
         <Component27/>

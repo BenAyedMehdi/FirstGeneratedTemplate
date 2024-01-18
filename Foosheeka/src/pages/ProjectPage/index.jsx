@@ -17,7 +17,7 @@ const ProjectPage = ({projects}) => {
     }
   }
 
-  const id = localStorage.getItem('projectId')
+  const id = localStorage.getItem('projectId')?? 1;
   const project = getProject(id);
 
   return (
