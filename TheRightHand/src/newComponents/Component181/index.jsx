@@ -18,7 +18,7 @@ const Component181 = () => {
           <div className="flex md:flex-col flex-row gap-[30px] items-end justify-start md:px-10 sm:px-5 px-[140px] w-full">
             <Img
               className="h-[150px] md:h-auto object-cover rounded-[10px] w-[150px]"
-              src="images/generated/foosheekalogo.png"
+              src="righthandlogo.png"
               alt="rectangle5599"
             />
             <div className="flex flex-1 md:flex-col flex-row md:gap-10 gap-[60px] items-center justify-start w-full">
@@ -28,7 +28,7 @@ const Component181 = () => {
                     className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
                   >
-                    Foosheeka
+                    Right Hand
                   </Text>
                   <div className="flex flex-row gap-3.5 items-center justify-start w-full">
                     <div className="flex flex-row items-center justify-evenly w-1/4">

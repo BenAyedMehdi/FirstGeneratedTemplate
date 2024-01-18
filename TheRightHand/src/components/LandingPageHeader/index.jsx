@@ -10,7 +10,7 @@ const LandingPageHeader = (props) => {
         <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
           <div className="header-row my-px">
             <div className="flex flex-row gap-[11px] items-center justify-start">
-              <Img className="h-10 w-10" src="images/generated/foosheekalogo.png" alt="home" />
+              <Img className="h-10 w-10" src="righthandlogo.png" alt="home" />
               <Text
                 className="text-orange-A700 text-xl w-auto"
                 size="txtMarkoOneRegular20"

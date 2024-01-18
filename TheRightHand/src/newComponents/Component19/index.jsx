@@ -17,7 +17,7 @@ const Component19 = () => {
                   <div className="flex sm:flex-col flex-row gap-[30px] items-center justify-start w-full">
                     <Img
                       className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
-                      src="images/generated/foosheekalogo.png"
+                      src="righthandlogo.png"
                       alt="rectangle5616"
                     />
                     <div className="flex flex-1 flex-col gap-[7px] items-start justify-start w-full">
@@ -25,7 +25,7 @@ const Component19 = () => {
                         className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                         size="txtManropeBold24Gray900"
                       >
-                        Foosheeka
+                        Right Hand
                       </Text>
                       <div className="flex flex-row gap-3.5 items-center justify-start w-full">
                         <div className="flex flex-row items-center justify-evenly w-[31%]">

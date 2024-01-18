@@ -13,14 +13,14 @@ const LandingPageFooter = (props) => {
               <div className="flex flex-row gap-[11px] h-10 md:h-auto items-center justify-start w-[341px]">
                 <Img
                   className="h-10 w-10"
-                  src="images/generated/foosheekalogo.png"
+                  src="righthandlogo.png"
                   alt="home_One"
                 />
                 <Text
                   className="text-orange-A700 text-xl w-auto"
                   size="txtMarkoOneRegular20"
                 >
-                  <Link to="/">Foosheeka</Link>
+                  <Link to="/">Right Hand</Link>
                 </Text>
               </div>
               <div className="flex flex-col gap-7 h-[194px] md:h-auto items-start justify-start w-full">
