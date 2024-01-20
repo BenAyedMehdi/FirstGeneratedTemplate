@@ -39,47 +39,17 @@ const Component501 = () => {
               className="leading-[140.00%] max-w-[557px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
               size="txtManropeExtraBold36"
             >
-              Explore The Services We Offer For You
+              We analyse problems and find relavant solutions
             </Text>
             <Text
               className="leading-[180.00%] max-w-[557px] md:max-w-full text-gray-700 text-lg"
               size="txtManropeRegular18Gray700"
             >
-              Foosheeka is a dynamic company specializing in full-stack development,
-              mobile app creation, UI/UX design, branding, and digital
-              marketing, aimed at serving startups and small businesses.
+              We invite individuals worldwide to join this movement, whether as
+              volunteers, ambassadors, or contributors. Together, let's shape a
+              brighter future and make a meaningful impact on our planet.
+              🌍🚀✨.
             </Text>
-
-            <div className="flex flex-col gap-3 items-start justify-start w-full">
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="findexcellentde_One"
-                id="findexcellentde_One"
-                label="UI/UX Design"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="friendlyhost"
-                id="friendlyhost"
-                label="Website Development"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="securepaymentsy_One"
-                id="securepaymentsy_One"
-                label="mobile app development"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="securepaymentsy_One"
-                id="securepaymentsy_One"
-                label="Branding & Marketing"
-              ></CheckBox>
-            </div>
           </div>
           <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[138px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
             Get Started

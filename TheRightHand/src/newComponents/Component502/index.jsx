@@ -13,37 +13,18 @@ const Component502 = () => {
                 className="leading-[140.00%] max-w-[521px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                 size="txtManropeExtraBold36"
               >
-                We are a Creative Designers & Software Experts
+                We can't just watch and do nothing
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-lg"
                 size="txtManropeRegular18Gray700"
               >
-                We are your best choice!
+                 Our mission is to empower the youth, providing a platform for
+                  them to contribute ideas, efforts, and creativity towards
+                  building a better world. It's more than an organization; it's
+                  a global movement for positive change, one innovative idea at
+                  a time.
               </Text>
-            </div>
-            <div className="flex flex-col gap-3 items-start justify-start w-full">
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="findexcellentde_One"
-                id="findexcellentde_One"
-                label="Find excellent deals"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="friendlyhost"
-                id="friendlyhost"
-                label="Friendly host & Fast support"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="securepaymentsy_One"
-                id="securepaymentsy_One"
-                label="Secure payment system"
-              ></CheckBox>
             </div>
           </div>
           <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[134px] py-[13px] rounded-[10px] text-base text-center text-white-A700">

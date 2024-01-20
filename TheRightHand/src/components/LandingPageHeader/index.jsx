@@ -29,13 +29,7 @@ const LandingPageHeader = (props) => {
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
-              <Link to="/dhiwise-dashboard">Dashboard</Link>
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/services">Challenges</Link>
+              <Link to="/services">Problems</Link>
             </Text>
             <Text
               className="text-base text-gray-900 w-auto"
@@ -55,6 +49,12 @@ const LandingPageHeader = (props) => {
             >
               <Link to="/contactpage">Contact</Link>
             </Text>
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/dhiwise-dashboard">Dashboard</Link>
+            </Text>
           </div>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto sm:hidden items-center justify-start w-[228px]">
             <Button
@@ -70,9 +70,6 @@ const LandingPageHeader = (props) => {
               <div className="font-bold font-manrope text-gray-900 text-left text-lg">
                 Search
               </div>
-            </Button>
-            <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full">
-              Log in
             </Button>
           </div>
         </div>

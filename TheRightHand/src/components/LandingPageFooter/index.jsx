@@ -29,23 +29,19 @@ const LandingPageFooter = (props) => {
                   size="txtManropeSemiBold16"
                 >
                   <>
-                    We help you create the solution 
+                    We create any solution
                     <br />
-                    that you have in mind
+                    for any problem in Gaza
+                    <br />
                   </>
+
                 </Text>
                 <div className="flex flex-col gap-1 items-start justify-start w-auto">
                   <Text
                     className="text-base text-gray-900 w-auto"
                     size="txtManropeSemiBold16"
                   >
-                    (+36) 70 668 15320
-                  </Text>
-                  <Text
-                    className="text-base text-gray-900 w-auto"
-                    size="txtManropeSemiBold16"
-                  >
-                    foosheeka@gmail.com
+                    engine.connect.contact@gmail.com
                   </Text>
                 </div>
                 <div className="flex flex-row gap-3 items-start justify-start w-full">
@@ -89,26 +85,44 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  <Link to="/services">Services</Link>
+                  <Link to="/services">Problems</Link>
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Mobile App, Website 
+                    Health 
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    UI/UX design
+                    Security
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Brand Care
+                    Economy
+                  </Text>
+                  <Text
+                    className="text-base text-gray-900 w-full"
+                    size="txtManropeSemiBold16"
+                  >
+                    Education
+                  </Text>
+                  <Text
+                    className="text-base text-gray-900 w-full"
+                    size="txtManropeSemiBold16"
+                  >
+                    Environment
+                  </Text>
+                  <Text
+                    className="text-base text-gray-900 w-full"
+                    size="txtManropeSemiBold16"
+                  >
+                    Social
                   </Text>
                 </div>
               </div>
@@ -117,26 +131,26 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  <Link to="/portfolio">Portfolio</Link>
+                  <Link to="/portfolio">Solutions</Link>
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Our products
+                    Problems survey
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Solutions
+                    Hackathon
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Content
+                    Individual support
                   </Text>
                 </div>
               </div>
@@ -173,26 +187,26 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  Career
+                  Contact
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Open positions
+                    Donate 
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Internship
+                    Collaborate
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Collaboration
+                    Join Us!
                   </Text>
                 </div>
               </div>

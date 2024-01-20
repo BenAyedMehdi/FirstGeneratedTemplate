@@ -14,17 +14,17 @@ const Component1 = () => {
                 size="txtManropeExtraBold46"
               >
                 <>
-                Innovating for 
-                 <br/>suistanable change
+                  A Helping Hand
+                  <br />
+                  For Our Brothers and Sisters
                 </>
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[610px] md:max-w-full text-gray-700 text-xl"
                 size="txtManropeRegular20"
               >
-                We are an engine designed to activate the potential of a team, a company, or a project. 
-                Specialized in websites development, wired to create solutions and implement creative ideas. 
-                Our passion for innovation is what drives us to build scalable and maintainable solutions to deliver the best performance and value.
+                A network of enthusiastic individuals globally working on
+                impactful projects..
                 <br />
               </Text>
             </div>
@@ -32,7 +32,7 @@ const Component1 = () => {
               <div className="flex flex-col gap-[38px] items-center justify-start w-full">
                 <div className="flex flex-col gap-6 items-start justify-start w-full">
                   <Button className="bg-gray-900 cursor-pointer font-bold py-[17px] rounded-[10px] text-center text-lg text-white-A700 w-full">
-                  JOIN US
+                    JOIN US
                   </Button>
                 </div>
               </div>
