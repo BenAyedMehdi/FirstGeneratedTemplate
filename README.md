@@ -3,4 +3,4 @@
 # [Gaza-Palestine Demo](https://gazapalestine.netlify.app/)
 
 ## Ongoing:
-- Mehdi portfolio
+- Mehdi portfolio: mehdi-portfolio branch
