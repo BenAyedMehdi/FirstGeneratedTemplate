@@ -7,7 +7,7 @@ const Component7 = () => {
   const navigate = useNavigate();
   return (
     <>
-    <div className="bg-gray-900 flex flex-col font-manrope items-center justify-center p-[120px] md:px-10 sm:px-5 w-full">
+    <div className="bg-gray-900 flex flex-col font-manrope items-center justify-center p-[80px] md:px-10 sm:px-5 w-full">
       <div className="flex flex-col md:gap-10 gap-[120px] items-center justify-start max-w-[1200px] mx-auto w-full">
         <div className="flex flex-col md:gap-10 gap-[60px] items-start justify-start w-full">
           <div className="flex sm:flex-col flex-row gap-5 items-center justify-start w-full">
@@ -122,37 +122,6 @@ const Component7 = () => {
               </div>
             </div>
           </List>
-        </div>
-        <div className="bg-gray-401 flex flex-col items-center justify-center md:px-10 sm:px-5 px-[100px] py-10 rounded-[10px] w-full">
-          <div className="flex flex-col gap-[30px] items-center justify-start md:px-10 sm:px-5 px-[200px] w-full">
-            <div className="flex flex-col gap-2.5 items-center justify-start w-full">
-              <Text
-                className="sm:text-2xl md:text-[26px] text-[28px] text-center text-gray-900 tracking-[-0.56px] w-full"
-                size="txtManropeExtraBold28"
-              >
-                For Recent Update, News.
-              </Text>
-              <Text
-                className="leading-[180.00%] max-w-[600px] md:max-w-full text-center text-gray-900 text-lg"
-                size="txtManropeRegular18"
-              >
-                We helps businesses customize, automate and scale up their
-                ad production and delivery.
-              </Text>
-            </div>
-            <div className="flex sm:flex-col flex-row gap-2 items-start justify-start w-full">
-              <Input
-                name="input"
-                placeholder="Enter your Email"
-                className="font-semibold p-0 placeholder:text-gray-700 text-gray-700 text-left text-sm w-full"
-                wrapClassName="bg-gray-52 flex-1 sm:flex-1 pb-3 pl-4 pr-3 pt-[15px] rounded-[10px] w-[78%] sm:w-full"
-                type="email"
-              ></Input>
-              <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[126px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-                Subscribe
-              </Button>
-            </div>
-          </div>
         </div>
       </div>
     </div>

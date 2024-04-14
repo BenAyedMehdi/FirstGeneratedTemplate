@@ -18,7 +18,7 @@ const Component4 = ({projects}) => {
   return (
     <>
     
-    <div className="flex flex-col font-manrope items-center justify-center md:px-10 sm:px-5 px-[120px] w-full">
+    <div className="flex flex-col font-manrope items-center justify-center py-6 md:px-10 sm:px-5 px-[120px] w-full">
           <div className="flex flex-col md:gap-10 gap-[60px] md:h-auto items-start justify-start max-w-[1200px] mx-auto w-full">
             <div className="flex flex-col gap-6 items-start justify-start w-full">
               <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between w-full">
