@@ -2,6 +2,7 @@ import React from "react";
 
 import { Button, Img, List, Text } from "components";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const LandingPageHeader = (props) => {
   return (
@@ -23,8 +24,8 @@ const LandingPageHeader = (props) => {
               </Text>
             </div>
           </div>
-          <div className="flex sm:flex-1 flex-row items-center justify-between w-[492px] ">
-            <Text
+          <div className="flex sm:flex-1 flex-row items-center gap-10  ">
+            {/* <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
@@ -34,31 +35,33 @@ const LandingPageHeader = (props) => {
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
-              <Link to="/services">News</Link>
+              <Link to="/about">Who am I</Link>
+            </Text> 
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/">Home</Link>
+            </Text>
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/services">Services</Link>
             </Text>
             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/portfolio">Portfolio</Link>
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/about">Who am I</Link>
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/contactpage">Contact</Link>
-            </Text>
+            </Text>*/}
           </div>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto sm:hidden items-center justify-start w-[228px]">
-            <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full">
-              Contact
-            </Button>
+            <Link to="/contactpage" className="w-full">
+              <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full">
+                Contact
+              </Button>
+            </Link>
           </div>
         </div>
       </header>

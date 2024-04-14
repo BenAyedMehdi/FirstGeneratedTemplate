@@ -49,6 +49,7 @@ const Component7 = () => {
                 article={{
                   name: "Build a community: The importance of working in teams",
                   image: "mehdi_images/together.jpg",
+                  link: "https://www.linkedin.com/posts/ben-ayed-mehdi_hackathon-startup-smb-activity-6997563433390878720-oMTg?utm_source=share&utm_medium=member_desktop",
                 }}
               />
               <Component71
