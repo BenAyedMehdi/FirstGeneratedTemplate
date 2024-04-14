@@ -18,7 +18,7 @@ const Component29 = () => {
           <Link to="/">LandingPage</Link>
         </li>
         <li>
-          <Link to="/aboutus">AboutUs</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
           <Link to="/projectdetails">Project Details</Link>

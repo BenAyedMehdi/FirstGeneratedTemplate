@@ -22,13 +22,8 @@ const LandingPageHeader = (props) => {
                 <Link to="/">Mehdi Ben Ayed </Link>
               </Text>
             </div>
-            <div className="mobile-menu">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
           </div>
-          <div className="flex sm:flex-1 sm:flex-col flex-row sm:hidden items-center justify-between w-[492px] sm:w-full">
+          <div className="flex sm:flex-1 flex-row items-center justify-between w-[492px] ">
             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
@@ -51,7 +46,7 @@ const LandingPageHeader = (props) => {
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
-              <Link to="/aboutus">Who am I</Link>
+              <Link to="/about">Who am I</Link>
             </Text>
             <Text
               className="text-base text-gray-900 w-auto"

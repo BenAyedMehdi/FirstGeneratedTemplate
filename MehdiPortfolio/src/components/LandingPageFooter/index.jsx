@@ -139,7 +139,7 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  <Link to="/aboutus">About Us</Link>
+                  <Link to="/about">About</Link>
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                   <Text
