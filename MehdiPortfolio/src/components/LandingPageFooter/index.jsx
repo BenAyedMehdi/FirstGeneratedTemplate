@@ -49,7 +49,7 @@ const LandingPageFooter = (props) => {
                   </Text>
                 </div>
                 <div className="flex flex-row gap-3 items-start justify-start w-full">
-                  <a href="https://www.facebook.com/happy.mahdi/">
+                  <a target="_blank" href="https://www.facebook.com/happy.mahdi/">
                     <div className="flex flex-col h-[30px] items-center justify-start w-[30px]">
                       <Img
                         className="h-[30px] w-[30px]"
@@ -58,14 +58,14 @@ const LandingPageFooter = (props) => {
                       />
                     </div>
                   </a>
-                  <a href="https://www.linkedin.com/in/ben-ayed-mehdi/">
+                  <a target="_blank" href="https://www.linkedin.com/in/ben-ayed-mehdi/">
                     <Img
                       className="h-[30px] w-[30px]"
                       src="images/img_linkedin.svg"
                       alt="linkedin"
                     />
                   </a>
-                  <a href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
+                  <a target="_blank" href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
                     <div className="flex flex-col h-[30px] items-center justify-start w-[30px]">
                       <Img
                         className="h-[30px] w-[30px]"

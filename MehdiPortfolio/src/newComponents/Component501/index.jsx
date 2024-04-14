@@ -39,15 +39,14 @@ const Component501 = () => {
               className="leading-[140.00%] max-w-[557px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
               size="txtManropeExtraBold36"
             >
-              Explore The Services We Offer For You
+              My mission
             </Text>
             <Text
               className="leading-[180.00%] max-w-[557px] md:max-w-full text-gray-700 text-lg"
               size="txtManropeRegular18Gray700"
             >
-              Foosheeka is a dynamic company specializing in full-stack development,
-              mobile app creation, UI/UX design, branding, and digital
-              marketing, aimed at serving startups and small businesses.
+              Looking ahead, I aim to empower more startups and businesses,
+              transforming their visionary ideas into digital success stories
             </Text>
 
             <div className="flex flex-col gap-3 items-start justify-start w-full">

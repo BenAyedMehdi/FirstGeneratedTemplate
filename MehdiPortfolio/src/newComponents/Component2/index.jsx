@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Img, Text, List } from "components";
+import { Link } from "react-router-dom";
 
 const Component2 = () => {
   return (
@@ -14,19 +15,18 @@ const Component2 = () => {
                   className="leading-[140.00%] max-w-[488px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                   size="txtManropeExtraBold36"
                 >
-                  Bring Your Startup <br /> Ideas to Life
+                  A full-stack web developer<br />
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
                   size="txtManropeRegular18"
                 >
-                  Make your business ideas come true. We build great
-                  websites and apps, and help you stand out online. Join us and
-                  let's make something amazing together!{" "}
+                  I am an experienced Software Engineer. I can build great websites and apps, and help anyone stand out
+                  online. Join me and let's make something amazing together!{" "}
                 </Text>
               </div>
-              <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[138px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-                Get Started
+              <Button className="bg-gray-900 cursor-pointer font-semibold ml-4 py-[17px] rounded-[10px] text-base text-center text-white-A700 w-full">
+                <Link to="/contactpage">Contact</Link>
               </Button>
             </div>
           </div>
@@ -44,8 +44,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Website <br />
-                      Development
+                      I make <br />
+                      Websites
                     </>
                   </Text>
                 </div>
@@ -62,8 +62,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      UI/UX <br />
-                      Design
+                      Scrum <br />
+                      Framework
                     </>
                   </Text>
                 </div>
@@ -80,8 +80,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      mobile app <br />
-                      development
+                      I work at <br />
+                      #Bosch
                     </>
                   </Text>
                 </div>
@@ -98,7 +98,7 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Branding <br />& Marketing
+                      Trainings <br />& Events
                     </>
                   </Text>
                 </div>

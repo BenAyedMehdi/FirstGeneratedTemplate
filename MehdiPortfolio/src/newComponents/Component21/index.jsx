@@ -7,33 +7,101 @@ const Component21 = () => {
     <>
       <div className="flex flex-col font-manrope items-center justify-start md:px-10 sm:px-5 px-[120px] w-full">
         <div className="flex flex-col gap-11 items-center justify-start max-w-[1200px] mx-auto w-full">
-          <div className="flex flex-col gap-4 items-center justify-start w-full">
-            <Text
-              className="sm:text-[40px] md:text-[46px] text-[54px] text-center text-gray-900 tracking-[-1.08px] w-full"
-              size="txtManropeExtraBold54"
-            >
-              Let's Collaborate on Your Next Project
-            </Text>
-            <div className="flex sm:flex-col flex-row gap-[50px] items-center justify-center w-full">
-              <Text
-                className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-lg"
-                size="txtManropeRegular18Gray600"
-              >
-                Ready to bring your digital vision to life? I am here to help.{" "}
-                <br />
-                Whether you have a question, a project idea, or just want to say
-                hello, don't hesitate to reach out. <br />
-                Your innovative ideas deserve the best solutions, and I am
-                excited to hear about them!
-              </Text>
-              <Img
-                className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
-                src="images/generated/foosheekalogo.png"
-                alt="rectangle5616"
-              />
-            </div>
-          </div>
+          
           <div className="bg-white-A700 border border-bluegray-100 border-solid flex md:flex-col flex-row gap-[50px] items-start justify-start p-[50px] md:px-10 sm:px-5 rounded-[10px] w-full">
+            
+            <div className="flex flex-1 flex-col gap-10 items-start pl-10 justify-center w-full">
+              <div className="flex flex-col gap-8 items-start justify-start w-full">
+                <br/> 
+                <div className="flex flex-col gap-1 items-start mt-4 justify-start w-full">
+                  <Text
+                    className="text-gray-900 text-2xl tracking-[-0.40px] w-auto"
+                    size="txtManropeExtraBold28"
+                  >
+                    Mehdi Ben Ayed
+                  </Text>
+                  <Text
+                    className="leading-[180.00%] text-gray-600 text-lg"
+                    size="txtManropeSemiBold18Gray600"
+                  >
+                    <>
+                      Budapest, Hungary
+                      <br />
+                    </>
+                  </Text>
+                </div>
+                <div className="flex flex-col gap-2.5 items-start justify-start w-full">
+                  <div className="flex flex-row gap-3 items-center justify-start w-full">
+                    <Img
+                      className="h-6 w-6"
+                      src="images/img_call.svg"
+                      alt="call_One"
+                    />
+                    <Text
+                      className="flex-1 text-gray-900 text-xl w-auto"
+                      size="txtManropeExtraBold28"
+                    >
+                      (+36) 70 668 1520
+                    </Text>
+                  </div>
+                  <div className="flex flex-row gap-3 items-center justify-start w-full">
+                    <Img
+                      className="h-6 w-6"
+                      src="images/img_mail_gray_600_24x24.svg"
+                      alt="mail_One"
+                    />
+                    <Text
+                      className="flex-1 text-gray-900 text-xl w-auto"
+                      size="txtManropeExtraBold28"
+                    >
+                      mr.mehdi.ben.ayed@gmail.com
+                    </Text>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-[13px] items-start justify-start w-full sm:w-full">
+                <Text
+                    className="text-gray-900 text-2xl tracking-[-0.40px] w-auto"
+                    size="txtManropeExtraBold28"
+                  >
+                  Social
+                </Text>
+                <div className="flex flex-row gap-4 items-start justify-start w-full">
+                  <a target="_blank" href="https://www.facebook.com/happy.mahdi/">
+                    <Img
+                      className="h-[80px] w-[80px]"
+                      src="images/img_clock_gray_600.svg"
+                      alt="clock"
+                    />
+                  </a>
+                  <a target="_blank" href="https://www.linkedin.com/in/ben-ayed-mehdi/">
+                    <Img
+                      className="h-[80px] w-[80px]"
+                      src="images/img_linkedin_gray_600.svg"
+                      alt="linkedin"
+                    />
+                  </a>
+                  <a target="_blank" href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
+                    <Img
+                      className="h-[80px] w-[80px]"
+                      src="images/img_play.svg"
+                      alt="play"
+                    />
+                  </a>
+                </div>
+              </div>
+              <Text
+                    className=" md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
+                    size="txtManropeBold24Gray900"
+                  ></Text>
+              <a target="_blank" href={require("../../assets/resume.pdf")}  className="cursor-pointer w-full">
+              <Button className="bg-gray-200  text-xl font-semibold py-[17px] rounded-[10px] text-center  text-black w-full">
+                View CV
+
+              </Button>
+              </a>
+            </div>
+            <Line className="bg-bluegray-100 h-[534px] md:h-px md:w-full w-px" />
             <div className="flex flex-1 flex-col gap-10 items-start justify-start w-full">
               <div className="flex flex-col gap-6 items-start justify-start w-full">
                 <Text
@@ -99,94 +167,33 @@ const Component21 = () => {
                 SEND
               </Button>
             </div>
-            <Line className="bg-bluegray-100 h-[534px] md:h-px md:w-full w-px" />
-            <div className="flex flex-1 flex-col gap-10 items-start justify-center w-full">
-              <div className="flex flex-col gap-4 items-start justify-start w-full">
-                <br/> 
-                <div className="flex flex-col gap-1 items-start justify-start w-full">
-                  <Text
-                    className="text-gray-900 text-xl tracking-[-0.40px] w-auto"
-                    size="txtManropeSemiBold20Gray900"
-                  >
-                    Mehdi Ben Ayed
-                  </Text>
-                  <Text
-                    className="leading-[180.00%] text-gray-600 text-lg"
-                    size="txtManropeSemiBold18Gray600"
-                  >
-                    <>
-                      Budapest, Hungary
-                      <br />
-                    </>
-                  </Text>
-                </div>
-                <div className="flex flex-col gap-2.5 items-start justify-start w-full">
-                  <div className="flex flex-row gap-3 items-center justify-start w-full">
-                    <Img
-                      className="h-6 w-6"
-                      src="images/img_call.svg"
-                      alt="call_One"
-                    />
-                    <Text
-                      className="flex-1 text-gray-600 text-lg w-auto"
-                      size="txtManropeSemiBold18Gray600"
-                    >
-                      (+36) 70 668 1520
-                    </Text>
-                  </div>
-                  <div className="flex flex-row gap-3 items-center justify-start w-full">
-                    <Img
-                      className="h-6 w-6"
-                      src="images/img_mail_gray_600_24x24.svg"
-                      alt="mail_One"
-                    />
-                    <Text
-                      className="flex-1 text-gray-600 text-lg w-auto"
-                      size="txtManropeSemiBold18Gray600"
-                    >
-                      mr.mehdi.ben.ayed@gmail.com
-                    </Text>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col gap-[13px] items-start justify-start w-full sm:w-full">
-                {/* <ul>
-                                    <li><a href="https://github.com/BenAyedMehdi" className="icon brands fa-github"><span className="label">Github</span></a></li>
-                                    <li><a href="https://www.facebook.com/happy.mahdi/" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
-                                    <li><a href="https://www.facebook.com/happy.mahdi/" className="icon brands fa-youtube-f"><span className="label">Youtube</span></a></li>
-                                    <li><a href="https://www.linkedin.com/in/ben-ayed-mehdi/" className="icon brands fa-linkedin"><span className="label">Instagram</span></a></li>
-                                    <li><a href="https://mehdibenayed.netlify.app/" class="icon brands fa-dribbble"><span class="label">Website</span></a></li>
-                                </ul> */}
-                <Text
-                  className="text-gray-900 text-xl tracking-[-0.40px] w-full"
-                  size="txtManropeSemiBold20Gray900"
-                >
-                  Social
-                </Text>
-                <div className="flex flex-row gap-4 items-start justify-start w-full">
-                  <a href="https://www.facebook.com/happy.mahdi/">
-                    <Img
-                      className="h-[80px] w-[80px]"
-                      src="images/img_clock_gray_600.svg"
-                      alt="clock"
-                    />
-                  </a>
-                  <a href="https://www.linkedin.com/in/ben-ayed-mehdi/">
-                    <Img
-                      className="h-[80px] w-[80px]"
-                      src="images/img_linkedin_gray_600.svg"
-                      alt="linkedin"
-                    />
-                  </a>
-                  <a href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
-                    <Img
-                      className="h-[80px] w-[80px]"
-                      src="images/img_play.svg"
-                      alt="play"
-                    />
-                  </a>
-                </div>
-              </div>
+            
+          </div>
+
+          <div className="flex flex-col gap-4 items-center justify-start w-full">
+            <Text
+              className="sm:text-[40px] md:text-[46px] text-[54px] text-center text-gray-900 tracking-[-1.08px] w-full"
+              size="txtManropeExtraBold54"
+            >
+              Let's Collaborate on Your Next Project
+            </Text>
+            <div className="flex sm:flex-col flex-row gap-[50px] items-center justify-center w-full">
+              <Text
+                className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-lg"
+                size="txtManropeRegular18Gray600"
+              >
+                Ready to bring your digital vision to life? I am here to help.{" "}
+                <br />
+                Whether you have a question, a project idea, or just want to say
+                hello, don't hesitate to reach out. <br />
+                Your innovative ideas deserve the best solutions, and I am
+                excited to hear about them!
+              </Text>
+              <Img
+                className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
+                src="images/generated/foosheekalogo.png"
+                alt="rectangle5616"
+              />
             </div>
           </div>
         </div>

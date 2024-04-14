@@ -14,20 +14,21 @@ const Component9_1 = () => {
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
                 size="txtManropeExtraBold36"
               >
-                Hi, I am Mehdi
+                Hello, I am Mehdi
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
                 size="txtManropeRegular18Gray700"
               >
-                I am an <strong>engine</strong> designed to activate the
-                potential of a team, a company, or a project. Specialized in{" "}
-                <strong>backend development</strong>, wired to create solutions
-                and implement <strong>creative ideas.</strong> With my technical
-                background, strong communication skills, and{" "}
-                <strong>passion for innovation,</strong> I am aiming to build
-                scalable and maintainable solutions to deliver the{" "}
-                <strong>best performance and value.</strong>
+                Specialized in <strong>backend </strong>development, wired to
+                create solutions and implement <strong>creative</strong> ideas,{" "}
+                designed to unlock the potential of a <strong>team</strong> , a
+                company, or a project. With my <strong>technical</strong>{" "}
+                background, strong <strong>communication</strong> skills, and{" "}
+                passion for <strong>innovation,</strong> I am aiming to build{" "}
+                <strong>scalable</strong> and maintainable solutions to deliver
+                the best <strong>performance</strong> and{" "}
+                <strong>value.</strong>
               </Text>
             </div>
 
@@ -35,7 +36,7 @@ const Component9_1 = () => {
               <Button className="bg-white-A700 bottom-[0] cursor-pointer flex items-center justify-center min-w-[122px] px-4 py-[9px] right-[0] rounded-[10px]">
                 <Link to="/about">
                   <Text
-                    className="text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
+                    className="text-xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
                   >
                     More about me
@@ -45,21 +46,21 @@ const Component9_1 = () => {
             </div>
 
             <div className="flex flex-row gap-4 items-start justify-start w-full">
-              <a href="https://www.facebook.com/happy.mahdi/">
+              <a target="_blank" href="https://www.facebook.com/happy.mahdi/">
                 <Img
                   className="h-[60px] w-[60px]"
                   src="images/img_clock_gray_600.svg"
                   alt="clock"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/ben-ayed-mehdi/">
+              <a target="_blank" href="https://www.linkedin.com/in/ben-ayed-mehdi/">
                 <Img
                   className="h-[60px] w-[60px]"
                   src="images/img_linkedin_gray_600.svg"
                   alt="linkedin"
                 />
               </a>
-              <a href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
+              <a target="_blank" href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
                 <Img
                   className="h-[60px] w-[60px]"
                   src="images/img_play.svg"
