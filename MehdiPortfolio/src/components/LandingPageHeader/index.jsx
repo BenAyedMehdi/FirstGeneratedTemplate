@@ -3,6 +3,7 @@ import React from "react";
 import { Button, Img, List, Text } from "components";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import { general } from "mock/general";
 
 const LandingPageHeader = (props) => {
   return (
@@ -20,12 +21,12 @@ const LandingPageHeader = (props) => {
                 className="text-orange-A700 text-xl w-auto"
                 size="txtMarkoOneRegular20"
               >
-                <Link to="/">Mehdi Ben Ayed </Link>
+                <Link to="/"> {general.name} </Link>
               </Text>
             </div>
           </div>
           <div className="flex sm:flex-1 flex-row items-center gap-10  ">
-            {/* <Text
+            <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
@@ -54,7 +55,7 @@ const LandingPageHeader = (props) => {
               size="txtManropeSemiBold16"
             >
               <Link to="/portfolio">Portfolio</Link>
-            </Text>*/}
+            </Text>
           </div>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto sm:hidden items-center justify-start w-[228px]">
             <Link to="/contactpage" className="w-full">

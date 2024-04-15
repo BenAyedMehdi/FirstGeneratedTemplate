@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Button, Img, Text, List } from "components";
 import LandingPageCard from "components/LandingPageCard";
@@ -10,7 +11,7 @@ const Component181 = () => {
         <div className="flex flex-1 flex-col items-center justify-start mx-auto w-full">
           <Img
             className="h-[250px] sm:h-auto object-cover w-full"
-            src="images/collaborativedesign.jpg"
+            src="mehdi_images/220211-1000-0096.jpg"
             alt="coverimage"
           />
         </div>
@@ -28,10 +29,10 @@ const Component181 = () => {
                     className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
                   >
-                    Foosheeka
+                    Mehdi Ben Ayed
                   </Text>
                   <div className="flex flex-row gap-3.5 items-center justify-start w-full">
-                    <div className="flex flex-row items-center justify-evenly w-1/4">
+                    <div className="flex flex-row items-center justify-evenly w-1/3">
                       <Img
                         className="h-4 w-4"
                         src="images/img_star.svg"
@@ -57,13 +58,12 @@ const Component181 = () => {
                         src="images/img_star.svg"
                         alt="star_Three"
                       />
+                      <Img
+                        className="h-4 w-4"
+                        src="images/img_star.svg"
+                        alt="star_Three"
+                      />
                     </div>
-                    <Text
-                      className="flex-1 text-base text-gray-900 w-auto"
-                      size="txtManropeSemiBold16"
-                    >
-                      4.9 review
-                    </Text>
                   </div>
                 </div>
                 <div className="flex flex-1 flex-col gap-2 items-start justify-start w-full">
@@ -90,19 +90,21 @@ const Component181 = () => {
                       className="text-gray-900 text-lg w-auto"
                       size="txtManropeSemiBold18"
                     >
-                      foosheeka@gmail.com
+                      mr.mehdi.ben.ayed@gmail.com
                     </Text>
                   </div>
                 </div>
               </div>
-              <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[112px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-                Contact
-              </Button>
+              <Link to="/contactpage" className=" cursor-pointer min-w-[112px]  rounded-[10px]">
+                <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[112px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
+                  Contact
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center md:px-10 sm:px-5 px-[120px] w-full">
             <div className="flex flex-col gap-12 items-center justify-center w-full">
-              <div className="gap-3 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-start justify-start w-full">
+              <div className="gap-3 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 items-start justify-start w-full">
                 <Button className="bg-gray-900 cursor-pointer flex-1 font-semibold py-[11px] rounded-[10px] text-base text-center text-white-A700 w-full">
                   Websites
                 </Button>
@@ -110,10 +112,7 @@ const Component181 = () => {
                   Mobile Apps
                 </Button>
                 <Button className="border border-gray-600 border-solid cursor-pointer flex-1 font-semibold py-[11px] rounded-[10px] text-base text-center text-gray-900 w-full">
-                  UI/ UX Design
-                </Button>
-                <Button className="border border-gray-600 border-solid cursor-pointer flex-1 font-semibold py-[11px] rounded-[10px] text-base text-center text-gray-900 w-full">
-                  Brand Care
+                  Desktop apps
                 </Button>
               </div>
             </div>

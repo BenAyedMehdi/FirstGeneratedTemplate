@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Img, Text, Line, Input } from "components";
+import { general } from "mock/general";
 
 const Component21 = () => {
   return (
@@ -18,14 +19,14 @@ const Component21 = () => {
                     className="text-gray-900 text-2xl tracking-[-0.40px] w-auto"
                     size="txtManropeExtraBold28"
                   >
-                    Mehdi Ben Ayed
+                    {general.name}
                   </Text>
                   <Text
                     className="leading-[180.00%] text-gray-600 text-lg"
                     size="txtManropeSemiBold18Gray600"
                   >
                     <>
-                      Budapest, Hungary
+                      {general.address}
                       <br />
                     </>
                   </Text>
@@ -41,7 +42,7 @@ const Component21 = () => {
                       className="flex-1 text-gray-900 text-xl w-auto"
                       size="txtManropeExtraBold28"
                     >
-                      (+36) 70 668 1520
+                      {general.phone}
                     </Text>
                   </div>
                   <div className="flex flex-row gap-3 items-center justify-start w-full">
@@ -54,7 +55,7 @@ const Component21 = () => {
                       className="flex-1 text-gray-900 text-xl w-auto"
                       size="txtManropeExtraBold28"
                     >
-                      mr.mehdi.ben.ayed@gmail.com
+                      {general.email}
                     </Text>
                   </div>
                 </div>
@@ -67,21 +68,21 @@ const Component21 = () => {
                   Social
                 </Text>
                 <div className="flex flex-row gap-4 items-start justify-start w-full">
-                  <a target="_blank" href="https://www.facebook.com/happy.mahdi/">
+                  <a target="_blank" href={general.facebook}>
                     <Img
                       className="h-[80px] w-[80px]"
                       src="images/img_clock_gray_600.svg"
                       alt="clock"
                     />
                   </a>
-                  <a target="_blank" href="https://www.linkedin.com/in/ben-ayed-mehdi/">
+                  <a target="_blank" href={general.linkedin}>
                     <Img
                       className="h-[80px] w-[80px]"
                       src="images/img_linkedin_gray_600.svg"
                       alt="linkedin"
                     />
                   </a>
-                  <a target="_blank" href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
+                  <a target="_blank" href={general.youtube}>
                     <Img
                       className="h-[80px] w-[80px]"
                       src="images/img_play.svg"
