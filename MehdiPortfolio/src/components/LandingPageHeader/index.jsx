@@ -14,7 +14,7 @@ const LandingPageHeader = (props) => {
             <div className="flex flex-row gap-[11px] items-center justify-start">
               <Img
                 className="h-10 w-10"
-                src="images/generated/foosheekalogo.png"
+                src={general.logo}
                 alt="home"
               />
               <Text

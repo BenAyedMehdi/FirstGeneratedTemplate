@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Img, Text, List } from "components";
+import { general } from "mock/general";
 
 const Component19 = () => {
   function handleNavigate() {
@@ -25,10 +26,10 @@ const Component19 = () => {
                         className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                         size="txtManropeBold24Gray900"
                       >
-                        Foosheeka
+                        {general.name}
                       </Text>
                       <div className="flex flex-row gap-3.5 items-center justify-start w-full">
-                        <div className="flex flex-row items-center justify-evenly w-[31%]">
+                        <div className="flex flex-row items-center justify-evenly w-[55%]">
                           <Img
                             className="h-4 w-4"
                             src="images/img_star.svg"
@@ -54,13 +55,12 @@ const Component19 = () => {
                             src="images/img_star.svg"
                             alt="star_Eight"
                           />
+                          <Img
+                            className="h-4 w-4"
+                            src="images/img_star.svg"
+                            alt="star_Eight"
+                          />
                         </div>
-                        <Text
-                          className="flex-1 text-base text-gray-900 w-auto"
-                          size="txtManropeSemiBold16"
-                        >
-                          4.9 review
-                        </Text>
                       </div>
                       <div className="flex flex-row gap-3 items-center justify-start w-full">
                         <Img
@@ -72,7 +72,7 @@ const Component19 = () => {
                           className="flex-1 text-gray-900 text-lg w-auto"
                           size="txtManropeSemiBold18"
                         >
-                          (+36) 70 668 1520
+                          {general.phone}
                         </Text>
                       </div>
                       <div className="flex flex-row gap-3 items-center justify-start w-full">
@@ -85,7 +85,7 @@ const Component19 = () => {
                           className="text-gray-900 text-lg w-auto"
                           size="txtManropeSemiBold18"
                         >
-                          foosheeka@gmail.com
+                          {general.email}
                         </Text>
                       </div>
                     </div>
@@ -122,10 +122,13 @@ const Component19 = () => {
                     className="text-gray-600 text-lg w-full"
                     size="txtManropeSemiBold18Gray600"
                   >
-                    Years of experience in software and product development
+                    +3 years of experience in software development.
+                    <br />
+                    Worked with startups and for Fortune 500 companies.
+                    <br />
+                    Advanced in C# and ASP.Net development.
                   </Text>
                 </div>
-                <br />
                 <div className="flex flex-col gap-1 items-start justify-start w-full">
                   <Text
                     className="text-gray-900 text-xl tracking-[-0.40px] w-full"
@@ -137,10 +140,9 @@ const Component19 = () => {
                     className="text-gray-600 text-lg w-full"
                     size="txtManropeSemiBold18Gray600"
                   >
-                    Mobile Apps, Websites, UI/UX Design, Branding
+                    Websites, Mobile Apps, Desktop apps
                   </Text>
                 </div>
-                <br />
                 <div className="flex flex-col gap-1 items-start justify-start w-full">
                   <Text
                     className="text-gray-900 text-xl tracking-[-0.40px] w-full"
@@ -152,7 +154,7 @@ const Component19 = () => {
                     className="text-gray-900 text-lg w-full"
                     size="txtManropeSemiBold18"
                   >
-                    Budapest, Hungary
+                    {general.address}
                   </Text>
                 </div>
                 <br />
@@ -165,31 +167,27 @@ const Component19 = () => {
                       Social
                     </Text>
                     <div className="flex flex-row gap-4 items-start justify-start w-full">
-                      <Img
-                        className="h-[30px] w-[30px]"
-                        src="images/img_clock_gray_600.svg"
-                        alt="clock"
-                      />
-                      <Img
-                        className="h-[30px] w-[30px]"
-                        src="images/img_linkedin_gray_600.svg"
-                        alt="linkedin"
-                      />
-                      <Img
-                        className="h-[30px] w-[30px]"
-                        src="images/img_twitter_gray_600.svg"
-                        alt="twitter"
-                      />
-                      <Img
-                        className="h-[30px] w-[30px]"
-                        src="images/img_play.svg"
-                        alt="play"
-                      />
-                      <Img
-                        className="h-[30px] w-[30px]"
-                        src="images/img_signal.svg"
-                        alt="signal"
-                      />
+                      <a target="_blank" href={general.facebook}>
+                        <Img
+                          className="h-[60px] w-[60px]"
+                          src="images/img_clock_gray_600.svg"
+                          alt="clock"
+                        />
+                      </a>
+                      <a target="_blank" href={general.linkedin}>
+                        <Img
+                          className="h-[60px] w-[60px]"
+                          src="images/img_linkedin_gray_600.svg"
+                          alt="linkedin"
+                        />
+                      </a>
+                      <a target="_blank" href={general.youtube}>
+                        <Img
+                          className="h-[60px] w-[60px]"
+                          src="images/img_play.svg"
+                          alt="play"
+                        />
+                      </a>
                     </div>
                   </div>
                   <div className="flex flex-1 flex-col gap-1 items-start justify-start w-full">
@@ -202,9 +200,8 @@ const Component19 = () => {
                     <Text
                       className="common-pointer text-gray-600 text-lg underline w-full"
                       size="txtManropeSemiBold18Gray600"
-                      onClick={handleNavigate}
                     >
-                      www.abc.com
+                      {general.website}
                     </Text>
                   </div>
                 </div>
