@@ -2,6 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import { Button, Img, Text, List } from "components";
+import { general } from "mock/general";
 
 const Component9_1 = () => {
   return (
@@ -46,21 +47,21 @@ const Component9_1 = () => {
             </div>
 
             <div className="flex flex-row gap-4 items-start justify-start w-full">
-              <a target="_blank" href="https://www.facebook.com/happy.mahdi/">
+              <a target="_blank" href={general.facebook}>
                 <Img
                   className="h-[60px] w-[60px]"
                   src="images/img_clock_gray_600.svg"
                   alt="clock"
                 />
               </a>
-              <a target="_blank" href="https://www.linkedin.com/in/ben-ayed-mehdi/">
+              <a target="_blank" href={general.linkedin}>
                 <Img
                   className="h-[60px] w-[60px]"
                   src="images/img_linkedin_gray_600.svg"
                   alt="linkedin"
                 />
               </a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
+              <a target="_blank" href={general.youtube}>
                 <Img
                   className="h-[60px] w-[60px]"
                   src="images/img_play.svg"
@@ -75,7 +76,7 @@ const Component9_1 = () => {
           <div className="flex md:flex-1 flex-col items-center justify-start w-[47%] md:w-full">
             <Img
               className="flex-1 md:flex-none h-[589px] sm:h-auto max-h-[589px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-              src="mehdi_images/standing.jpg"
+              src={general.images.img1}
               alt="rectangleTwenty"
             />
           </div>

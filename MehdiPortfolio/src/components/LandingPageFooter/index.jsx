@@ -2,6 +2,7 @@ import React from "react";
 
 import { Img, Text } from "components";
 import { Link } from "react-router-dom";
+import { general } from "mock/general";
 
 const LandingPageFooter = (props) => {
   return (
@@ -13,14 +14,14 @@ const LandingPageFooter = (props) => {
               <div className="flex flex-row gap-[11px] h-10 md:h-auto items-center justify-start w-[341px]">
                 <Img
                   className="h-10 w-10"
-                  src="images/generated/foosheekalogo.png"
+                  src= {general.logo}
                   alt="home_One"
                 />
                 <Text
                   className="text-orange-A700 text-xl w-auto"
                   size="txtMarkoOneRegular20"
                 >
-                  <Link to="/">Mehdi Ben Ayed</Link>
+                  <Link to="/">{general.name}</Link>
                 </Text>
               </div>
               <div className="flex flex-col gap-7 h-[194px] md:h-auto items-start justify-start w-full">
@@ -39,17 +40,17 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-auto"
                     size="txtManropeSemiBold16"
                   >
-                    (+36) 70 668 15320
+                    {general.phone}
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-auto"
                     size="txtManropeSemiBold16"
                   >
-                    me.mehdi.ben.ayed@gmail.com
+                    {general.email}
                   </Text>
                 </div>
                 <div className="flex flex-row gap-3 items-start justify-start w-full">
-                  <a target="_blank" href="https://www.facebook.com/happy.mahdi/">
+                  <a target="_blank" href={general.facebook}>
                     <div className="flex flex-col h-[30px] items-center justify-start w-[30px]">
                       <Img
                         className="h-[30px] w-[30px]"
@@ -58,14 +59,14 @@ const LandingPageFooter = (props) => {
                       />
                     </div>
                   </a>
-                  <a target="_blank" href="https://www.linkedin.com/in/ben-ayed-mehdi/">
+                  <a target="_blank" href={general.linkedin}>
                     <Img
                       className="h-[30px] w-[30px]"
                       src="images/img_linkedin.svg"
                       alt="linkedin"
                     />
                   </a>
-                  <a target="_blank" href="https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q">
+                  <a target="_blank" href={general.youtube}>
                     <div className="flex flex-col h-[30px] items-center justify-start w-[30px]">
                       <Img
                         className="h-[30px] w-[30px]"
@@ -90,19 +91,19 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Mobile App, Website
+                    Websites
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    UI/UX design
+                    Mobile Apps 
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Brand Care
+                    Desktop apps
                   </Text>
                 </div>
               </div>
@@ -118,19 +119,19 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Our products
+                    My projects
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Solutions
+                    My experience
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Content
+                    My skills
                   </Text>
                 </div>
               </div>
@@ -146,19 +147,19 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Blog
+                    Blogs
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    <Link to="/contactpage">Contact</Link>
+                    <Link to="/about">My adventures</Link>
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    <>Privacy Policy</>
+                    A day in my life
                   </Text>
                 </div>
               </div>
@@ -167,26 +168,26 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  Career
+                  Conatct
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Open positions
+                    Hire me
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Internship
+                    Partnership
                   </Text>
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
-                    Collaboration
+                    Ask me anything
                   </Text>
                 </div>
               </div>

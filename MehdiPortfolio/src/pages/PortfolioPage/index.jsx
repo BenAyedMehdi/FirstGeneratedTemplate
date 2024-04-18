@@ -16,7 +16,7 @@ const PortfolioPage = ({projects}) => {
           <Component18 projects={projects} />
         </div>
         <Component19 />
-        <Component20 />
+        {/* <Component20 />  Client review */}
         <LandingPageFooter className="bg-white-A700 flex gap-2 items-center justify-center md:px-5 px-[120px] py-20 w-full" />
       </div>
     </>
