@@ -1,6 +1,6 @@
 export const general = {
     logo: "images/generated/foosheekalogo.png",
-    name: "Mehdi Ben Ayed",
+    name: "Aziz Najjar",
     address: "Budapest, Hungary",
     intro: "punchline, paragraph",
     facebook: "https://www.facebook.com/happy.mahdi/",
