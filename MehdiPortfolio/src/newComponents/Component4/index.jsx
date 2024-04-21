@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useNavigate } from "react-router-dom";
-import { Button, Img, Text, List } from "components";
+import { Button, Img, Text } from "components";
 import LandingPageCard from "components/LandingPageCard";
 
 const landingPageCardPropList = [
@@ -42,20 +42,6 @@ const Component4 = ({projects}) => {
                   <div className="font-bold text-left text-lg text-orange-A700">
                     Explore All
                   </div>
-                </Button>
-              </div>
-              <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-start w-full">
-                <Button className="bg-transparent cursor-pointer font-bold min-w-[159px] text-center text-gray-900 text-lg">
-                  Resident Property
-                </Button>
-                <Button className="bg-transparent cursor-pointer font-bold min-w-[186px] text-center text-gray-400 text-lg">
-                  Commercial Property
-                </Button>
-                <Button className="bg-transparent cursor-pointer font-bold min-w-[164px] text-center text-gray-400 text-lg">
-                  Industrial Property
-                </Button>
-                <Button className="bg-transparent cursor-pointer font-bold min-w-[180px] text-center text-gray-400 text-lg">
-                  Agriculture Property
                 </Button>
               </div>
             </div>

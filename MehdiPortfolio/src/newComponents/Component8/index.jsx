@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Button, Img, Text, List } from "components";
+import { Img, Text } from "components";
+import { general } from "general";
 
 const Component8 = () => {
   return (
@@ -14,7 +15,7 @@ const Component8 = () => {
                 size="txtManropeExtraBold54"
               >
                 <>
-                  How We Are? <br />
+                  Who am I? <br />
                   Mission, Vision & Values
                 </>
               </Text>
@@ -29,12 +30,12 @@ const Component8 = () => {
               size="txtManropeRegular18Gray700"
             >
               <>
-                We are an engine designed to activate the potential of a team, a
-                company, or a project. Specialized in websites development,
-                wired to create solutions and implement creative ideas. Our
-                passion for innovation is what drives us to build scalable and
-                maintainable solutions to deliver the best performance and
-                value.
+                I am an engine designed to activate the full potential of a
+                team, a company, or a project. Specialized in websites
+                development, wired to create solutions and implement creative
+                ideas. Our passion for innovation is what drives us to build
+                scalable and maintainable solutions to deliver the best
+                performance and value.
               </>
             </Text>
           </div>
@@ -42,24 +43,24 @@ const Component8 = () => {
             <div className="flex md:flex-col flex-row gap-6 items-start justify-start w-full">
               <Img
                 className="flex-1 md:flex-none h-[400px] sm:h-auto max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src="images/generated/generated1.jfif"
+                src={general.images.img3}
                 alt="rectangle5592"
               />
               <Img
                 className="md:h-[400px] sm:h-auto h-full max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src="images/generated/generatedvalues.jfif"
+                src={general.images.img4}
                 alt="rectangle5593"
               />
             </div>
             <div className="flex md:flex-col flex-row gap-6 items-start justify-start w-full">
               <Img
                 className="md:h-[400px] sm:h-auto h-full max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src="images/generated/missiongenerated.jfif"
+                src={general.images.img5}
                 alt="rectangle5595"
               />
               <Img
                 className="flex-1 md:flex-none h-[400px] sm:h-auto max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src="images/websitemobile.png"
+                src={general.images.img6}
                 alt="rectangle5594"
               />
             </div>

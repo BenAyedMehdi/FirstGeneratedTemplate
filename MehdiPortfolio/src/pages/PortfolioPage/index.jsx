@@ -2,10 +2,8 @@ import React from "react";
 
 import LandingPageFooter from "components/LandingPageFooter";
 import LandingPageHeader from "components/LandingPageHeader";
-import Component0 from "newComponents/Component0";
 import Component18 from "newComponents/Component18";
 import Component19 from "newComponents/Component19";
-import Component20 from "newComponents/Component20";
 
 const PortfolioPage = ({projects}) => {
   return (

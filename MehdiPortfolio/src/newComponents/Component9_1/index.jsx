@@ -1,8 +1,8 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import { Button, Img, Text, List } from "components";
-import { general } from "mock/general";
+import { Button, Img, Text } from "components";
+import { general } from "general";
 
 const Component9_1 = () => {
   return (

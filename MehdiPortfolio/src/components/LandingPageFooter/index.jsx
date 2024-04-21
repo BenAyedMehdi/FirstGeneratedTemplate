@@ -2,7 +2,7 @@ import React from "react";
 
 import { Img, Text } from "components";
 import { Link } from "react-router-dom";
-import { general } from "mock/general";
+import { general } from "general";
 
 const LandingPageFooter = (props) => {
   return (

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { Button, Img, Text, List } from "components";
 import LandingPageCard from "components/LandingPageCard";
-import { general } from "mock/general";
+import { general } from "general";
 
 const Component181 = () => {
   return (
