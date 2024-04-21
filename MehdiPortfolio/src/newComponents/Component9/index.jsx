@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Button, Img, Text, List } from "components";
+import { Img, Text, List } from "components";
+import { general } from "general";
 
 const Component9 = () => {
   return (
@@ -13,7 +14,7 @@ const Component9 = () => {
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
                 size="txtManropeExtraBold36"
               >
-                What We Are Good At
+                What I am Good At
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
@@ -42,7 +43,7 @@ const Component9 = () => {
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                  Web and Mobile Applications
+                  Full stack development
                   </Text>
                 </div>
               </div>
@@ -58,7 +59,7 @@ const Component9 = () => {
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                  UI/UX design
+                  Prompt engineering
                   </Text>
                 </div>
               </div>
@@ -74,7 +75,7 @@ const Component9 = () => {
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                    Brand Care
+                    People management
                   </Text>
                 </div>
               </div>
@@ -82,7 +83,7 @@ const Component9 = () => {
           </div>
           <Img
             className="flex-1 md:flex-none h-[589px] sm:h-auto max-h-[589px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-            src="images/creativesoftwareicon.png"
+            src={general.images.img8}
             alt="rectangleTwenty"
           />
         </div>

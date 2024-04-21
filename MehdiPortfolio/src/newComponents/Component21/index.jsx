@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Button, Img, Text, Line, Input } from "components";
-import { general } from "mock/general";
+import { general } from "general";
 
 const Component21 = () => {
   return (
@@ -9,6 +9,34 @@ const Component21 = () => {
       <div className="flex flex-col font-manrope items-center justify-start md:px-10 sm:px-5 px-[120px] w-full">
         <div className="flex flex-col gap-11 items-center justify-start max-w-[1200px] mx-auto w-full">
           
+
+        <div className="flex flex-col gap-4 items-center justify-start w-full">
+            <Text
+              className="sm:text-[40px] md:text-[46px] text-[54px] text-center text-gray-900 tracking-[-1.08px] w-full"
+              size="txtManropeExtraBold54"
+            >
+              Let's Collaborate on Your Next Project
+            </Text>
+            <div className="flex sm:flex-col flex-row gap-[50px] items-center justify-center w-full">
+              <Text
+                className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-lg"
+                size="txtManropeRegular18Gray600"
+              >
+                Ready to bring your digital vision to life? I am here to help.{" "}
+                <br />
+                Whether you have a question, a project idea, or just want to say
+                hello, don't hesitate to reach out. <br />
+                Your innovative ideas deserve the best solutions, and I am
+                excited to hear about them!
+              </Text>
+              <Img
+                className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
+                src="images/generated/foosheekalogo.png"
+                alt="rectangle5616"
+              />
+            </div>
+          </div>
+
           <div className="bg-white-A700 border border-bluegray-100 border-solid flex md:flex-col flex-row gap-[50px] items-start justify-start p-[50px] md:px-10 sm:px-5 rounded-[10px] w-full">
             
             <div className="flex flex-1 flex-col gap-10 items-start pl-10 justify-center w-full">
@@ -171,32 +199,6 @@ const Component21 = () => {
             
           </div>
 
-          <div className="flex flex-col gap-4 items-center justify-start w-full">
-            <Text
-              className="sm:text-[40px] md:text-[46px] text-[54px] text-center text-gray-900 tracking-[-1.08px] w-full"
-              size="txtManropeExtraBold54"
-            >
-              Let's Collaborate on Your Next Project
-            </Text>
-            <div className="flex sm:flex-col flex-row gap-[50px] items-center justify-center w-full">
-              <Text
-                className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-lg"
-                size="txtManropeRegular18Gray600"
-              >
-                Ready to bring your digital vision to life? I am here to help.{" "}
-                <br />
-                Whether you have a question, a project idea, or just want to say
-                hello, don't hesitate to reach out. <br />
-                Your innovative ideas deserve the best solutions, and I am
-                excited to hear about them!
-              </Text>
-              <Img
-                className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
-                src="images/generated/foosheekalogo.png"
-                alt="rectangle5616"
-              />
-            </div>
-          </div>
         </div>
       </div>
     </>

@@ -1,12 +1,9 @@
 import React from "react";
 
-import { Button, Img, Text, List } from "components";
-import { general } from "mock/general";
+import { Button, Img, Text } from "components";
+import { general } from "general";
 
 const Component19 = () => {
-  function handleNavigate() {
-    window.location.href = "www.abc.com";
-  }
   return (
     <>
       <div className="flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] w-full">
@@ -95,7 +92,7 @@ const Component19 = () => {
                     size="txtManropeRegular18Gray600"
                   >
                     <>
-                      We are an engine designed to activate the potential of a
+                      I am an engine designed to activate the full potential of a
                       team, a company, or a project. Specialized in websites
                       development, wired to create solutions and implement
                       creative ideas. Our passion for innovation is what drives
