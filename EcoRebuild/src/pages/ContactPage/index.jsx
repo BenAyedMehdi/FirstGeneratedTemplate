@@ -3,7 +3,7 @@ import React from "react";
 import { Button, Img, Input, Line, List, Text } from "components";
 import LandingPageFooter from "components/LandingPageFooter";
 import LandingPageHeader from "components/LandingPageHeader";
-import Component0 from "newComponents/Component0";
+
 import Component21 from "newComponents/Component21";
 
 const ContactPagePage = () => {
