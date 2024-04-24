@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 
 import { Button, Img, Text, Line, Input } from "components";
 import { general } from "general";
+import { toast } from 'react-toastify';
 
 const Component21 = () => {
   const form = useRef();
@@ -11,6 +12,7 @@ const Component21 = () => {
     e.preventDefault();
 
     emailjs
+      //! to be implemented in .env in production once we link the EmailJs service with Ecorebuild email 
       // SERVICE_ID:service_38xdw0x
       // TEMPLATE_ID:template_to9p96q
       .sendForm("service_38xdw0x", "template_to9p96q", form.current, {
@@ -19,10 +21,14 @@ const Component21 = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          toast.success("Email sent successfully!", {
+            theme: "colored"
+          });
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          toast.error("Failed to send email!", {
+            theme: "colored"
+          })
         }
       );
     e.target.reset();
@@ -107,9 +113,9 @@ const Component21 = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-[13px] items-start justify-start w-full sm:w-full">
+              <div className= "flex flex-col gap-[13px] items-start justify-start w-full sm:w-full">
                 <Text
-                  className="text-gray-900 text-2xl tracking-[-0.40px] w-auto"
+                  className= "text-gray-900 text-2xl tracking-[-0.40px] w-auto"
                   size="txtManropeExtraBold28"
                 >
                   Social
@@ -118,7 +124,7 @@ const Component21 = () => {
                   <a target="_blank" href={general.instagram}>
                     <Img
                       className="h-[80px] w-[80px]"
-                      src="images/img_instagram_gray_a700.svg"
+                      src="images/img_instagram_orange_a700.svg"
                       alt="instagram"
                     />
                   </a>
@@ -143,9 +149,10 @@ const Component21 = () => {
                     <Input
                       name="user_name"
                       placeholder="Full Name"
-                      className="font-semibold placeholder:text-gray-600 text-gray-600 text-lg w-full"
-                      wrapClassName="bg-white border border-gray-200 rounded-lg p-4"
+                      className="font-semibold p-0 placeholder:text-gray-600 sm:pr-5 text-gray-600 text-left text-lg"
+                      wrapClassName="bg-white-A700 border border-bluegray-100 border-solid flex items-center pl-4 pr-[35px] py-[17px] rounded-[10px] "
                       type="text"
+                      required
                       prefix={
                         <Img
                           className="h-5 mr-3"
@@ -157,9 +164,10 @@ const Component21 = () => {
                     <Input
                       name="user_email"
                       placeholder="Email Address"
-                      className="font-semibold placeholder:text-gray-600 text-gray-600 text-lg w-full"
-                      wrapClassName="bg-white border border-gray-200 rounded-lg p-4"
+                      className="font-semibold p-0 placeholder:text-gray-600 sm:pr-5 text-gray-600 text-left text-lg"
+                      wrapClassName="bg-white-A700 border border-bluegray-100 border-solid flex items-center pl-4 pr-[35px] py-[17px] rounded-[10px]"
                       type="email"
+                      required
                       prefix={
                         <Img
                           className="h-5 mr-3"
@@ -171,9 +179,10 @@ const Component21 = () => {
                     <Input
                       name="user_phone_number"
                       placeholder="Phone Number"
-                      className="font-semibold placeholder:text-gray-600 text-gray-600 text-lg w-full"
-                      wrapClassName="bg-white border border-gray-200 rounded-lg p-4"
+                      className="font-semibold p-0 placeholder:text-gray-600 sm:pr-5 text-gray-600 text-left text-lg "
+                      wrapClassName="bg-white-A700 border border-bluegray-100 border-solid flex items-center pl-4 pr-[35px] py-[17px] rounded-[10px] "
                       type="text"
+                      required
                       prefix={
                         <Img
                           className="h-5 mr-3"
@@ -186,8 +195,9 @@ const Component21 = () => {
                       name="message"
                       className="font-semibold placeholder:text-gray-600 text-gray-600 text-lg w-full"
                       placeholder="Message"
-                      wrapClassName="bg-white border border-gray-200 rounded-lg p-4 h-48" // Adjusted height for message box
+                      wrapClassName="bg-white border border-gray-200 rounded-lg p-4 h-48" 
                       type="text"
+                      required
                     ></Input>
                   </div>
                 </div>
