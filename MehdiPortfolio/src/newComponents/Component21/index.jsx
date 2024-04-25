@@ -1,9 +1,34 @@
-import React from "react";
-
+import React, {useRef} from "react";
+import emailjs from '@emailjs/browser';
 import { Button, Img, Text, Line, Input } from "components";
 import { general } from "general";
 
 const Component21 = () => {
+
+  const form = useRef();
+
+   const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+    // SERVICE_ID:service_38xdw0x
+    // TEMPLATE_ID:template_to9p96q
+      .sendForm('service_38xdw0x', 'template_to9p96q', form.current, {
+    // PUBLIC_KEY:oh5f-_PYYg0KKG4ua
+        publicKey: 'oh5f-_PYYg0KKG4ua',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+      e.target.reset();
+  };
+
+
   return (
     <>
       <div className="flex flex-col font-manrope items-center justify-start md:px-10 sm:px-5 px-[120px] w-full">
