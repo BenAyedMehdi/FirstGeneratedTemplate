@@ -26,35 +26,41 @@ const LandingPageHeader = (props) => {
             </div>
           </div>
           <div className="flex sm:flex-1 flex-row items-center gap-20  ">
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/about">About</Link>
+            </Text>
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/portfolio">Projects</Link>
+            </Text>
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/services">Get involved</Link>
+            </Text>
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/contactpage">Contact</Link>
+            </Text>
              <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/dhiwise-dashboard">Dashboard</Link>
             </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/services">Services</Link>
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/about">About Us</Link>
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/portfolio">Portfolio</Link>
-            </Text>
           </div>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto items-center justify-start w-[228px]">
             <Link to="/contactpage" className="w-full">
               <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full">
-                Contact
+                Donate
               </Button>
             </Link>
           </div>

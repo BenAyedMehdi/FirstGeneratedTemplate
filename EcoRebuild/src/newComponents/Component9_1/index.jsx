@@ -15,21 +15,18 @@ const Component9_1 = () => {
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
                 size="txtManropeExtraBold36"
               >
-                Hello, I am Mehdi
+                Rebuilding Gaza,
+                <br /> Restoring Hope
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
                 size="txtManropeRegular18Gray700"
               >
-                Specialized in <strong>backend </strong>development, wired to
-                create solutions and implement <strong>creative</strong> ideas,{" "}
-                designed to unlock the potential of a <strong>team</strong> , a
-                company, or a project. With my <strong>technical</strong>{" "}
-                background, strong <strong>communication</strong> skills, and{" "}
-                passion for <strong>innovation,</strong> I am aiming to build{" "}
-                <strong>scalable</strong> and maintainable solutions to deliver
-                the best <strong>performance</strong> and{" "}
-                <strong>value.</strong>
+                Join <strong>EcoRebuild</strong> in transforming lives and
+                landscapes in <strong>Gaza</strong> through sustainable and
+                community-driven <strong>initiatives</strong>. 
+                Together, we can
+                create a resilient <strong>future.</strong>
               </Text>
             </div>
 
@@ -40,7 +37,7 @@ const Component9_1 = () => {
                     className="text-xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
                     size="txtManropeBold24Gray900"
                   >
-                    More about me
+                    Learn more
                   </Text>
                 </Link>
               </Button>
