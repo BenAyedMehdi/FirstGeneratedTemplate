@@ -18,8 +18,8 @@ const LandingPageFooter = (props) => {
                   alt="home_One"
                 />
                 <Text
-                  className="text-orange-A700 text-xl w-auto"
-                  size="txtMarkoOneRegular20"
+                  className="text-green-600 text-xl w-auto"
+                  size="txtManropeExtraBold28"
                 >
                   <Link to="/">{general.name}</Link>
                 </Text>

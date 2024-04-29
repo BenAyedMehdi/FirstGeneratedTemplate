@@ -14,7 +14,7 @@ const LandingPagePage = ({ projects }) => {
       <div className="bg-white-A700 flex flex-col font-markoone sm:gap-10 md:gap-10 gap-[40px] items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <div className="flex flex-col items-start justify-start w-full">
           <LandingPageHeader className="bg-white-A700 flex gap-2 h-20 md:h-auto items-center justify-between md:px-5 px-[120px] py-[19px] w-full" />
-          <div className="bg-gray-51 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
+          <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
             <div className="flex gap-2 items-center justify-center w-full">
               <div className="flex flex-col font-markoone sm:gap-5 md:gap-5 gap-[250px] items-center justify-start my-[10px] w-auto sm:w-full md:w-full">
                 <Component9_1 />

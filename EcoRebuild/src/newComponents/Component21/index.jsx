@@ -57,7 +57,7 @@ const Component21 = () => {
               </Text>
               <Img
                 className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
-                src="images/generated/foosheekalogo.png"
+                src="ecorebuild_images/logo.png"
                 alt="rectangle5616"
               />
             </div>
