@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Img, Text } from "components";
-import { general } from "general";
+// import { general } from "general";
 
 const Component8 = () => {
   return (
@@ -15,13 +15,13 @@ const Component8 = () => {
                 size="txtManropeExtraBold54"
               >
                 <>
-                  Who am I? <br />
+                  Who are we? <br />
                   Mission, Vision & Values
                 </>
               </Text>
               <Img
-                className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
-                src="images/generated/foosheekalogo.png"
+                className="h-[250px] md:h-auto object-cover rounded-[10px] w-[250px]"
+                src="ecorebuild_images/ecorebuild.png"
                 alt="rectangle5616"
               />
             </div>
@@ -30,16 +30,26 @@ const Component8 = () => {
               size="txtManropeRegular18Gray700"
             >
               <>
-                I am an engine designed to activate the full potential of a
-                team, a company, or a project. Specialized in websites
-                development, wired to create solutions and implement creative
-                ideas. Our passion for innovation is what drives us to build
-                scalable and maintainable solutions to deliver the best
-                performance and value.
+              EcoRebuild is an ambitious program initiated to foster ecological resilience and sustainable development in Gaza, a region profoundly affected by conflict and environmental degradation. The mission of EcoRebuild is to implement innovative projects that contribute to the ecological and economic revitalization of the area, supporting community engagement and sustainable practices. EcoRebuild focuses on several critical areas:
+              <br />
+              <br />
+                <li>
+                <mark>Environmental Sustainability:</mark> Developing and promoting practices that help restore and protect the environment, addressing issues such as soil degradation, energy scarcity, and waste management.
+                </li>
+              <br />
+                <li>
+                <mark>Economic Development:</mark>  Encouraging the growth of green businesses and sustainable entrepreneurship to stimulate local economies and provide new opportunities for residents.
+                </li>
+              <br />
+                <li>
+                <mark>Community Empowerment:</mark>  Engaging local communities in the planning and implementation of projects to ensure that initiatives meet their needs and harness local knowledge and skills.
+                </li>
+
               </>
             </Text>
           </div>
-          <div className="flex flex-col gap-6 items-start justify-start w-full">
+          {/* commented to be considered and compared with the carousel in the design */}
+          {/* <div className="flex flex-col gap-6 items-start justify-start w-full">
             <div className="flex md:flex-col flex-row gap-6 items-start justify-start w-full">
               <Img
                 className="flex-1 md:flex-none h-[400px] sm:h-auto max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
@@ -64,7 +74,7 @@ const Component8 = () => {
                 alt="rectangle5594"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
