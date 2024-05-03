@@ -14,7 +14,7 @@ export const general = {
 
     images: {
       img1: "ecorebuild_images/ecorebuildlogo.PNG",
-      img2: "mehdi_images/speach.jpg",
+      img2: "ecorebuild_images/sunsetportrait.jpg",
       img3: "mehdi_images/mentor.jpg",
       img4: "mehdi_images/junctionxteam.jpg",
       img5: "ecorebuild_images/ecorebuildlogo.PNG",

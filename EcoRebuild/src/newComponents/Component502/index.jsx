@@ -13,13 +13,16 @@ const Component502 = () => {
                 className="leading-[140.00%] max-w-[521px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                 size="txtManropeExtraBold36"
               >
-                We are a Creative Designers & Software Experts
+                What is EcoRebuild?
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-lg"
                 size="txtManropeRegular18Gray700"
               >
-                We are your best choice!
+                EcoRebuild is an ambitious program initiated to foster
+                ecological resilience and sustainable development in Gaza, a
+                region profoundly affected by conflict and environmental
+                degradation. 
               </Text>
             </div>
             <div className="flex flex-col gap-3 items-start justify-start w-full">
@@ -28,21 +31,21 @@ const Component502 = () => {
                 inputClassName="mr-[5px]"
                 name="findexcellentde_One"
                 id="findexcellentde_One"
-                label="Find excellent deals"
+                label="Environmental Sustainability"
               ></CheckBox>
               <CheckBox
                 className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
                 inputClassName="mr-[5px]"
                 name="friendlyhost"
                 id="friendlyhost"
-                label="Friendly host & Fast support"
+                label="Economic Development"
               ></CheckBox>
               <CheckBox
                 className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
                 inputClassName="mr-[5px]"
                 name="securepaymentsy_One"
                 id="securepaymentsy_One"
-                label="Secure payment system"
+                label="Community Empowerment"
               ></CheckBox>
             </div>
           </div>

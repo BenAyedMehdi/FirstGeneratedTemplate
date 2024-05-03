@@ -45,8 +45,10 @@ const Component501 = () => {
               className="leading-[180.00%] max-w-[557px] md:max-w-full text-gray-700 text-lg"
               size="txtManropeRegular18Gray700"
             >
-              Looking ahead, I aim to empower more startups and businesses,
-              transforming their visionary ideas into digital success stories
+              The mission of EcoRebuild is to implement innovative projects that
+              contribute to the ecological and economic revitalization of the
+              area, supporting community engagement and sustainable practices.
+              EcoRebuild focuses on several critical areas:
             </Text>
 
             <div className="flex flex-col gap-3 items-start justify-start w-full">
