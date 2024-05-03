@@ -42,16 +42,15 @@ const Component21 = () => {
               className="sm:text-[40px] md:text-[46px] text-[54px] text-center text-gray-900 tracking-[-1.08px] w-full"
               size="txtManropeExtraBold54"
             >
-              Let's Rebuild an Eco-friendly environment together!
+              We're Here to Help! 
             </Text>
             <div className="flex sm:flex-col flex-row gap-[50px] items-center justify-center w-full">
               <Text
                 className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-lg"
                 size="txtManropeRegular18Gray600"
               >
-                Ready to bring your vision to life? . <br />
-                Whether you have a question, a project idea, or just want to say
-                hello, don't hesitate to reach out. <br />
+                Contact us with any questions or get involved with EcoRebuild today.
+                <br />
                 Your innovative ideas deserve the best solutions, and we are
                 excited to hear about them!
               </Text>
