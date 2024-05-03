@@ -31,14 +31,14 @@ const AboutUsPage = ({ projects }) => {
         </div>
 
         <Component5 />
-        <Component7 />
-        <Component3 />
         <Component8 />
+        <Component3 />
+        <Component9 />
+        <Component7 />
         <div className="w-[40rem] md:w-[35] sm:w-full">
           <DemoCarousel />
         </div>
         <Component4 projects={projects} />
-        <Component9 />
         <Component10 />
         <Component7 />
         <Component21 />

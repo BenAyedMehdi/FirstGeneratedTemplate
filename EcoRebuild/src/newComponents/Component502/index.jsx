@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Img, Text, CheckBox } from "components";
+import { general } from "general";
 
 const Component502 = () => {
   return (
@@ -16,13 +17,14 @@ const Component502 = () => {
                 What is EcoRebuild?
               </Text>
               <Text
-                className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-lg"
+                className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-2xl"
                 size="txtManropeRegular18Gray700"
               >
                 EcoRebuild is an ambitious program initiated to foster
                 ecological resilience and sustainable development in Gaza, a
                 region profoundly affected by conflict and environmental
                 degradation. 
+
               </Text>
             </div>
             <div className="flex flex-col gap-3 items-start justify-start w-full">
@@ -54,8 +56,8 @@ const Component502 = () => {
           </Button>
         </div>
         <Img
-          className="flex-1 md:flex-none h-[589px] sm:h-auto max-h-[589px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-          src="images/creativesoftwareicon.png"
+          className="flex-1 md:flex-none h-[489px] sm:h-auto max-h-[489px] object-cover rounded-[10px] sm:w-[] md:w-[]"
+          src={general.images.img3}
           alt="rectangleTwenty_One"
         />
       </div>
