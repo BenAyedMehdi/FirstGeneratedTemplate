@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { general } from "general";
 
+// TODO: Make more responsive
 const LandingPageHeader = (props) => {
   return (
     <>
