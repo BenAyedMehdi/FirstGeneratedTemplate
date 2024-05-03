@@ -17,9 +17,9 @@ export const general = {
       img2: "mehdi_images/speach.jpg",
       img3: "mehdi_images/mentor.jpg",
       img4: "mehdi_images/junctionxteam.jpg",
-      img5: "mehdi_images/landing_img.jpg",
-      img6: "mehdi_images/22.jfif",
-      img7: "mehdi_images/speech.jpg",
+      img5: "ecorebuild_images/ecorebuildlogo.PNG",
+      img6: "ecorebuild_images/sunsetmeetingsquare.jpg",
+      img7: "ecorebuild_images/peoplefire.jpeg",
       img8: "mehdi_images/graduationsuccess.jpg",
     },
   };
