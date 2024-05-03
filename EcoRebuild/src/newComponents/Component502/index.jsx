@@ -27,30 +27,38 @@ const Component502 = () => {
 
               </Text>
             </div>
-            <div className="flex flex-col gap-3 items-start justify-start w-full">
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="findexcellentde_One"
-                id="findexcellentde_One"
-                label="Environmental Sustainability"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="friendlyhost"
-                id="friendlyhost"
-                label="Economic Development"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="securepaymentsy_One"
-                id="securepaymentsy_One"
-                label="Community Empowerment"
-              ></CheckBox>
-            </div>
+            
           </div>
+          <div>
+          <div className="flex flex-row gap-3 items-center justify-start w-full">
+                    <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+                    <Text
+                      className=" text-lg w-auto"
+                      size="txtManropeSemiBold18Gray600"
+                    >
+                      Environmental Sustainability
+                    </Text>
+                  </div>
+                <div className="flex flex-row gap-3 items-center justify-start w-full">
+                    <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+                    <Text
+                      className=" text-lg w-auto"
+                      size="txtManropeSemiBold18Gray600"
+                    >
+                      Economic Development
+                    </Text>
+                  </div>
+                <div className="flex flex-row gap-3 items-center justify-start w-full">
+                    <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+                    <Text
+                      className=" text-lg w-auto"
+                      size="txtManropeSemiBold18Gray600"
+                    >
+                      Community Empowerment
+                    </Text>
+                  </div>
+          </div>
+                
           <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[134px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
             Learn more
           </Button>

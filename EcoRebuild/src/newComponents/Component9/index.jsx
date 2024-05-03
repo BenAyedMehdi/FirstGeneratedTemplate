@@ -20,11 +20,7 @@ const Component9 = () => {
                 className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
                 size="txtManropeRegular18Gray700"
               >
-                <strong>- Core Specialties:</strong>  MVP development, full-stack and mobile app
-                development. 
-                <br />
-                <strong>- Expanded Services:</strong> UI/UX design, branding,
-                marketing, and social media management.
+                EcoRebuild emerged in response to the profound challenges of conflict and environmental degradation in Gaza. Inspired by the urgent need to repair and enhance the natural and built environments, our vision is to create a thriving community where ecological resilience and economic vitality are interwoven. The journey began in [start year], uniting community leaders, environmental experts, and local stakeholders.
               </Text>
             </div>
             <List
@@ -43,7 +39,13 @@ const Component9 = () => {
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                  Full stack development
+                    Genesis of the Vision
+                  </Text>
+                  <Text
+                    className="text-gray-700"
+                    size="txtManropeRegular18Gray700"
+                  >
+                    Our initiative began with a clear mission to restore ecological resilience and revitalize the community through sustainable development.
                   </Text>
                 </div>
               </div>
@@ -59,32 +61,26 @@ const Component9 = () => {
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                  Prompt engineering
+                    Key Milestone
                   </Text>
-                </div>
-              </div>
-              <div className="flex flex-1 sm:flex-col flex-row gap-[26px] items-start justify-start my-0 w-full">
-                <Text
-                  className="border-2 border-gray-900 border-solid flex h-[35px] items-center justify-center rounded-[17px] text-center text-gray-900 text-xl tracking-[-0.40px] w-[35px]"
-                  size="txtManropeExtraBold20"
-                >
-                  3
-                </Text>
-                <div className="flex flex-1 flex-col gap-[17px] items-start justify-start w-full">
                   <Text
-                    className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
-                    size="txtManropeBold22"
+                    className="text-gray-700"
+                    size="txtManropeRegular18Gray700"
                   >
-                    People management
+                    The journey officially began in [start year], marking the commencement of our efforts to transform the landscape and lives in Gaza.
                   </Text>
                 </div>
               </div>
+              <Img
+              className="flex-1 md:flex-none h-[35rem] sm:h-auto object-cover rounded-[10px] w-[50rem]"
+              src='ecorebuild_images/Roadmap horizental.png'
+              alt="Hope-lamp"/>
             </List>
           </div>
           <Img
-            className="flex-1 md:flex-none h-[589px] sm:h-auto max-h-[589px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-            src={general.images.img8}
-            alt="rectangleTwenty"
+            className="flex-1 md:flex-none h-[25rem] sm:h-auto object-cover rounded-[10px] w-[20rem]"
+            src='ecorebuild_images/Hope-lamp.jpeg'
+            alt="Hope-lamp"
           />
         </div>
       </div>

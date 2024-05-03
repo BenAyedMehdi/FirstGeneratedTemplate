@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Img, Text } from "components";
-// import { general } from "general";
+import { general } from "general";
 
 const Component8 = () => {
   return (
@@ -56,8 +56,9 @@ const Component8 = () => {
               </>
             </Text>
           </div>
-          {/* commented to be considered and compared with the carousel in the design */}
-          {/* <div className="flex flex-col gap-6 items-start justify-start w-full">
+          {/* //TODO: commented to be considered and compared with the carousel in the design & discuss the responsiveness of this section*/}
+          {/* Placeholder for the 4 projects   */}
+          <div className="flex flex-col gap-6 items-start justify-start w-full">
             <div className="flex md:flex-col flex-row gap-6 items-start justify-start w-full">
               <Img
                 className="flex-1 md:flex-none h-[400px] sm:h-auto max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
@@ -66,7 +67,7 @@ const Component8 = () => {
               />
               <Img
                 className="md:h-[400px] sm:h-auto h-full max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src={general.images.img4}
+                src='ecorebuild_images/Eco-friendly-puzzle.jpeg'
                 alt="rectangle5593"
               />
             </div>
@@ -82,7 +83,7 @@ const Component8 = () => {
                 alt="rectangle5594"
               />
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
