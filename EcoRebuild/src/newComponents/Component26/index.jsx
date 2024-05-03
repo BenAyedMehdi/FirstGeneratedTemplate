@@ -16,12 +16,12 @@ const Component26 = () => {
             className="sm:text-4xl md:text-[42px] text-[46px] text-center text-gray-900 tracking-[-0.92px] w-full"
             size="txtManropeExtraBold46"
           >
-            Search Property / Anything
+            Frequently asked questions
           </Text>
           <div className="flex flex-col gap-[25px] items-start justify-start w-full">
             <Input
               name="search_One"
-              placeholder="Search Property / Anything"
+              placeholder="Search about EcoRebild"
               value={searchonevalue}
               onChange={(e) => setSearchonevalue(e)}
               className="font-semibold p-0 placeholder:text-gray-600 sm:px-5 text-gray-600 text-left text-lg w-full"
@@ -50,7 +50,7 @@ const Component26 = () => {
             ></Input>
             <div className="bg-white-A700 border border-bluegray-100 border-solid flex flex-col items-start justify-start sm:px-5 px-[30px] py-7 rounded-[10px] w-full">
               <div className="flex flex-col gap-5 items-start justify-start w-full">
-                <div className="flex flex-col gap-4 items-start justify-start max-w-[732px] w-full">
+                {/* <div className="flex flex-col gap-4 items-start justify-start max-w-[732px] w-full">
                   <Text
                     className="text-gray-900 text-xl tracking-[-0.40px] w-full"
                     size="txtManropeSemiBold20Gray900"
@@ -74,7 +74,7 @@ const Component26 = () => {
                       Exercitationem dolorum dolore perferendis praesen…
                     </Text>
                   </div>
-                </div>
+                </div> */}
                 <List
                   className="flex flex-col gap-5 items-center w-full"
                   orientation="vertical"
@@ -84,23 +84,22 @@ const Component26 = () => {
                       className="text-gray-900 text-xl tracking-[-0.40px] w-full"
                       size="txtManropeSemiBold20Gray900"
                     >
-                      Add CMS or Business Hosting and index your site to see
-                      real search results!
+                      Can I volunteer with EcoRebuild? How do I apply?
                     </Text>
                     <div className="flex flex-col gap-2.5 items-start justify-start w-full">
                       <Text
                         className="text-base text-gray-600 w-full"
                         size="txtManropeSemiBold16Gray600"
                       >
-                        https://relasto.com
+                        https://ecorebuild.org/volunteer
                       </Text>
                       <Text
                         className="text-gray-600 text-sm w-full"
                         size="txtManropeRegular14"
                       >
-                        Ipsum sunt incidunt veniam sint nemo et aut. Vero ut
-                        quibusdam autem suscipit culpa perspiciatis.
-                        Exercitationem dolorum dolore perferendis praesen…
+                        Yes, we welcome volunteers! You can apply through our
+                        website by filling out the volunteer application form
+                        under the 'Get Involved' section.
                       </Text>
                     </div>
                   </div>
@@ -110,22 +109,54 @@ const Component26 = () => {
                       className="text-gray-900 text-xl tracking-[-0.40px] w-full"
                       size="txtManropeSemiBold20Gray900"
                     >
-                      <>You&#39;re viewing sample results.</>
+                      {/* <>You&#39;re viewing sample results.</> */}
+                      Are there opportunities for corporate partnerships with
+                      EcoRebuild?
                     </Text>
                     <div className="flex flex-col gap-2.5 items-start justify-start w-full">
                       <Text
                         className="text-base text-gray-600 w-full"
                         size="txtManropeSemiBold16Gray600"
                       >
-                        https://relasto.com
+                        https://ecorebuild.org/partnership
                       </Text>
                       <Text
                         className="text-gray-600 text-sm w-full"
                         size="txtManropeRegular14"
                       >
-                        Ipsum sunt incidunt veniam sint nemo et aut. Vero ut
-                        quibusdam autem suscipit culpa perspiciatis.
-                        Exercitationem dolorum dolore perferendis praesen…
+                        Absolutely, we value corporate partnerships and offer
+                        several collaboration options, including project
+                        sponsorship, in-kind donations, and employee volunteer
+                        programs. Please contact our partnership team for more
+                        information.
+                      </Text>
+                    </div>
+                  </div>
+                  <Line className="self-center h-px bg-bluegray-100 w-full" />
+                  <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
+                    <Text
+                      className="text-gray-900 text-xl tracking-[-0.40px] w-full"
+                      size="txtManropeSemiBold20Gray900"
+                    >
+                      {/* <>You&#39;re viewing sample results.</> */}
+                      How does EcoRebuild choose its projects?
+                    </Text>
+                    <div className="flex flex-col gap-2.5 items-start justify-start w-full">
+                      <Text
+                        className="text-base text-gray-600 w-full"
+                        size="txtManropeSemiBold16Gray600"
+                      >
+                        https://ecorebuild.org/projects
+                      </Text>
+                      <Text
+                        className="text-gray-600 text-sm w-full"
+                        size="txtManropeRegular14"
+                      >
+                        Projects are selected based on community needs
+                        assessments, sustainability potential, and their
+                        alignment with our core mission. We engage with local
+                        stakeholders and experts to ensure that our projects
+                        address the most pressing needs effectively.
                       </Text>
                     </div>
                   </div>
