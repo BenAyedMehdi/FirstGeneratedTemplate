@@ -15,14 +15,17 @@ const Component2 = () => {
                   className="leading-[140.00%] max-w-[488px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                   size="txtManropeExtraBold36"
                 >
-                  A full-stack web developer<br />
+                  A program for social innovation in Gaza
+                  <br />
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
                   size="txtManropeRegular18"
                 >
-                  I am an experienced Software Engineer. I can build great websites and apps, and help anyone stand out
-                  online. Join me and let's make something amazing together!{" "}
+                  EcoRebuild is an ambitious program initiated to foster
+                  ecological resilience and sustainable development in Gaza, a
+                  region profoundly affected by conflict and environmental
+                  degradation.{" "}
                 </Text>
               </div>
               <Button className="bg-gray-900 cursor-pointer font-semibold ml-4 py-[17px] rounded-[10px] text-base text-center text-white-A700 w-full">
@@ -44,8 +47,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      I make <br />
-                      Websites
+                      Transform <br />
+                      Lifes
                     </>
                   </Text>
                 </div>
@@ -62,8 +65,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Scrum <br />
-                      Framework
+                      Connect <br />
+                      Gaza's youth
                     </>
                   </Text>
                 </div>
@@ -80,8 +83,9 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      I work at <br />
-                      #Bosch
+                      Rebuild Gaza
+                      <br />
+                      Sustainably
                     </>
                   </Text>
                 </div>
@@ -98,7 +102,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Trainings <br />& Events
+                      Transform <br />
+                      Landscapes
                     </>
                   </Text>
                 </div>
