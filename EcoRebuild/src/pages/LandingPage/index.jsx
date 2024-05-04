@@ -6,6 +6,7 @@ import Component2 from "newComponents/Component2";
 import Component4 from "newComponents/Component4";
 import Component7 from "newComponents/Component7";
 import Component9_1 from "newComponents/Component9_1";
+import Component3 from "newComponents/Component3";
 
 const LandingPagePage = ({ projects }) => {
 
@@ -23,6 +24,7 @@ const LandingPagePage = ({ projects }) => {
           </div>
         </div>
         <Component2 />
+        <Component3 />
         <div className="bg-gray-51 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
           <Component4 projects={projects} />
         </div>

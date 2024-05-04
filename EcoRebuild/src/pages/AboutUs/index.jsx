@@ -32,9 +32,7 @@ const AboutUsPage = ({ projects }) => {
 
         <Component5 />
         <Component8 />
-        <Component3 />
         <Component9 />
-        <Component7 />
         {/* <div className="w-[40rem] md:w-[35] sm:w-full">
           <DemoCarousel />
         </div> */}
