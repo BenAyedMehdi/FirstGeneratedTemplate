@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Img, List, Text } from "components";
+import { Button, Img, Text } from "components";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { general } from "general";
@@ -10,7 +10,7 @@ const LandingPageHeader = (props) => {
   return (
     <>
       <header className={props.className}>
-        <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
+        <div className="flex md:flex-col flex-row md:gap-10 items-center justify-around w-full">
           <div className="header-row my-px">
             <div className="flex flex-row gap-[11px] items-center justify-start">
               <Img
@@ -26,7 +26,7 @@ const LandingPageHeader = (props) => {
               </Text>
             </div>
           </div>
-          <div className="flex sm:flex-1 flex-row items-center gap-20  ">
+          <nav className="flex flex-wrap justify-between md:justify-start gap-6 mx-4">
             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
@@ -57,10 +57,10 @@ const LandingPageHeader = (props) => {
             >
               <Link to="/dhiwise-dashboard">Dashboard</Link>
             </Text>
-          </div>
+          </nav>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto items-center justify-start w-[228px]">
             <Link to="/contactpage" className="w-full">
-              <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full">
+              <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-4/5">
                 Donate
               </Button>
             </Link>
