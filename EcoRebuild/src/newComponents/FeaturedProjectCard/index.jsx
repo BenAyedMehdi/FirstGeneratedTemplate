@@ -3,7 +3,7 @@ import React from "react";
 import { Button, Img, Text } from "components";
 import { Link } from "react-router-dom";
 
-const LandingPageCard = ({ project }) => {
+const FeaturedProjectCard = ({ project }) => {
 
   const projectChoice = () => {
     console.log(project.id);
@@ -105,4 +105,4 @@ const LandingPageCard = ({ project }) => {
   );
 };
 
-export default LandingPageCard;
+export default FeaturedProjectCard;

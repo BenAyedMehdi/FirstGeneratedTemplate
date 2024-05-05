@@ -3,6 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Img, Text } from "components";
 import LandingPageCard from "components/LandingPageCard";
+import FeaturedProjectCard from "newComponents/FeaturedProjectCard";
 
 const landingPageCardPropList = [
   {},
@@ -49,7 +50,7 @@ const Component4 = ({projects}) => {
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
                 {projects.map((project, index) => ( index<3 &&
                   <React.Fragment key={`LandingPageCard${index}`}>
-                    <LandingPageCard
+                    <FeaturedProjectCard
                       className="flex flex-1 flex-col h-full items-start justify-start w-full"
                       project={project}
                     />
