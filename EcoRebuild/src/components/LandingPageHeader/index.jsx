@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { general } from "general";
 
-// TODO: Make more responsive
+
 const LandingPageHeader = (props) => {
   return (
     <>
@@ -50,6 +50,12 @@ const LandingPageHeader = (props) => {
               size="txtManropeSemiBold16"
             >
               <Link to="/contactpage">Contact</Link>
+            </Text>
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/faq">FAQ</Link>
             </Text>
              <Text
               className="text-base text-gray-900 w-auto"

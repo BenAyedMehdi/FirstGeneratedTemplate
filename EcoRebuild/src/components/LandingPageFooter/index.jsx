@@ -136,7 +136,7 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                  Contact
+                    <Link to="/contactpage">Contact</Link>
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
                  
@@ -146,12 +146,18 @@ const LandingPageFooter = (props) => {
                   >
                     Partnership
                   </Text>
-                  <Text
-                    className="text-base text-gray-900 w-full"
-                    size="txtManropeSemiBold16"
-                  >
-                    Ask anything
-                  </Text>
+                 
+                </div>
+              </div>
+              <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
+                <Text
+                  className="text-gray-900 text-lg w-full"
+                  size="txtManropeBold18Gray900"
+                >
+                    <Link to="/faq">FAQ</Link>
+                </Text>
+                <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+  
                 </div>
               </div>
             </div>
