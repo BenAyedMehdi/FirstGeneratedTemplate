@@ -9,7 +9,6 @@ import Component9_1 from "newComponents/Component9_1";
 import Component3 from "newComponents/Component3";
 
 const LandingPagePage = ({ projects }) => {
-
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-markoone sm:gap-10 md:gap-10 gap-[40px] items-center justify-start mx-auto w-auto sm:w-full md:w-full">
@@ -23,11 +22,11 @@ const LandingPagePage = ({ projects }) => {
             </div>
           </div>
         </div>
-        <Component2 />
         <Component3 />
         <div className="bg-gray-51 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
           <Component4 projects={projects} />
         </div>
+        <Component2 />
         <Component7 />
         <LandingPageFooter className="bg-white-A700 flex gap-2 items-center justify-center md:px-5 px-[120px] py-20 w-full" />
       </div>

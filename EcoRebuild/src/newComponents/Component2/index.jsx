@@ -28,9 +28,18 @@ const Component2 = () => {
                   degradation.{" "}
                 </Text>
               </div>
-              <Button className="bg-gray-900 cursor-pointer font-semibold ml-4 py-[17px] rounded-[10px] text-base text-center text-white-A700 w-full">
-                <Link to="/contactpage">Contact</Link>
-              </Button>
+              <div className="bg-white-A700 border border-gray-600 border-solid flex flex-1 flex-col  justify-center sm:px-5 text-base text-center px-6 py-[7px] rounded-[10px] w-full">
+                <Button className="bg-white-A700 bottom-[0] cursor-pointer flex items-center justify-center min-w-[122px] px-4 py-[9px] right-[0] rounded-[10px]">
+                  <Link to="/about">
+                    <Text
+                      className="text-xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
+                      size="txtManropeBold24Gray900"
+                    >
+                      Learn more
+                    </Text>
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
           <div className="flex flex-1 flex-col items-start justify-start w-full">
