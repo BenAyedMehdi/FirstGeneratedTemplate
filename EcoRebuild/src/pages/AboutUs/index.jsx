@@ -31,12 +31,15 @@ const AboutUsPage = ({ projects }) => {
         </div>
 
         <Component5 />
+        <Component10 />
         <Component8 />
         <Component9 />
         {/* <div className="w-[40rem] md:w-[35] sm:w-full">
           <DemoCarousel />
         </div> */}
-        <Component4 projects={projects} />
+        <div className="bg-gray-51 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
+          <Component4 projects={projects} />
+        </div>
         <Component7 />
         <Component21 />
         <LandingPageFooter className="bg-white-A700 flex gap-2 items-center justify-center md:px-5 px-[120px] py-20 w-full" />

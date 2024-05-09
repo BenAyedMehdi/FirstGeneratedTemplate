@@ -23,7 +23,7 @@ const LandingPagePage = ({ projects }) => {
           </div>
         </div>
         <Component3 />
-        <div className="bg-gray-51 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
+        <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
           <Component4 projects={projects} />
         </div>
         <Component2 />
