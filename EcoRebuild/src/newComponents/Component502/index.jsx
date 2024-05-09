@@ -23,45 +23,39 @@ const Component502 = () => {
                 EcoRebuild is an ambitious program initiated to foster
                 ecological resilience and sustainable development in Gaza, a
                 region profoundly affected by conflict and environmental
-                degradation. 
-
+                degradation.
               </Text>
             </div>
-            
           </div>
           <div>
-          <div className="flex flex-row gap-3 items-center justify-start w-full">
-                    <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
-                    <Text
-                      className=" text-lg w-auto"
-                      size="txtManropeSemiBold18Gray600"
-                    >
-                      Environmental Sustainability
-                    </Text>
-                  </div>
-                <div className="flex flex-row gap-3 items-center justify-start w-full">
-                    <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
-                    <Text
-                      className=" text-lg w-auto"
-                      size="txtManropeSemiBold18Gray600"
-                    >
-                      Economic Development
-                    </Text>
-                  </div>
-                <div className="flex flex-row gap-3 items-center justify-start w-full">
-                    <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
-                    <Text
-                      className=" text-lg w-auto"
-                      size="txtManropeSemiBold18Gray600"
-                    >
-                      Community Empowerment
-                    </Text>
-                  </div>
+            <div className="flex flex-row gap-3 items-center justify-start w-full">
+              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+              <Text
+                className=" text-lg w-auto"
+                size="txtManropeSemiBold18Gray600"
+              >
+                Environmental Sustainability
+              </Text>
+            </div>
+            <div className="flex flex-row gap-3 items-center justify-start w-full">
+              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+              <Text
+                className=" text-lg w-auto"
+                size="txtManropeSemiBold18Gray600"
+              >
+                Economic Development
+              </Text>
+            </div>
+            <div className="flex flex-row gap-3 items-center justify-start w-full">
+              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+              <Text
+                className=" text-lg w-auto"
+                size="txtManropeSemiBold18Gray600"
+              >
+                Community Empowerment
+              </Text>
+            </div>
           </div>
-                
-          <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[134px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-            Learn more
-          </Button>
         </div>
         <Img
           className="flex-1 md:flex-none h-[489px] sm:h-auto max-h-[489px] object-cover rounded-[10px] sm:w-[] md:w-[]"

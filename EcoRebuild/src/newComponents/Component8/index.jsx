@@ -11,19 +11,18 @@ const Component8 = () => {
           <div className="flex flex-col gap-4 items-center justify-start w-full">
             <div className="flex sm:flex-col flex-row gap-[130px] items-center justify-center w-full">
               <Text
-                className="leading-[140.00%] sm:text-[40px] md:text-[46px] text-[54px] text-center text-gray-900 tracking-[-1.08px]"
+                className="leading-[140.00%] sm:text-[40px] md:text-[46px] my-8 text-[54px] text-center text-gray-900 tracking-[-1.08px]"
                 size="txtManropeExtraBold54"
               >
                 <>
-                  What's our Vision? <br />
-                  Impact, Change, Value
+                  What's our Vision? 
                 </>
               </Text>
-              <Img
+              {/* <Img
                 className="h-[300px] md:h-auto object-cover rounded-[10px] w-[300px]"
                 src="ecorebuild_images/ecorebuild.png"
                 alt="rectangle5616"
-              />
+              /> */}
             </div>
             <Text
               className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-700 text-2xl"

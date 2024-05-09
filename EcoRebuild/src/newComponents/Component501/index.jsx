@@ -82,9 +82,6 @@ const Component501 = () => {
               
             </div>
           </div>
-          <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[138px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-            Get Started
-          </Button>
         </div>
       </div>
     </>
