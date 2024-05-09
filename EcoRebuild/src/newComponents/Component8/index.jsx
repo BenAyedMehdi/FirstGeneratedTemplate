@@ -67,7 +67,7 @@ const Component8 = () => {
               />
               <Img
                 className="md:h-[400px] sm:h-auto h-full max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src='ecorebuild_images/Eco-friendly-puzzle.jpeg'
+                src={general.images.img9}
                 alt="rectangle5593"
               />
             </div>

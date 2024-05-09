@@ -21,5 +21,6 @@ export const general = {
       img6: "ecorebuild_images/sunsetmeetingsquare.jpg",
       img7: "ecorebuild_images/peoplefire.jpeg",
       img8: "mehdi_images/graduationsuccess.jpg",
+      img9: "ecorebuild_images/projects/orangelight.jpg",
     },
   };
