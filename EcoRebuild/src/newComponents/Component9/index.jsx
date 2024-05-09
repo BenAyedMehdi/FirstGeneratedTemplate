@@ -71,10 +71,6 @@ const Component9 = () => {
                   </Text>
                 </div>
               </div>
-              <Img
-              className="flex-1 md:flex-none h-[35rem] sm:h-auto object-cover rounded-[10px] w-[50rem]"
-              src='ecorebuild_images/Roadmap horizental.png'
-              alt="Hope-lamp"/>
             </List>
           </div>
           <Img
