@@ -39,50 +39,49 @@ const Component501 = () => {
               className="leading-[140.00%] max-w-[557px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
               size="txtManropeExtraBold36"
             >
-              My mission
+              The mission of EcoRebuild
             </Text>
             <Text
-              className="leading-[180.00%] max-w-[557px] md:max-w-full text-gray-700 text-lg"
+              className="leading-[180.00%] max-w-[557px] md:max-w-full text-gray-700 text-2xl"
               size="txtManropeRegular18Gray700"
             >
-              Looking ahead, I aim to empower more startups and businesses,
-              transforming their visionary ideas into digital success stories
+              Our mission is to create a vibrant community of high-impact innovators dedicated
+              to regeneration of conflicted effected areas, transforming ideas
+              into the sustainable development and impactful realities.
             </Text>
 
             <div className="flex flex-col gap-3 items-start justify-start w-full">
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="findexcellentde_One"
-                id="findexcellentde_One"
-                label="UI/UX Design"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="friendlyhost"
-                id="friendlyhost"
-                label="Website Development"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="securepaymentsy_One"
-                id="securepaymentsy_One"
-                label="mobile app development"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="securepaymentsy_One"
-                id="securepaymentsy_One"
-                label="Branding & Marketing"
-              ></CheckBox>
+             
+              <div className="flex flex-row gap-3 items-center justify-start w-full">
+                    <div className="bg-gray-600 h-2.5  w-2.5"></div>
+                    <Text
+                      className=" text-lg w-auto"
+                      size="txtManropeSemiBold18Gray600"
+                    >
+                      Repair and enhance the ecological health of Gaza.
+                    </Text>
+              </div>
+              <div className="flex flex-row gap-3 items-center justify-start w-full">
+                    <div className="bg-gray-600 h-2.5  w-2.5"></div>
+                    <Text
+                      className=" text-lg w-auto"
+                      size="txtManropeSemiBold18Gray600"
+                    >
+                      Provide sustainable economic opportunities to its residents.
+                    </Text>
+              </div>
+              <div className="flex flex-row gap-3 items-center justify-start w-full">
+                    <div className="bg-gray-600 h-2.5  w-2.5"></div>
+                    <Text
+                      className=" text-lg w-auto"
+                      size="txtManropeSemiBold18Gray600"
+                    >
+                      Empower local communities by involving them directly in resilience-building initiatives.
+                    </Text>
+              </div>
+              
             </div>
           </div>
-          <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[138px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-            Get Started
-          </Button>
         </div>
       </div>
     </>

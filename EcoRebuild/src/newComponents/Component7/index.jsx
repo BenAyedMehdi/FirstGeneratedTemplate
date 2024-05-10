@@ -3,6 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Img, Text, List, Input } from "components";
 import Component71 from "newComponents/Component71";
+import { general } from "general";
 
 const Component7 = () => {
   const navigate = useNavigate();
@@ -40,22 +41,24 @@ const Component7 = () => {
             >
               <Component71
                 article={{
-                  name: "From not knowing hackathons to winning one in just a month",
-                  image: "mehdi_images/22.jfif",
+                  name: "Why Gaza needs an enviromental renewal program? ",
+                  image: general.images.img5,
                   link:"https://crafthub.events/from-not-knowing-hackathons-to-winning-one-in-just-a-month/",
                 }}
               />
               <Component71
                 article={{
-                  name: "Build a community: The importance of working in teams",
-                  image: "mehdi_images/together.jpg",
+                  name: "Partnerships: Collaborations That Amplify Impact",
+                  image: general.images.img6,
+                  date: "21 May 2024",
                   link: "https://www.linkedin.com/posts/ben-ayed-mehdi_hackathon-startup-smb-activity-6997563433390878720-oMTg?utm_source=share&utm_medium=member_desktop",
                 }}
               />
               <Component71
                 article={{
-                  name: "An inspiring graduation speach for future engineers",
-                  image: "mehdi_images/speech.jpg",
+                  name: "Local lives Transformed by EcoRebuild Projects",
+                  image: general.images.img7,
+                  date: "27 June 2024",
                   link:"https://www.linkedin.com/posts/ben-ayed-mehdi_informationtechnology-engineering-university-activity-6904784362886553600-TSx7?utm_source=share&utm_medium=member_desktop",
                 }}
               />

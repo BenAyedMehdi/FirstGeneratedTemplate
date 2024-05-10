@@ -6,7 +6,7 @@ import { general } from "general";
 const Component9 = () => {
   return (
     <>
-      <div className="flex flex-col font-manrope items-center justify-center max-w-[1440px] pl-[120px] pr-[173px] md:px-10 sm:px-5 w-full">
+      <div className="bg-green-50 flex flex-col font-manrope items-center justify-center max-w-[1440px] py-[40px] pl-[120px] pr-[173px] md:px-10 sm:px-5 w-full">
         <div className="flex md:flex-col flex-row md:gap-10 gap-[84px] items-center justify-start max-w-[1147px] mx-auto w-full">
           <div className="flex flex-1 flex-col gap-14 items-start justify-start w-full">
             <div className="flex flex-col gap-5 items-start justify-start w-full">
@@ -14,17 +14,14 @@ const Component9 = () => {
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
                 size="txtManropeExtraBold36"
               >
-                What I am Good At
+                How we started
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
                 size="txtManropeRegular18Gray700"
               >
-                <strong>- Core Specialties:</strong>  MVP development, full-stack and mobile app
-                development. 
-                <br />
-                <strong>- Expanded Services:</strong> UI/UX design, branding,
-                marketing, and social media management.
+                EcoRebuild emerged in response to the profound challenges of
+                conflict and environmental degradation in Gaza.
               </Text>
             </div>
             <List
@@ -43,7 +40,14 @@ const Component9 = () => {
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                  Full stack development
+                    Exploration phase
+                  </Text>
+                  <Text
+                    className="text-gray-700"
+                    size="txtManropeRegular18Gray700"
+                  >
+                    Participants engage in workshops designed to deepen their
+                    understanding of the unique challenges faced within Gaza.
                   </Text>
                 </div>
               </div>
@@ -59,7 +63,14 @@ const Component9 = () => {
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                  Prompt engineering
+                    Creation phase
+                  </Text>
+                  <Text
+                    className="text-gray-700"
+                    size="txtManropeRegular18Gray700"
+                  >
+                    Guided by experienced mentors, participants transformed
+                    their understanding and insights into actionable ideas.
                   </Text>
                 </div>
               </div>
@@ -75,16 +86,23 @@ const Component9 = () => {
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                    People management
+                    Implementation phase
+                  </Text>
+                  <Text
+                    className="text-gray-700"
+                    size="txtManropeRegular18Gray700"
+                  >
+                    Teams transition from ideation to action, working closely
+                    with local communities to bring their solutions to life.
                   </Text>
                 </div>
               </div>
             </List>
           </div>
           <Img
-            className="flex-1 md:flex-none h-[589px] sm:h-auto max-h-[589px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-            src={general.images.img8}
-            alt="rectangleTwenty"
+            className="flex-1 md:flex-none h-[25rem] sm:h-auto object-cover rounded-[10px] w-[20rem]"
+            src="ecorebuild_images/Hope-lamp.jpeg"
+            alt="Hope-lamp"
           />
         </div>
       </div>

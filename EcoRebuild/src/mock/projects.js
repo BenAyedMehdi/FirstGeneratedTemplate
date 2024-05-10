@@ -1,7 +1,7 @@
 export const projectsList = [
   {
     id: 1,
-    name: "Smart SMS",
+    name: "Enhancing Menstrual Hygiene",
     punchline: "Stay connected even when disconnected!",
     url: "https://smartsms.netlify.app/",
     type: "Website",
@@ -12,9 +12,9 @@ export const projectsList = [
       "We bring the future to the past. The next-gen phone services. No Internet No problem!",
     highlights: {
       category: "MVP",
-      duration: "3 days",
+      duration: "Prototyping",
       state: "Completed",
-      date: "Nov 2023",
+      date: "5 members",
       other: "No Info",
     },
     customer: {
@@ -26,14 +26,14 @@ export const projectsList = [
       img: "images/projects/takeoff.jpg",
     },
     images: {
-      img1: "images/projects/12.jpg",
+      img1: "ecorebuild_images/projects/pad.png",
       img2: "images/projects/11.jpg",
       img3: "images/projects/14.jpg",
     },
   },
   {
     id: 2,
-    name: "Menja",
+    name: "Soil Remediation with mushroom",
     punchline: "Building a better future for food with IoT!",
     url: "https://menjateam.netlify.app/",
     type: "Website",
@@ -44,7 +44,7 @@ export const projectsList = [
       "Our mission is to give you full control over your food. We are here to help you growing your own fruits and vegetables. Now you can choose to decide, plant, monitor and eat the products you grow!",
     highlights: {
       category: "MVP",
-      duration: "2 days",
+      duration: "Testing",
       state: "Completed",
       date: "Oct 2022",
       other: "No Info",
@@ -58,14 +58,14 @@ export const projectsList = [
       img: "images/projects/menja0.jpg",
     },
     images: {
-      img1: "images/projects/menja1.jpg",
+      img1: "ecorebuild_images/projects/funghi.jpg",
       img2: "images/projects/menja2.jpg",
       img3: "images/projects/menja3.jpg",
     },
   },
   {
     id: 3,
-    name: "Silver Lining",
+    name: "Eco-Conversion of Energy",
     punchline: "Managing your internation expenses made easy!",
     url: "https://silverlining-wise.netlify.app/",
     type: "Website",
@@ -76,7 +76,7 @@ export const projectsList = [
       "A gamified UI to help users manage their international expenses. The app is designed to help users manage their international expenses and to help them save money. The app is designed to help users manage their international expenses and to help them save moneyand have fun!.",
     highlights: {
       category: "MVP",
-      duration: "2 days",
+      duration: "Designing",
       state: "Completed",
       date: "Oct 2022",
       other: "No Info",
@@ -90,7 +90,7 @@ export const projectsList = [
       img: "images/projects/silverlining.jpg",
     },
     images: {
-      img1: "images/projects/wise1.jpg",
+      img1: "ecorebuild_images/projects/greenlight.jpg",
       img2: "images/projects/wise2.jpg",
       img3: "images/projects/wise3.jpg",
     },

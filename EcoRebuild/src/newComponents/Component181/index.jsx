@@ -11,7 +11,7 @@ const Component181 = () => {
       <div className="flex flex-col font-manrope md:px-5 relative w-full">
         <div className="flex flex-1 flex-col items-center justify-start mx-auto w-full">
           <Img
-            className="h-[250px] sm:h-auto object-cover w-full"
+            className="h-[450px] sm:h-auto object-cover w-full"
             src={general.images.img2}
             alt="coverimage"
           />

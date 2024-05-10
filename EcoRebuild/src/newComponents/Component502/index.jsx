@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Img, Text, CheckBox } from "components";
+import { general } from "general";
 
 const Component502 = () => {
   return (
@@ -13,46 +14,52 @@ const Component502 = () => {
                 className="leading-[140.00%] max-w-[521px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                 size="txtManropeExtraBold36"
               >
-                We are a Creative Designers & Software Experts
+                What is EcoRebuild?
               </Text>
               <Text
-                className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-lg"
+                className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-2xl"
                 size="txtManropeRegular18Gray700"
               >
-                We are your best choice!
+                EcoRebuild is an ambitious program initiated to foster
+                ecological resilience and sustainable development in Gaza, a
+                region profoundly affected by conflict and environmental
+                degradation.
               </Text>
             </div>
-            <div className="flex flex-col gap-3 items-start justify-start w-full">
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="findexcellentde_One"
-                id="findexcellentde_One"
-                label="Find excellent deals"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="friendlyhost"
-                id="friendlyhost"
-                label="Friendly host & Fast support"
-              ></CheckBox>
-              <CheckBox
-                className="font-semibold sm:pr-5 text-gray-900 text-left text-lg"
-                inputClassName="mr-[5px]"
-                name="securepaymentsy_One"
-                id="securepaymentsy_One"
-                label="Secure payment system"
-              ></CheckBox>
+          </div>
+          <div>
+            <div className="flex flex-row gap-3 items-center justify-start w-full">
+              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+              <Text
+                className=" text-lg w-auto"
+                size="txtManropeSemiBold18Gray600"
+              >
+                Environmental Sustainability
+              </Text>
+            </div>
+            <div className="flex flex-row gap-3 items-center justify-start w-full">
+              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+              <Text
+                className=" text-lg w-auto"
+                size="txtManropeSemiBold18Gray600"
+              >
+                Economic Development
+              </Text>
+            </div>
+            <div className="flex flex-row gap-3 items-center justify-start w-full">
+              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
+              <Text
+                className=" text-lg w-auto"
+                size="txtManropeSemiBold18Gray600"
+              >
+                Community Empowerment
+              </Text>
             </div>
           </div>
-          <Button className="bg-gray-900 cursor-pointer font-semibold min-w-[134px] py-[13px] rounded-[10px] text-base text-center text-white-A700">
-            Learn more
-          </Button>
         </div>
         <Img
-          className="flex-1 md:flex-none h-[589px] sm:h-auto max-h-[589px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-          src="images/creativesoftwareicon.png"
+          className="flex-1 md:flex-none h-[489px] sm:h-auto max-h-[489px] object-cover rounded-[10px] sm:w-[] md:w-[]"
+          src={general.images.img3}
           alt="rectangleTwenty_One"
         />
       </div>

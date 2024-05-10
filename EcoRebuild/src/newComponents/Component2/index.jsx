@@ -15,19 +15,31 @@ const Component2 = () => {
                   className="leading-[140.00%] max-w-[488px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                   size="txtManropeExtraBold36"
                 >
-                  A full-stack web developer<br />
+                  A program for social innovation in Gaza
+                  <br />
                 </Text>
                 <Text
                   className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
                   size="txtManropeRegular18"
                 >
-                  I am an experienced Software Engineer. I can build great websites and apps, and help anyone stand out
-                  online. Join me and let's make something amazing together!{" "}
+                  EcoRebuild is an ambitious program initiated to foster
+                  ecological resilience and sustainable development in Gaza, a
+                  region profoundly affected by conflict and environmental
+                  degradation.{" "}
                 </Text>
               </div>
-              <Button className="bg-gray-900 cursor-pointer font-semibold ml-4 py-[17px] rounded-[10px] text-base text-center text-white-A700 w-full">
-                <Link to="/contactpage">Contact</Link>
-              </Button>
+              <div className="bg-white-A700 border border-gray-600 border-solid flex flex-1 flex-col  justify-center sm:px-5 text-base text-center px-6 py-[7px] rounded-[10px] w-full">
+                <Button className="bg-white-A700 bottom-[0] cursor-pointer flex items-center justify-center min-w-[122px] px-4 py-[9px] right-[0] rounded-[10px]">
+                  <Link to="/about">
+                    <Text
+                      className="text-xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
+                      size="txtManropeBold24Gray900"
+                    >
+                      Learn more
+                    </Text>
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
           <div className="flex flex-1 flex-col items-start justify-start w-full">
@@ -44,8 +56,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      I make <br />
-                      Websites
+                      Transform <br />
+                      Lifes
                     </>
                   </Text>
                 </div>
@@ -62,8 +74,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Scrum <br />
-                      Framework
+                      Connect <br />
+                      Gaza's youth
                     </>
                   </Text>
                 </div>
@@ -80,8 +92,9 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      I work at <br />
-                      #Bosch
+                      Rebuild Gaza
+                      <br />
+                      Sustainably
                     </>
                   </Text>
                 </div>
@@ -98,7 +111,8 @@ const Component2 = () => {
                     size="txtManropeExtraBold28"
                   >
                     <>
-                      Trainings <br />& Events
+                      Transform <br />
+                      Landscapes
                     </>
                   </Text>
                 </div>

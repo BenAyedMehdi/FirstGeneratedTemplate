@@ -1,5 +1,5 @@
 export const general = {
-    logo: "images/generated/foosheekalogo.png",
+    logo: "ecorebuild_images/pnglogo.png",
     name: "EcoRebuild",
     address: "Amman, Jordan",
     intro: "punchline, paragraph",
@@ -13,13 +13,14 @@ export const general = {
     punchline: "Our mission is to create an eco-friendly community.",
 
     images: {
-      img1: "mehdi_images/standing.jpg",
-      img2: "mehdi_images/speach.jpg",
-      img3: "mehdi_images/mentor.jpg",
+      img1: "ecorebuild_images/ecorebuildlogo.PNG",
+      img2: "ecorebuild_images/sunsetportrait.jpg",
+      img3: "ecorebuild_images/bigteamphoto.jpg",
       img4: "mehdi_images/junctionxteam.jpg",
-      img5: "mehdi_images/landing_img.jpg",
-      img6: "mehdi_images/22.jfif",
-      img7: "mehdi_images/speech.jpg",
+      img5: "ecorebuild_images/ecorebuildlogo.PNG",
+      img6: "ecorebuild_images/sunsetmeetingsquare.jpg",
+      img7: "ecorebuild_images/peoplefire.jpeg",
       img8: "mehdi_images/graduationsuccess.jpg",
+      img9: "ecorebuild_images/projects/orangelight.jpg",
     },
   };
