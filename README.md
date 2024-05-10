@@ -5,7 +5,6 @@
 # [Gaza-Palestine Demo](https://gazapalestine.netlify.app/)
 
 ## Ongoing:
-- EcoRebuild Website
 -- Feature branch: ecorebuild
 -- Feature branch: ecorebuild-prepare-for-v1.1
 
