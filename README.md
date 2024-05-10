@@ -8,4 +8,8 @@
 - EcoRebuild Website
 -- Feature branch: ecorebuild
 
-## v1.0
+## EcoRebuild v1.0
+- 10/05/2024
+
+## EcoRebuild v1.1
+- 21/05/2024
