@@ -1,5 +1,5 @@
 export const general = {
-    logo: "ecorebuild_images/logo.png",
+    logo: "ecorebuild_images/pnglogo.png",
     name: "EcoRebuild",
     address: "Amman, Jordan",
     intro: "punchline, paragraph",
