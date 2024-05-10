@@ -14,7 +14,7 @@ const LandingPageHeader = (props) => {
           <div className="header-row my-px">
             <div className="flex flex-row gap-[11px] items-center justify-start">
               <Img
-                className="h-10 w-10"
+                className="h-[60px] w-[70px]"
                 src={general.logo}
                 alt="home"
               />

@@ -28,7 +28,7 @@ const LandingPagePage = ({ projects }) => {
         </div>
         <Component2 />
         <Component7 />
-        <LandingPageFooter className="bg-white-A700 flex gap-2 items-center justify-center md:px-5 px-[120px] py-20 w-full" />
+        <LandingPageFooter />
       </div>
     </>
   );

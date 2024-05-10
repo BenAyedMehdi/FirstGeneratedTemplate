@@ -4,21 +4,17 @@ import { Img, Text } from "components";
 import { Link } from "react-router-dom";
 import { general } from "general";
 
-const LandingPageFooter = (props) => {
+const LandingPageFooter = () => {
   return (
     <>
-      <footer className={props.className}>
-        <div className="flex flex-col md:gap-10 gap-[120px] items-start justify-start w-full">
+      <footer className="bg-white-A700 flex gap-2 items-center justify-center md:px-5 px-[120px] py-6 w-full">
+        <div className="flex flex-col md:gap-10 gap-[20px] items-start justify-start w-full">
           <div className="flex md:flex-col flex-row md:gap-5 items-center justify-start w-full">
-            <div className="flex flex-col gap-[43px] items-start justify-start w-[341px]">
+            <div className="flex flex-col gap-[23px] items-start justify-start w-[341px]">
               <div className="flex flex-row gap-[11px] h-10 md:h-auto items-center justify-start w-[341px]">
-                <Img
-                  className="h-10 w-10"
-                  src= {general.logo}
-                  alt="home_One"
-                />
+                <Img className="h-[60px] w-[70px]" src={general.logo} alt="home_One" />
                 <Text
-                  className="text-red-600 text-xl w-auto"
+                  className="text-red-600 text-3xl w-auto"
                   size="txtManropeExtraBold28"
                 >
                   <Link to="/">{general.name}</Link>
@@ -29,9 +25,7 @@ const LandingPageFooter = (props) => {
                   className="leading-[160.00%] text-base text-gray-900"
                   size="txtManropeSemiBold16"
                 >
-                  <>
-                  Building Tomorrow, Together: Restoring Gaza's Environment and Communities
-                  </>
+                  <>Rebuilding Gaza, Restoring Hope</>
                 </Text>
                 <div className="flex flex-col gap-1 items-start justify-start w-auto">
                   <Text
@@ -128,7 +122,6 @@ const LandingPageFooter = (props) => {
                   >
                     <Link to="/about">Adventures</Link>
                   </Text>
-                  
                 </div>
               </div>
               <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
@@ -136,17 +129,15 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                    <Link to="/contactpage">Contact</Link>
+                  <Link to="/contactpage">Contact</Link>
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                 
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
                   >
                     Partnership
                   </Text>
-                 
                 </div>
               </div>
               <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
@@ -154,16 +145,14 @@ const LandingPageFooter = (props) => {
                   className="text-gray-900 text-lg w-full"
                   size="txtManropeBold18Gray900"
                 >
-                    <Link to="/faq">FAQ</Link>
+                  <Link to="/faq">FAQ</Link>
                 </Text>
-                <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-  
-                </div>
+                <div className="flex flex-col gap-3.5 items-start justify-start w-full"></div>
               </div>
             </div>
           </div>
           <Text
-            className="text-base text-gray-900 w-full"
+            className="text-base text-gray-900 text-center w-full"
             size="txtManropeSemiBold16"
           >
             © 2024 All rights reserved.
