@@ -7,3 +7,6 @@
 ## Ongoing:
 - EcoRebuild Website
 -- Feature branch: ecorebuild
+
+## v1.0
+- Demo to Client: 10/5/2024
