@@ -5,6 +5,8 @@ import LandingPageHeader from "components/LandingPageHeader";
 import Component18 from "newComponents/Component18";
 import Component19 from "newComponents/Component19";
 
+// TODO: Implement Projects and Project pages
+
 const PortfolioPage = ({projects}) => {
   return (
     <>
