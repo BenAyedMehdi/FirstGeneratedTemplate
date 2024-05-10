@@ -7,5 +7,8 @@
 ## Ongoing:
 - EcoRebuild Website
 -- Feature branch: ecorebuild
+-- Feature branch: ecorebuild-prepare-for-v1.1
 
 ## v1.0
+
+## v1.1
