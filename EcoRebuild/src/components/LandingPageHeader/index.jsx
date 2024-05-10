@@ -19,32 +19,38 @@ const LandingPageHeader = (props) => {
                 alt="home"
               />
               <Text
-                className="text-red-600 text-xl w-auto"
+                className="text-red-600 text-3xl w-auto"
                 size="txtManropeExtraBold28"
               >
                 <Link to="/"> {general.name} </Link>
               </Text>
             </div>
           </div>
-          <nav className="flex flex-wrap justify-between md:justify-start gap-6 mx-4">
+          <nav className="flex flex-wrap justify-between md:justify-start gap-8 mx-2">
+            <Text
+              className="text-base text-gray-900 w-auto"
+              size="txtManropeSemiBold16"
+            >
+              <Link to="/">Home</Link>
+            </Text>
             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/about">About</Link>
             </Text>
-            <Text
+            {/* <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/portfolio">Projects</Link>
-            </Text>
+            </Text> 
             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/services">Get involved</Link>
-            </Text>
+            </Text>*/}
             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
@@ -57,17 +63,17 @@ const LandingPageHeader = (props) => {
             >
               <Link to="/faq">FAQ</Link>
             </Text>
-             <Text
+             {/* <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/dhiwise-dashboard">Dashboard</Link>
-            </Text>
+            </Text> */}
           </nav>
-          <div className="flex flex-row gap-10 h-[42px] md:h-auto items-center justify-start w-[228px]">
+          <div className="flex flex-row gap-10 h-[42px] md:h-auto items-center justify-start w-[128px]">
             <Link to="/contactpage" className="w-full">
-              <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-4/5">
-                Donate
+              <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full">
+                Contact
               </Button>
             </Link>
           </div>
