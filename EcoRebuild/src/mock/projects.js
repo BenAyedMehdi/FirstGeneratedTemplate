@@ -95,4 +95,36 @@ export const projectsList = [
       img3: "images/projects/wise3.jpg",
     },
   },
+  {
+    id: 4,
+    name: "4 Eco-Conversion of Energy",
+    punchline: "Managing your internation expenses made easy!",
+    url: "https://silverlining-wise.netlify.app/",
+    type: "Website",
+    tech: "MUI-React",
+    description:
+      "The project was developed in a Hackathon to provide a solution for international expenses",
+    about:
+      "A gamified UI to help users manage their international expenses. The app is designed to help users manage their international expenses and to help them save money. The app is designed to help users manage their international expenses and to help them save moneyand have fun!.",
+    highlights: {
+      category: "MVP",
+      duration: "Designing",
+      state: "Completed",
+      date: "Oct 2022",
+      other: "No Info",
+    },
+    customer: {
+      name: "Silver Lining",
+      rating: "5",
+      reviews: "5 review",
+      email: "silverlining@gmail.com",
+      phone: "+65 0231 965 965",
+      img: "images/projects/silverlining.jpg",
+    },
+    images: {
+      img1: "ecorebuild_images/projects/greenlight.jpg",
+      img2: "images/projects/wise2.jpg",
+      img3: "images/projects/wise3.jpg",
+    },
+  },
 ];
