@@ -52,6 +52,14 @@ const LandingPageFooter = () => {
                   <Link to="/">Home</Link>
                 </Text>
               </div>
+              <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
+                <Text
+                  className="text-gray-900 text-lg w-full"
+                  size="txtManropeBold18Gray900"
+                >
+                  <Link to="/portfolio">Projects</Link>
+                </Text>
+              </div>
               {/* About section */}
               <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
                 <Text
