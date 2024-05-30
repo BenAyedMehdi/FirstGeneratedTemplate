@@ -9,8 +9,8 @@ const Component18 = ({projects}) => {
 
   return (
     <>
-      <div className="flex flex-1 flex-col gap-[58px] items-center justify-start mx-auto w-full z-[1]">
-        <Component181 />
+      <div className="flex flex-1 flex-col gap-[58px] items-center pt-[20px] justify-start mx-auto w-full z-[1]">
+        {/* <Component181 /> */}
         <Component182 projects={projectsList}/>
       </div>
     </>

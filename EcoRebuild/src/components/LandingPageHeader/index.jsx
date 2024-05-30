@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { general } from "general";
 
+// Make it fixed
 
 const LandingPageHeader = (props) => {
   return (
@@ -39,18 +40,18 @@ const LandingPageHeader = (props) => {
             >
               <Link to="/about">About</Link>
             </Text>
-            {/* <Text
+            <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/portfolio">Projects</Link>
             </Text> 
-            <Text
+            {/* <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/services">Get involved</Link>
-            </Text>*/}
+            </Text> */}
             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
@@ -63,12 +64,12 @@ const LandingPageHeader = (props) => {
             >
               <Link to="/faq">FAQ</Link>
             </Text>
-             {/* <Text
+             <Text
               className="text-base text-gray-900 w-auto"
               size="txtManropeSemiBold16"
             >
               <Link to="/dhiwise-dashboard">Dashboard</Link>
-            </Text> */}
+            </Text>
           </nav>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto items-center justify-start w-[128px]">
             <Link to="/contactpage" className="w-full">

@@ -4,6 +4,10 @@ import LandingPageFooter from "components/LandingPageFooter";
 import LandingPageHeader from "components/LandingPageHeader";
 import Component18 from "newComponents/Component18";
 import Component19 from "newComponents/Component19";
+import Component20 from "newComponents/Component20";
+import Component7 from "newComponents/Component7";
+
+// TODO: Implement Projects and Project pages
 
 const PortfolioPage = ({projects}) => {
   return (
@@ -13,8 +17,10 @@ const PortfolioPage = ({projects}) => {
           <LandingPageHeader className="bg-white-A700 flex gap-2 h-20 md:h-auto items-center justify-between md:px-5 py-[19px] w-full" />
           <Component18 projects={projects} />
         </div>
-        <Component19 />
-        {/* <Component20 />  Client review */}
+        {/* <Component19 />
+        <Component20 />  Client review */}
+        
+        <Component7 />
         <LandingPageFooter/>
       </div>
     </>

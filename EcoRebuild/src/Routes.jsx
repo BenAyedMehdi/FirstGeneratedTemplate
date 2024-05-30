@@ -7,6 +7,7 @@ import ProjectPage from "pages/ProjectPage";
 import ServicesPage from "pages/ServicesPage";
 import PortfolioPage from "pages/PortfolioPage";
 import { projectsList } from "mock/projects";
+import ErrorPage from "pages/Error";
 const License = React.lazy(() => import("pages/License"));
 const PrivacyPolicy = React.lazy(() => import("pages/PrivacyPolicy"));
 const FAQ = React.lazy(() => import("pages/FAQ"));
@@ -24,7 +25,7 @@ const ProjectRoutes = () => {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage projects={projectsList}/>} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<ErrorPage />} />
           <Route path="/about" element={<AboutUs projects={projectsList}/>} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/portfolio" element={<PortfolioPage projects={projectsList}/>} />
