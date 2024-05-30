@@ -37,12 +37,12 @@ const LandingPageCard = ({ project }) => {
           <div className="flex flex-row gap-[31px] items-center justify-center w-full">
             <Button
               onClick={projectChoice}
-              className="bg-gray-900 cursor-pointer flex-1 font-manrope font-semibold py-[13px] rounded-[10px] text-base text-center text-white-A700 w-auto"
+              className="bg-gray-900 cursor-pointer flex-1 font-manrope font-semibold py-[13px] rounded-[10px] text-base text-center text-white-A700 w-auto hover:bg-gray-700 transition-colors duration-300"
             >
               <Link to="/projectdetails">View Details</Link>
             </Button>
             <Button
-              className="common-pointer bg-gray-900 cursor-pointer gap-[10px] flex items-center rounded-[10px] py-[13px] justify-center min-w-[124px]"
+              className="common-pointer bg-gray-900 cursor-pointer gap-[10px] flex items-center rounded-[10px] py-[13px] justify-center min-w-[124px] hover:bg-gray-700 transition-colors duration-300"
               onClick={openYoutubeVideo}
               rightIcon={<Img src="images/img_play.svg" alt="Video" />}
             >
