@@ -39,7 +39,7 @@ export const projectsList = [
     type: "Website",
     tech: "MUI-React",
     description:
-      "The project was developed by Menja to provide a smart farming solution",
+      "The project was developed by Menja to provide a smart farming solution, We are here to help you growing your own fruits and vegetables.",
     about:
       "Our mission is to give you full control over your food. We are here to help you growing your own fruits and vegetables. Now you can choose to decide, plant, monitor and eat the products you grow!",
     highlights: {
