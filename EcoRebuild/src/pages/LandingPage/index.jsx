@@ -22,11 +22,11 @@ const LandingPagePage = ({ projects }) => {
             </div>
           </div>
         </div>
-        <Component3 />
+        <Component2 />
+        {/* <Component3 /> */}
         <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
           <Component4 projects={projects} />
         </div>
-        <Component2 />
         <Component7 />
         <LandingPageFooter />
       </div>

@@ -35,7 +35,7 @@ const Component21 = () => {
   };
   return (
     <>
-      <div className="flex flex-col font-manrope items-center justify-start md:px-10 sm:px-5 px-[120px] w-full">
+      <div className="flex flex-col font-manrope items-center justify-start md:px-10 sm:px-5 py-[30px] px-[120px] w-full">
         <div className="flex flex-col gap-11 items-center justify-start max-w-[1200px] mx-auto w-full">
           <div className="flex flex-col gap-4 items-center justify-start w-full">
             <Text
