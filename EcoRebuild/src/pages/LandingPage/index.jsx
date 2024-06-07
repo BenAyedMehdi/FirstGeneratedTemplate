@@ -11,7 +11,7 @@ import Component3 from "newComponents/Component3";
 const LandingPagePage = ({ projects }) => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-markoone sm:gap-10 md:gap-10 gap-[40px] items-center justify-start mx-auto w-auto sm:w-full md:w-full">
+      <div className="bg-white-A700 flex flex-col font-markoone items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <div className="flex flex-col items-start justify-start w-full">
           <LandingPageHeader className="bg-white-A700 flex gap-2 h-20 md:h-auto items-center justify-between md:px-5  py-[19px] w-full" />
           <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
