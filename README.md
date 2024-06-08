@@ -6,7 +6,7 @@
 
 ## Ongoing:
 -- Feature branch: ecorebuild
--- Feature branch: ecorebuild-feature-project-page
+-- Feature branch: ecorebuild-prepare-v1.2
 
 ## v1.0
 
