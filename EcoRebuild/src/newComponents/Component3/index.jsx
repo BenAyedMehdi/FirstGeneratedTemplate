@@ -6,7 +6,7 @@ const Component3 = () => {
   return (
     <>
       <div className="bg-gray-50 flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] py-[50px] w-full">
-          <div className="flex sm:flex-col flex-row md:gap-10  items-center px-[120px] py-[50px] py-[50px] justify-center w-full">
+          <div className="flex sm:flex-col flex-row md:gap-10 items-center px-[120px] py-[10px] justify-center w-full">
             <Text
               className="text-5xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-auto"
               size="txtManropeExtraBold36"
@@ -14,7 +14,7 @@ const Component3 = () => {
               EcoRebuild in numbers
             </Text>
           </div>
-        <div className="flex md:flex-col flex-row md:gap-10 gap-[100px] items-start justify-start max-w-[1200px] mx-auto w-full">
+        <div className="flex md:flex-col flex-row md:gap-10 gap-[100px] py-[20px] items-start justify-start max-w-[1200px] mx-auto w-full">
           <List
             className="md:flex-1 sm:flex-col flex-row md:gap-10 gap-[100px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 w-[73%] md:w-full"
             orientation="horizontal"
