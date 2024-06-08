@@ -10,7 +10,7 @@ import { general } from "general";
 const LandingPageHeader = (props) => {
   return (
     <>
-      <header className={props.className}>
+      <header className="fixed top-0 left-0 right-0 bottom-0 bg-white-A700 flex gap-2 h-20 md:h-auto items-center justify-between md:px-5  py-[19px] w-full z-50">
         <div className="flex md:flex-col flex-row md:gap-10 items-center justify-around w-full">
           <div className="header-row my-px">
             <div className="flex flex-row gap-[11px] items-center justify-start">
@@ -28,58 +28,66 @@ const LandingPageHeader = (props) => {
             </div>
           </div>
           <nav className="flex flex-wrap justify-between md:justify-start gap-8 mx-2">
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/">Home</Link>
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/about">About</Link>
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/portfolio">Projects</Link>
-            </Text> 
-            {/* <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/services">Get involved</Link>
-            </Text> */}
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/contactpage">Contact</Link>
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/faq">FAQ</Link>
-            </Text>
-             <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              <Link to="/dhiwise-dashboard">Dashboard</Link>
-            </Text>
+            <Link to="/">
+              <Text
+                className="text-base cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
+                size="txtManropeSemiBold16"
+              >
+                Home
+              </Text>
+            </Link>
+            <Link to="/about">
+              <Text
+                className="text-base cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
+                size="txtManropeSemiBold16"
+              >
+                About
+              </Text>
+            </Link>
+            <Link to="/portfolio">
+              <Text
+                className="text-base cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
+                size="txtManropeSemiBold16"
+              >
+                Projects
+              </Text>
+            </Link>
+            <Link to="/contactpage">
+              <Text
+                className="text-base cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
+                size="txtManropeSemiBold16"
+              >
+                Contact
+              </Text>
+            </Link>
+            <Link to="/faq">
+              <Text
+                className="text-base cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
+                size="txtManropeSemiBold16"
+              >
+                FAQ
+              </Text>
+            </Link>
+            {/* <Link to="/dhiwise-dashboard">
+              <Text
+                className="text-base cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
+                size="txtManropeSemiBold16"
+              >
+                Dashboard
+              </Text>
+            </Link> */}
           </nav>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto items-center justify-start w-[128px]">
             <Link to="/contactpage" className="w-full">
-              <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full">
+              <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full  hover:bg-gray-700 transition-colors duration-300">
                 Contact
               </Button>
             </Link>
           </div>
         </div>
       </header>
+      <div className="h-20">
+      </div>
     </>
   );
 };

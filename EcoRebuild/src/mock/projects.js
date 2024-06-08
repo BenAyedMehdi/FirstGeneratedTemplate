@@ -97,7 +97,7 @@ export const projectsList = [
   },
   {
     id: 4,
-    name: "Housing for Gaza",
+    name: "Housing for Gaza Refugees",
     punchline: "Building Resilient Homes, Restoring Hope",
     url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
     type: "Website",

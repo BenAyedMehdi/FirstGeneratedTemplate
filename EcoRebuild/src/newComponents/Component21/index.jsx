@@ -206,7 +206,7 @@ const Component21 = () => {
                     ></Input>
                   </div>
                 </div>
-                <Button className="mt-4 bg-gray-400 hover:bg-gray-500 font-semibold py-4 rounded-lg text-white w-full text-lg">
+                <Button className="mt-4 bg-gray-900 font-semibold py-4 rounded-lg text-white-A700 w-full text-lg hover:bg-gray-700 transition-colors duration-300">
                   SEND
                 </Button>
               </form>

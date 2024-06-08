@@ -12,9 +12,9 @@ import Component7 from "newComponents/Component7";
 const PortfolioPage = ({projects}) => {
   return (
     <>
-      <div className="bg-gray-51 flex flex-col font-markoone sm:gap-10 md:gap-10 gap-[100px] items-center justify-center mx-auto w-auto sm:w-full md:w-full">
+      <div className="bg-deep_orange-50 flex flex-col font-markoone sm:gap-10 md:gap-10 gap-[100px] items-center justify-center mx-auto w-auto sm:w-full md:w-full">
         <div className="flex flex-col items-start justify-start w-full">
-          <LandingPageHeader className="bg-white-A700 flex gap-2 h-20 md:h-auto items-center justify-between md:px-5 py-[19px] w-full" />
+          <LandingPageHeader/>
           <Component18 projects={projects} />
         </div>
         {/* <Component19 />

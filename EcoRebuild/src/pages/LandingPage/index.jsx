@@ -13,7 +13,8 @@ const LandingPagePage = ({ projects }) => {
     <>
       <div className="bg-white-A700 flex flex-col font-markoone items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <div className="flex flex-col items-start justify-start w-full">
-          <LandingPageHeader className="bg-white-A700 flex gap-2 h-20 md:h-auto items-center justify-between md:px-5  py-[19px] w-full" />
+          <LandingPageHeader/>
+          
           <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
             <div className="flex gap-2 items-center justify-center w-full">
               <div className="flex flex-col font-markoone sm:gap-5 md:gap-5 gap-[250px] items-center justify-start my-[10px] w-auto sm:w-full md:w-full">
@@ -22,11 +23,11 @@ const LandingPagePage = ({ projects }) => {
             </div>
           </div>
         </div>
-        <Component2 />
         {/* <Component3 /> */}
-        <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
+        <div className="bg-deep_orange-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
           <Component4 projects={projects} />
         </div>
+        <Component2 />
         <Component7 />
         <LandingPageFooter />
       </div>
