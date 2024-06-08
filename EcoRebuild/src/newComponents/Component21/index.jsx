@@ -35,7 +35,7 @@ const Component21 = () => {
   };
   return (
     <>
-      <div className="flex flex-col font-manrope items-center justify-start md:px-10 sm:px-5 px-[120px] w-full">
+      <div className="flex flex-col font-manrope items-center justify-start md:px-10 sm:px-5 py-[30px] px-[120px] w-full">
         <div className="flex flex-col gap-11 items-center justify-start max-w-[1200px] mx-auto w-full">
           <div className="flex flex-col gap-4 items-center justify-start w-full">
             <Text
@@ -56,14 +56,14 @@ const Component21 = () => {
                 excited to hear about them!
               </Text>
               <Img
-                className="h-[182px] md:h-auto object-cover rounded-[10px] w-[182px]"
-                src="ecorebuild_images/logo.png"
+                className="h-auto object-cover rounded-[10px] w-[182px]"
+                src={general.logo}
                 alt="rectangle5616"
               />
             </div>
           </div>
 
-          <div className="bg-white-A700 border border-bluegray-100 border-solid flex md:flex-col flex-row gap-[50px] items-start justify-start p-[50px] md:px-10 sm:px-5 rounded-[10px] w-full">
+          <div className="bg-white-A700 border border-bluegray-100 border-solid flex md:flex-col flex-row gap-[50px] items-start justify-start px-[50px] py-[10px] md:px-10 sm:px-5 rounded-[10px] w-full">
             <div className="flex flex-1 flex-col gap-10 items-start pl-10 justify-center w-full">
               <div className="flex flex-col gap-8 items-start justify-start w-full">
                 <br />
@@ -135,12 +135,8 @@ const Component21 = () => {
                   </a>
                 </div>
               </div>
-              <Text
-                className=" md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.48px] w-full"
-                size="txtManropeBold24Gray900"
-              ></Text>
             </div>
-            <Line className="bg-bluegray-100 h-[534px] md:h-px md:w-full w-px" />
+            <Line className="bg-bluegray-100 h-[584px] md:h-px md:w-full w-px" />
             <div className="flex flex-1 flex-col items-center justify-start w-full py-10">
               <form ref={form} onSubmit={sendEmail} className="w-full max-w-lg">
                 <div className="flex flex-col gap-4">
@@ -206,7 +202,7 @@ const Component21 = () => {
                     ></Input>
                   </div>
                 </div>
-                <Button className="mt-4 bg-gray-400 hover:bg-gray-500 font-semibold py-4 rounded-lg text-white w-full text-lg">
+                <Button className="mt-4 bg-gray-900 font-semibold py-4 rounded-lg text-white-A700 w-full text-lg hover:bg-gray-700 transition-colors duration-300">
                   SEND
                 </Button>
               </form>

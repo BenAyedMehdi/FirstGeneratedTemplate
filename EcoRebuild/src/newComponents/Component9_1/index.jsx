@@ -64,7 +64,7 @@ const Component9_1 = () => {
           </div>
           <div className="flex md:flex-1 flex-col items-center justify-start w-[47%] md:w-full">
             <Img
-              className="flex-1 md:flex-none h-[589px] sm:h-auto max-h-[589px] object-cover rounded-[10px] sm:w-[] md:w-[]"
+              className="flex-1 md:flex-none h-auto max-h-[489px] object-cover rounded-[10px] sm:w-[] md:w-[]"
               src={general.images.img1}
               alt="rectangleTwenty"
             />

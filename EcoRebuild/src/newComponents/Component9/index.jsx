@@ -6,7 +6,7 @@ import { general } from "general";
 const Component9 = () => {
   return (
     <>
-      <div className="bg-green-50 flex flex-col font-manrope items-center justify-center max-w-[1440px] py-[40px] pl-[120px] pr-[173px] md:px-10 sm:px-5 w-full">
+      <div className="bg-green-50 flex flex-col font-manrope items-center justify-center py-[40px] pl-[120px] pr-[173px] md:px-10 sm:px-5 w-full">
         <div className="flex md:flex-col flex-row md:gap-10 gap-[84px] items-center justify-start max-w-[1147px] mx-auto w-full">
           <div className="flex flex-1 flex-col gap-14 items-start justify-start w-full">
             <div className="flex flex-col gap-5 items-start justify-start w-full">

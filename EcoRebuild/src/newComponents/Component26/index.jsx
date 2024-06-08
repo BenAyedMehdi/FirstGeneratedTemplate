@@ -50,38 +50,13 @@ const Component26 = () => {
             ></Input>
             <div className="bg-white-A700 border border-bluegray-100 border-solid flex flex-col items-start justify-start sm:px-5 px-[30px] py-7 rounded-[10px] w-full">
               <div className="flex flex-col gap-5 items-start justify-start w-full">
-                {/* <div className="flex flex-col gap-4 items-start justify-start max-w-[732px] w-full">
-                  <Text
-                    className="text-gray-900 text-xl tracking-[-0.40px] w-full"
-                    size="txtManropeSemiBold20Gray900"
-                  >
-                    <>You&#39;re viewing sample results.</>
-                  </Text>
-                  <div className="flex flex-col gap-2.5 items-start justify-start w-full">
-                    <Text
-                      className="common-pointer text-base text-gray-600 w-full"
-                      size="txtManropeSemiBold16Gray600"
-                      onClick={handleNavigate1}
-                    >
-                      https://relasto.com
-                    </Text>
-                    <Text
-                      className="leading-[150.00%] max-w-[732px] md:max-w-full text-gray-600 text-sm"
-                      size="txtManropeRegular14"
-                    >
-                      Ipsum sunt incidunt veniam sint nemo et aut. Vero ut
-                      quibusdam autem suscipit culpa perspiciatis.
-                      Exercitationem dolorum dolore perferendis praesen…
-                    </Text>
-                  </div>
-                </div> */}
                 <List
                   className="flex flex-col gap-5 items-center w-full"
                   orientation="vertical"
                 >
                   <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
                     <Text
-                      className="text-gray-900 text-xl tracking-[-0.40px] w-full"
+                      className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
                       size="txtManropeSemiBold20Gray900"
                     >
                       Can I volunteer with EcoRebuild? How do I apply?
@@ -91,13 +66,7 @@ const Component26 = () => {
                         className="text-base text-gray-600 w-full"
                         size="txtManropeSemiBold16Gray600"
                       >
-                        https://ecorebuild.org/volunteer
-                      </Text>
-                      <Text
-                        className="text-gray-600 text-sm w-full"
-                        size="txtManropeRegular14"
-                      >
-                        Yes, we welcome volunteers! You can apply through our
+                       Yes, we welcome volunteers! You can apply through our
                         website by filling out the volunteer application form
                         under the 'Get Involved' section.
                       </Text>
@@ -106,7 +75,7 @@ const Component26 = () => {
                   <Line className="self-center h-px bg-bluegray-100 w-full" />
                   <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
                     <Text
-                      className="text-gray-900 text-xl tracking-[-0.40px] w-full"
+                      className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
                       size="txtManropeSemiBold20Gray900"
                     >
                       {/* <>You&#39;re viewing sample results.</> */}
@@ -117,12 +86,6 @@ const Component26 = () => {
                       <Text
                         className="text-base text-gray-600 w-full"
                         size="txtManropeSemiBold16Gray600"
-                      >
-                        https://ecorebuild.org/partnership
-                      </Text>
-                      <Text
-                        className="text-gray-600 text-sm w-full"
-                        size="txtManropeRegular14"
                       >
                         Absolutely, we value corporate partnerships and offer
                         several collaboration options, including project
@@ -135,7 +98,7 @@ const Component26 = () => {
                   <Line className="self-center h-px bg-bluegray-100 w-full" />
                   <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
                     <Text
-                      className="text-gray-900 text-xl tracking-[-0.40px] w-full"
+                      className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
                       size="txtManropeSemiBold20Gray900"
                     >
                       {/* <>You&#39;re viewing sample results.</> */}
@@ -146,17 +109,11 @@ const Component26 = () => {
                         className="text-base text-gray-600 w-full"
                         size="txtManropeSemiBold16Gray600"
                       >
-                        https://ecorebuild.org/projects
-                      </Text>
-                      <Text
-                        className="text-gray-600 text-sm w-full"
-                        size="txtManropeRegular14"
-                      >
-                        Projects are selected based on community needs
-                        assessments, sustainability potential, and their
-                        alignment with our core mission. We engage with local
-                        stakeholders and experts to ensure that our projects
-                        address the most pressing needs effectively.
+                      Projects are selected based on community needs
+                      assessments, sustainability potential, and their
+                      alignment with our core mission. We engage with local
+                      stakeholders and experts to ensure that our projects
+                      address the most pressing needs effectively.
                       </Text>
                     </div>
                   </div>
