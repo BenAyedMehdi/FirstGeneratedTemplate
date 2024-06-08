@@ -29,7 +29,6 @@ const ProjectPage = ({projects}) => {
             <Component14 item={project}/>
             <Component15 project={project} />
           </div>
-          <Component4 projects={projects}/>
         </div>
         <LandingPageFooter/>
       </div>

@@ -3,7 +3,7 @@ export const projectsList = [
     id: 1,
     name: "Menstrual Hygiene",
     punchline: "Empowering Women, Sustaining Futures",
-    url: "https://smartsms.netlify.app/",
+    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
     type: "Website",
     tech: "Figma-React",
     description:
@@ -27,15 +27,15 @@ export const projectsList = [
     },
     images: {
       img1: "ecorebuild_images/projects/colors_pad.jpg",
-      img2: "images/projects/11.jpg",
-      img3: "images/projects/14.jpg",
+      img2: "ecorebuild_images/projects/pad.png",
+      img3: "ecorebuild_images/projects/pink_pad.jpg",
     },
   },
   {
     id: 2,
     name: "Soil Remediation",
     punchline: "Healing the Land, Feeding the Future",
-    url: "https://menjateam.netlify.app/",
+    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
     type: "Website",
     tech: "MUI-React",
     description:
@@ -59,15 +59,15 @@ export const projectsList = [
     },
     images: {
       img1: "ecorebuild_images/projects/soil_hands.jpg",
-      img2: "images/projects/menja2.jpg",
-      img3: "images/projects/menja3.jpg",
+      img2: "ecorebuild_images/projects/soil.webp",
+      img3: "ecorebuild_images/projects/whitemushroom.webp"
     },
   },
   {
     id: 3,
     name: "Eco-Conversion of Energy",
     punchline: "Powering Progress with Sustainable Energy",
-    url: "https://silverlining-wise.netlify.app/",
+    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
     type: "Website",
     tech: "MUI-React",
     description:
@@ -91,15 +91,15 @@ export const projectsList = [
     },
     images: {
       img1: "ecorebuild_images/projects/gaza_kids_color_light.jpg",
-      img2: "images/projects/wise2.jpg",
-      img3: "images/projects/wise3.jpg",
+      img2: "ecorebuild_images/projects/water_lamp.jpg",
+      img3: "ecorebuild_images/projects/simple_biomass.jpg",
     },
   },
   {
     id: 4,
     name: "Housing for Gaza",
     punchline: "Building Resilient Homes, Restoring Hope",
-    url: "https://silverlining-wise.netlify.app/",
+    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
     type: "Website",
     tech: "MUI-React",
     description:
@@ -123,8 +123,8 @@ export const projectsList = [
     },
     images: {
       img1: "ecorebuild_images/projects/gaza_house.jpg",
-      img2: "images/projects/wise2.jpg",
-      img3: "images/projects/wise3.jpg",
+      img2: "ecorebuild_images/projects/destroyed_house.jpeg",
+      img3: "ecorebuild_images/projects/simple_house.jpeg",
     },
   },
 ];

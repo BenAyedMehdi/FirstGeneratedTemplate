@@ -10,7 +10,7 @@ const LandingPageCard = ({ project }) => {
   };
 
   const openYoutubeVideo = () => {
-    window.open("https://www.youtube.com/watch?v=LVf8W2BrjR0", "_blank"); // replace with your YouTube video URL
+    window.open(project.url, "_blank"); // replace with your YouTube video URL
   };
 
   return (
