@@ -88,30 +88,22 @@ const LandingPageFooter = () => {
                 </Link>
               </div>
               <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
-                <Link to="/contactpage">
-                  <Text
-                    className="text-lg cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
-                    size="txtManropeBold18Gray900"
-                  >
-                    Contact
-                  </Text>
-                </Link>
-                {/* <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                  <Text
-                    className="text-base text-gray-900 w-full"
-                    size="txtManropeSemiBold16"
-                  >
-                    Partnership
-                  </Text>
-                </div> */}
-              </div>
-              <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
                 <Link to="/faq">
                   <Text
                     className="text-lg cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
                     size="txtManropeBold18Gray900"
                   >
                     FAQ
+                  </Text>
+                </Link>
+              </div>
+              <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
+                <Link to="/contactpage">
+                  <Text
+                    className="text-lg cursor-pointer p-[13px] text-gray-900 rounded-[10px] hover:bg-gray-700 hover:text-white-A700 transition-colors duration-300"
+                    size="txtManropeBold18Gray900"
+                  >
+                    Contact
                   </Text>
                 </Link>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full"></div>
