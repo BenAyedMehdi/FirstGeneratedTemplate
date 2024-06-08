@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 
 // import Header from "components/Header";
 import LandingPageHeader from "components/LandingPageHeader";
@@ -7,6 +7,9 @@ import Component26 from "newComponents/Component26";
 
 const FAQPage = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

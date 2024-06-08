@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import LandingPageFooter from "components/LandingPageFooter";
 import LandingPageHeader from "components/LandingPageHeader";
@@ -9,6 +9,9 @@ import Component9_1 from "newComponents/Component9_1";
 import Component3 from "newComponents/Component3";
 
 const LandingPagePage = ({ projects }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-markoone items-center justify-start mx-auto w-auto sm:w-full md:w-full">

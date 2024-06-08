@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import LandingPageHeader from "components/LandingPageHeader";
 import Component8 from "newComponents/Component8";
@@ -15,6 +15,9 @@ import { Img } from "components";
 import { general } from "general";
 
 const AboutUsPage = ({ projects }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-markoone items-center justify-start mx-auto w-auto sm:w-full md:w-full ">
