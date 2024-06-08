@@ -12,11 +12,14 @@ const LandingPageFooter = () => {
           <div className="flex md:flex-col flex-row md:gap-5 items-center justify-start w-full">
             <div className="flex flex-col gap-[23px] items-start justify-start w-[341px]">
               <div className="flex flex-row gap-[11px] md:h-auto items-center justify-start w-[341px]">
-                <Img
-                  className="h-[60px] w-[70px]"
-                  src={general.logo}
-                  alt="home_One"
-                />
+                <Link to="/">
+                  {" "}
+                  <Img
+                    className="h-[60px] w-[70px]"
+                    src={general.logo}
+                    alt="home_One"
+                  />
+                </Link>
                 <Text
                   className="text-red-600 text-3xl w-auto"
                   size="txtManropeExtraBold28"

@@ -14,11 +14,13 @@ const LandingPageHeader = (props) => {
         <div className="flex md:flex-col flex-row md:gap-10 sm:gap-1 items-center justify-around w-full">
           <div className="header-row my-px">
             <div className="flex flex-row gap-[11px] items-center justify-start">
-              <Img
+              
+            <Link to="/"> 
+            <Img
                 className="h-[60px] w-[70px]"
                 src={general.logo}
                 alt="home"
-              />
+              /> </Link>
               <Text
                 className="text-red-600 text-3xl w-auto"
                 size="txtManropeExtraBold28"
