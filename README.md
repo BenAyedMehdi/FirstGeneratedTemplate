@@ -6,7 +6,7 @@
 
 ## Ongoing:
 -- Feature branch: ecorebuild
--- Feature branch: ecorebuild-prepare-v1.2
+-- Feature branch: mehdi-portfolio
 
 ## EcoRebuild v1.0
 - 10/05/2024
